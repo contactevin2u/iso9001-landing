@@ -9,8 +9,9 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16">
-          <a href="#" className="text-xl font-bold text-primary-700">
-            ISO9001
+          <a href="#" className="flex flex-col">
+            <span className="text-xl font-bold text-primary-700 leading-tight">ISO 9001</span>
+            <span className="text-[8px] uppercase tracking-widest text-gray-500">Quality Management Begins Here</span>
           </a>
 
           <nav className="hidden md:flex items-center gap-8">
