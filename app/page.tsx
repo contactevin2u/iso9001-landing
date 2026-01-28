@@ -5,6 +5,8 @@ import Benefits from '@/components/Benefits'
 import Process from '@/components/Process'
 import Pricing from '@/components/Pricing'
 import WhyChooseUs from '@/components/WhyChooseUs'
+import Testimonials from '@/components/Testimonials'
+import FAQ from '@/components/FAQ'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
@@ -20,6 +22,8 @@ export default function Home() {
         <Process />
         <Pricing />
         <WhyChooseUs />
+        <Testimonials />
+        <FAQ />
         <Contact />
       </main>
       <Footer />
