@@ -1,7 +1,7 @@
 'use client'
 
 export default function FloatingWhatsApp() {
-  const phoneNumber = '60123456789'
+  const phoneNumber = '60112410207'
   const message = encodeURIComponent('Hi, I would like to enquire about ISO 9001 certification.')
 
   return (

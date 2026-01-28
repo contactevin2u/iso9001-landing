@@ -43,8 +43,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-medium text-gray-200">Email</div>
-                  <a href="mailto:info@iso9001pro.com" className="text-gray-400 hover:text-white transition-colors">
-                    info@iso9001pro.com
+                  <a href="mailto:contact@evin2u.com" className="text-gray-400 hover:text-white transition-colors">
+                    contact@evin2u.com
                   </a>
                 </div>
               </div>
@@ -57,8 +57,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-medium text-gray-200">Phone</div>
-                  <a href="tel:+60123456789" className="text-gray-400 hover:text-white transition-colors">
-                    +60 12-345 6789
+                  <a href="tel:+60112410207" className="text-gray-400 hover:text-white transition-colors">
+                    +60 11-2410 2070
                   </a>
                 </div>
               </div>
@@ -72,7 +72,7 @@ export default function Contact() {
                 <div>
                   <div className="font-medium text-gray-200">WhatsApp</div>
                   <a
-                    href="https://wa.me/60123456789"
+                    href="https://wa.me/60112410207"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white transition-colors"

@@ -62,18 +62,18 @@ export default function Footer() {
             <div className="font-medium text-white mb-4">Contact</div>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="mailto:info@iso9001pro.com" className="hover:text-white transition-colors">
-                  info@iso9001pro.com
+                <a href="mailto:contact@evin2u.com" className="hover:text-white transition-colors">
+                  contact@evin2u.com
                 </a>
               </li>
               <li>
-                <a href="tel:+60123456789" className="hover:text-white transition-colors">
-                  +60 12-345 6789
+                <a href="tel:+60112410207" className="hover:text-white transition-colors">
+                  +60 11-2410 2070
                 </a>
               </li>
               <li>
                 <a
-                  href="https://wa.me/60123456789"
+                  href="https://wa.me/60112410207"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
@@ -82,8 +82,9 @@ export default function Footer() {
                 </a>
               </li>
               <li className="pt-2 text-xs text-gray-500">
-                Level 15, Menara KEN TTDI<br />
-                Kuala Lumpur, Malaysia
+                1, Jalan Perusahaan 4,<br />
+                Kawasan Industri Batu Caves,<br />
+                68100 Batu Caves, Selangor
               </li>
             </ul>
           </div>

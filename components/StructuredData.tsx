@@ -8,7 +8,7 @@ export default function StructuredData() {
     description: 'Expert ISO 9001 quality management system certification consultants in Malaysia.',
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+60-12-345-6789',
+      telephone: '+60-11-2410-2070',
       contactType: 'customer service',
       availableLanguage: ['English', 'Malay'],
     },
@@ -25,20 +25,20 @@ export default function StructuredData() {
     name: 'ISO 9001 Malaysia',
     image: 'https://iso9001.my/logo.png',
     url: 'https://iso9001.my',
-    telephone: '+60-12-345-6789',
-    email: 'info@iso9001pro.com',
+    telephone: '+60-11-2410-2070',
+    email: 'contact@evin2u.com',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Level 15, Menara KEN TTDI',
-      addressLocality: 'Kuala Lumpur',
-      addressRegion: 'Wilayah Persekutuan',
-      postalCode: '60000',
+      streetAddress: '1, Jalan Perusahaan 4, Kawasan Industri Batu Caves',
+      addressLocality: 'Batu Caves',
+      addressRegion: 'Selangor',
+      postalCode: '68100',
       addressCountry: 'MY',
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: 3.1319,
-      longitude: 101.6319,
+      latitude: 3.2374,
+      longitude: 101.6839,
     },
     openingHoursSpecification: [
       {
