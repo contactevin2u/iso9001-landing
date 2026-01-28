@@ -196,7 +196,7 @@ export default function ISO9001CertificationMalaysia() {
                   Get Free Consultation
                 </a>
                 <a
-                  href="https://wa.me/60112410207"
+                  href="https://wa.me/601124102070"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-6 py-3 border border-primary-600 text-primary-600 font-medium rounded-lg hover:bg-primary-50 transition-colors"

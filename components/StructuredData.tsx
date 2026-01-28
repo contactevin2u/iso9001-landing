@@ -8,7 +8,7 @@ export default function StructuredData() {
     description: 'Expert ISO 9001 quality management system certification consultants in Malaysia.',
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+60-11-2410-2070',
+      telephone: '+601124102070',
       contactType: 'customer service',
       availableLanguage: ['English', 'Malay'],
     },
@@ -25,7 +25,7 @@ export default function StructuredData() {
     name: 'ISO 9001 Malaysia',
     image: 'https://iso9001.my/logo.png',
     url: 'https://iso9001.my',
-    telephone: '+60-11-2410-2070',
+    telephone: '+601124102070',
     email: 'contact@evin2u.com',
     address: {
       '@type': 'PostalAddress',
