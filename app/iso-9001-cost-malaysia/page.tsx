@@ -6,18 +6,18 @@ import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 
 export const metadata: Metadata = {
   title: 'ISO 9001 Cost Malaysia | Certification Pricing Guide 2024',
-  description: 'ISO 9001 certification cost in Malaysia from RM 12,000. Transparent pricing breakdown including consulting fees, certification body costs, and ongoing maintenance.',
+  description: 'ISO 9001 certification cost in Malaysia from RM 13,000. Transparent pricing breakdown including consulting fees, certification body costs, and ongoing maintenance.',
   keywords: ['ISO 9001 cost Malaysia', 'ISO 9001 price', 'ISO 9001 certification cost', 'QMS certification price Malaysia'],
   openGraph: {
     title: 'ISO 9001 Cost Malaysia | Certification Pricing Guide 2024',
-    description: 'ISO 9001 certification cost in Malaysia from RM 12,000. Transparent pricing breakdown for your business.',
+    description: 'ISO 9001 certification cost in Malaysia from RM 13,000. Transparent pricing breakdown for your business.',
     url: 'https://iso9001.my/iso-9001-cost-malaysia',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'ISO 9001 Cost Malaysia | Certification Pricing Guide 2024',
-    description: 'ISO 9001 certification cost in Malaysia from RM 12,000.',
+    description: 'ISO 9001 certification cost in Malaysia from RM 13,000.',
   },
   alternates: {
     canonical: 'https://iso9001.my/iso-9001-cost-malaysia',
@@ -48,7 +48,7 @@ export default function ISO9001CostMalaysia() {
 
             <div className="prose prose-lg max-w-none">
               <div className="bg-primary-50 p-6 rounded-lg mb-8">
-                <h2 className="text-xl font-bold text-gray-900 mb-2 mt-0">Our Consulting Packages Start From RM 12,000</h2>
+                <h2 className="text-xl font-bold text-gray-900 mb-2 mt-0">Our Consulting Packages Start From RM 13,000</h2>
                 <p className="text-gray-600 mb-0">
                   This includes gap analysis, documentation development, implementation support, training,
                   and audit preparation. The exact investment depends on your organization&apos;s size and complexity.
@@ -75,7 +75,7 @@ export default function ISO9001CostMalaysia() {
                 <div className="border border-gray-200 rounded-lg overflow-hidden">
                   <div className="bg-gray-50 p-4 border-b border-gray-200">
                     <h3 className="font-bold text-gray-900 mb-1">SME Package</h3>
-                    <p className="text-2xl font-bold text-primary-600">From RM 12,000</p>
+                    <p className="text-2xl font-bold text-primary-600">From RM 13,000</p>
                     <p className="text-sm text-gray-600">For small to medium enterprises (up to 50 employees)</p>
                   </div>
                   <div className="p-4">

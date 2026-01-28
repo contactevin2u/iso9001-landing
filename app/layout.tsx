@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     default: 'ISO 9001 Certification Malaysia | Quality Management System',
     template: '%s | ISO 9001 Malaysia'
   },
-  description: 'Get ISO 9001 certified in Malaysia from RM 12,000. Expert QMS consultants help you achieve quality management certification. Free consultation available.',
+  description: 'Get ISO 9001 certified in Malaysia from RM 13,000. Expert QMS consultants help you achieve quality management certification. Free consultation available.',
   keywords: [
     'ISO 9001 certification Malaysia',
     'ISO 9001 Malaysia',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     url: 'https://iso9001.my',
     siteName: 'ISO 9001 Malaysia',
     title: 'ISO 9001 Certification Malaysia | Quality Management System',
-    description: 'Get ISO 9001 certified in Malaysia from RM 12,000. Expert QMS consultants help you achieve quality management certification.',
+    description: 'Get ISO 9001 certified in Malaysia from RM 13,000. Expert QMS consultants help you achieve quality management certification.',
     images: [
       {
         url: '/og-image.jpg',
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'ISO 9001 Certification Malaysia | Quality Management System',
-    description: 'Get ISO 9001 certified in Malaysia from RM 12,000. Expert QMS consultants help you achieve quality management certification.',
+    description: 'Get ISO 9001 certified in Malaysia from RM 13,000. Expert QMS consultants help you achieve quality management certification.',
     images: ['/og-image.jpg'],
   },
   alternates: {

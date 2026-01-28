@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     question: 'What is the cost of ISO 9001 certification in Malaysia?',
-    answer: 'Our ISO 9001 certification consulting packages start from RM 12,000 for small to medium enterprises. This includes gap analysis, documentation development, implementation support, internal audit training, and audit preparation. The final cost depends on your organization\'s size, number of sites, and complexity of operations. Certification body audit fees are separate.',
+    answer: 'Our ISO 9001 certification consulting packages start from RM 13,000 for small to medium enterprises. This includes gap analysis, documentation development, implementation support, internal audit training, and audit preparation. The final cost depends on your organization\'s size, number of sites, and complexity of operations. Certification body audit fees are separate.',
   },
   {
     question: 'What are the key requirements of ISO 9001:2015?',

@@ -48,7 +48,7 @@ export default function StructuredData() {
         closes: '18:00',
       },
     ],
-    priceRange: 'RM12,000 - RM50,000',
+    priceRange: 'RM13,000 - RM50,000',
   }
 
   const serviceSchema = {
@@ -68,7 +68,7 @@ export default function StructuredData() {
     },
     offers: {
       '@type': 'Offer',
-      price: '12000',
+      price: '13000',
       priceCurrency: 'MYR',
       priceValidUntil: '2025-12-31',
       availability: 'https://schema.org/InStock',
