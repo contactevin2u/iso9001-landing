@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <div className="text-xl font-bold text-white mb-4">ISO9001Pro</div>
+            <div className="text-xl font-bold text-white mb-4">ISO9001</div>
             <p className="text-sm">
               Your trusted partner for ISO 9001 certification.
               We help businesses achieve quality excellence.
@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t border-gray-800 text-sm text-center">
-          <p>&copy; {new Date().getFullYear()} ISO9001Pro. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} ISO9001. All rights reserved.</p>
         </div>
       </div>
     </footer>

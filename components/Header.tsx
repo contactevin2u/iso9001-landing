@@ -10,7 +10,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16">
           <a href="#" className="text-xl font-bold text-primary-700">
-            ISO9001Pro
+            ISO9001
           </a>
 
           <nav className="hidden md:flex items-center gap-8">
