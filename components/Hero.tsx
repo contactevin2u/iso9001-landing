@@ -40,8 +40,8 @@ export default function Hero() {
             <div className="text-sm text-gray-500">Success Rate</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary-600">15+</div>
-            <div className="text-sm text-gray-500">Years Experience</div>
+            <div className="text-3xl font-bold text-primary-600">50+</div>
+            <div className="text-sm text-gray-500">Industries Served</div>
           </div>
         </div>
       </div>
