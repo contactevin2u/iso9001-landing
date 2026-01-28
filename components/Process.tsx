@@ -45,15 +45,6 @@ export default function Process() {
             </div>
           ))}
         </div>
-
-        <div className="mt-12 text-center">
-          <a
-            href="#contact"
-            className="inline-flex items-center justify-center px-8 py-4 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors"
-          >
-            Start Your Journey Today
-          </a>
-        </div>
       </div>
     </section>
   )
