@@ -2,6 +2,8 @@
 
 import { useState } from 'react'
 
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzl40lzaYNedIMt09-xvSqqqTQx3ekc6JjBYkKffH1qi9jAMnaluGhHkOn-9GzgvJeBmA/exec'
+
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
@@ -10,11 +12,34 @@ export default function Contact() {
     phone: '',
     message: '',
   })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    console.log('Form submitted:', formData)
-    alert('Thank you for your enquiry. We will be in touch shortly.')
+    setIsSubmitting(true)
+    setSubmitStatus('idle')
+
+    try {
+      await fetch(GOOGLE_SCRIPT_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          ...formData,
+          source: 'ISO 9001 Website'
+        }),
+      })
+
+      setSubmitStatus('success')
+      setFormData({ name: '', company: '', email: '', phone: '', message: '' })
+    } catch {
+      setSubmitStatus('error')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -167,10 +192,22 @@ export default function Contact() {
 
               <button
                 type="submit"
-                className="w-full px-8 py-4 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
+                disabled={isSubmitting}
+                className="w-full px-8 py-4 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                Send Enquiry
+                {isSubmitting ? 'Sending...' : 'Send Enquiry'}
               </button>
+
+              {submitStatus === 'success' && (
+                <p className="text-green-600 text-center font-medium">
+                  Thank you for your enquiry. We will be in touch shortly.
+                </p>
+              )}
+              {submitStatus === 'error' && (
+                <p className="text-red-600 text-center font-medium">
+                  Something went wrong. Please try again or contact us directly.
+                </p>
+              )}
             </form>
           </div>
         </div>
