@@ -23,6 +23,9 @@ export default function Header() {
             <a href="#process" className="text-gray-600 hover:text-primary-600 transition-colors">
               Process
             </a>
+            <a href="#pricing" className="text-gray-600 hover:text-primary-600 transition-colors">
+              Pricing
+            </a>
             <a href="#why-us" className="text-gray-600 hover:text-primary-600 transition-colors">
               Why Us
             </a>
@@ -56,6 +59,7 @@ export default function Header() {
               <a href="#what-is-iso" onClick={() => setIsOpen(false)} className="text-gray-600">What is ISO 9001</a>
               <a href="#benefits" onClick={() => setIsOpen(false)} className="text-gray-600">Benefits</a>
               <a href="#process" onClick={() => setIsOpen(false)} className="text-gray-600">Process</a>
+              <a href="#pricing" onClick={() => setIsOpen(false)} className="text-gray-600">Pricing</a>
               <a href="#why-us" onClick={() => setIsOpen(false)} className="text-gray-600">Why Us</a>
               <a
                 href="#contact"

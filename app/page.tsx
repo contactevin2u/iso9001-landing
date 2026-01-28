@@ -3,6 +3,7 @@ import Hero from '@/components/Hero'
 import WhatIsISO from '@/components/WhatIsISO'
 import Benefits from '@/components/Benefits'
 import Process from '@/components/Process'
+import Pricing from '@/components/Pricing'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
@@ -16,6 +17,7 @@ export default function Home() {
         <WhatIsISO />
         <Benefits />
         <Process />
+        <Pricing />
         <WhyChooseUs />
         <Contact />
       </main>
