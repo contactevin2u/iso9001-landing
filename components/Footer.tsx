@@ -5,8 +5,8 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="mb-4">
-              <div className="text-xl font-bold text-white leading-tight">ISO 9001</div>
-              <div className="text-[8px] uppercase tracking-widest text-gray-500">Quality Management Begins Here</div>
+              <div className="text-2xl font-bold text-white leading-tight">ISO 9001</div>
+              <div className="text-[10px] uppercase tracking-widest text-gray-500">Quality Management Begins Here</div>
             </div>
             <p className="text-sm">
               Your trusted partner for ISO 9001 certification.
