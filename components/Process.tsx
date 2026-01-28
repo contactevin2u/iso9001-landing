@@ -4,42 +4,42 @@ const steps = [
     title: 'Initial Consultation',
     description: 'We assess your current operations and create a customized certification roadmap.',
     details: 'During this free consultation, our ISO consultants will review your existing quality practices, understand your business operations, and explain the certification journey. We\'ll provide a detailed proposal including timeline, investment, and expected outcomes.',
-    timeline: '1-2 days',
+    timeline: 'Day 1',
   },
   {
     step: '2',
     title: 'Gap Analysis',
     description: 'We identify what you already have in place and what needs to be developed.',
     details: 'Our comprehensive gap analysis compares your current practices against ISO 9001:2015 requirements. We\'ll document existing quality controls, identify compliance gaps, assess your processes and controls, and prioritize actions needed for certification.',
-    timeline: '1-2 weeks',
+    timeline: 'Days 2-4',
   },
   {
     step: '3',
     title: 'Documentation Development',
     description: 'We help you create all required QMS documentation tailored to your organization.',
     details: 'Working closely with your team, we develop essential documents including: Quality Policy, Quality Manual, Process Procedures, Work Instructions, Forms and Records, and Control of Documents procedures. All documentation is customized for your specific operations.',
-    timeline: '4-6 weeks',
+    timeline: 'Days 5-12',
   },
   {
     step: '4',
     title: 'Implementation',
     description: 'We help you build and document your quality management system.',
     details: 'This phase involves putting your QMS into practice. We provide training for your staff on quality awareness and their roles, help establish monitoring and measurement systems, implement process controls, and ensure your team is ready to maintain the system independently.',
-    timeline: '4-8 weeks',
+    timeline: 'Days 13-20',
   },
   {
     step: '5',
     title: 'Internal Audit & Review',
     description: 'We conduct internal audits and prepare you for the certification audit.',
     details: 'Our certified auditors perform a thorough internal audit to verify QMS effectiveness and identify any non-conformities. We train your internal audit team, facilitate management review meetings, and address any findings before the external certification audit.',
-    timeline: '1-2 weeks',
+    timeline: 'Days 21-25',
   },
   {
     step: '6',
     title: 'Certification Audit',
     description: 'We prepare you for the external audit and support you through the process.',
     details: 'We help you select an accredited certification body (SIRIM, BSI, TUV, etc.) and prepare for the Stage 1 (documentation review) and Stage 2 (implementation audit) assessments. Our team is available to support you during the audits and help address any findings.',
-    timeline: '2-4 weeks',
+    timeline: 'Days 26-30',
   },
 ]
 
@@ -52,7 +52,7 @@ export default function Process() {
         </h2>
         <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-12">
           A clear, step-by-step approach to get you certified. Most organizations achieve
-          certification within 3-6 months.
+          certification within 30 days.
         </p>
 
         <div className="space-y-8">

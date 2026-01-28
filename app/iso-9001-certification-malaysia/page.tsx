@@ -160,7 +160,7 @@ export default function ISO9001CertificationMalaysia() {
                 The investment for ISO 9001 certification in Malaysia varies based on organization size and complexity.
                 Our consulting packages start from <strong>RM 13,000</strong>, which includes gap analysis, documentation
                 development, implementation support, and audit preparation. Most organizations achieve certification
-                within 3-6 months.
+                within 30 days.
               </p>
               <p className="text-gray-600 mb-4">
                 Learn more about <a href="/iso-9001-cost-malaysia" className="text-primary-600 hover:underline">ISO 9001 certification costs in Malaysia</a>.

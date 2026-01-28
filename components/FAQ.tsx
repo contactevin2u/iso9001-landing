@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     question: 'How long does it take to get ISO 9001 certified in Malaysia?',
-    answer: 'The certification timeline typically ranges from 3 to 6 months, depending on your organization\'s size, complexity, and current quality practices. Smaller organizations with existing quality controls may achieve certification in as little as 3 months, while larger enterprises may require up to 6 months for full implementation.',
+    answer: 'With our streamlined process, most organizations achieve certification within 30 days. The exact timeline depends on your organization\'s size, complexity, and current quality practices. Our efficient approach ensures you get certified quickly without compromising on quality.',
   },
   {
     question: 'What is the cost of ISO 9001 certification in Malaysia?',
