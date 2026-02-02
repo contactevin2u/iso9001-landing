@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzl40lzaYNedIMt09-xvSqqqTQx3ekc6JjBYkKffH1qi9jAMnaluGhHkOn-9GzgvJeBmA/exec'
+const WHATSAPP_NUMBER = '+601124102070'
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -12,34 +12,14 @@ export default function Contact() {
     phone: '',
     message: '',
   })
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    setIsSubmitting(true)
-    setSubmitStatus('idle')
 
-    try {
-      await fetch(GOOGLE_SCRIPT_URL, {
-        method: 'POST',
-        mode: 'no-cors',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          ...formData,
-          source: 'ISO 9001 Website'
-        }),
-      })
+    const text = `New Enquiry\nName: ${formData.name}\nCompany: ${formData.company}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nMessage:\n${formData.message}`
 
-      setSubmitStatus('success')
-      setFormData({ name: '', company: '', email: '', phone: '', message: '' })
-    } catch {
-      setSubmitStatus('error')
-    } finally {
-      setIsSubmitting(false)
-    }
+    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`
+    window.open(url, '_blank')
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -192,22 +172,10 @@ export default function Contact() {
 
               <button
                 type="submit"
-                disabled={isSubmitting}
-                className="w-full px-8 py-4 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full px-8 py-4 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
               >
-                {isSubmitting ? 'Sending...' : 'Send Enquiry'}
+                Send Enquiry
               </button>
-
-              {submitStatus === 'success' && (
-                <p className="text-green-600 text-center font-medium">
-                  Thank you for your enquiry. We will be in touch shortly.
-                </p>
-              )}
-              {submitStatus === 'error' && (
-                <p className="text-red-600 text-center font-medium">
-                  Something went wrong. Please try again or contact us directly.
-                </p>
-              )}
             </form>
           </div>
         </div>
