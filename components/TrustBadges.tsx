@@ -14,7 +14,7 @@ export default function TrustBadges() {
         <p className="text-center text-sm text-gray-500 mb-4 font-medium uppercase tracking-wider">
           We Prepare You for Audit by These Accredited Certification Bodies
         </p>
-        <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-8">
+        <div className="flex flex-wrap justify-center items-center gap-2 sm:gap-4 md:gap-8">
           {badges.map((badge) => (
             <div
               key={badge.name}

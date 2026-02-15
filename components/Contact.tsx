@@ -50,7 +50,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-20 px-4 sm:px-6 bg-gray-900">
       <div className="max-w-6xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
           <div className="text-white">
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
               Let&apos;s Discuss Your Certification
@@ -111,7 +111,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl p-8">
+          <div className="bg-white rounded-2xl p-6 sm:p-8">
             <form onSubmit={handleSubmit} className="space-y-5">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">

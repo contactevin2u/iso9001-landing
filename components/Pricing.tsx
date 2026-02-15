@@ -76,7 +76,7 @@ export default function Pricing() {
           {packages.map((pkg, index) => (
             <div
               key={index}
-              className={`bg-white rounded-2xl p-8 border-2 ${
+              className={`bg-white rounded-2xl p-6 sm:p-8 border-2 ${
                 pkg.popular ? 'border-primary-600 shadow-xl relative' : 'border-gray-200'
               }`}
             >
@@ -112,13 +112,13 @@ export default function Pricing() {
               </ul>
 
               {pkg.popular ? (
-                <WhatsAppLink className="block w-full text-center py-3 px-6 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors">
+                <WhatsAppLink className="block w-full text-center py-3.5 px-6 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors">
                   Get Started
                 </WhatsAppLink>
               ) : (
                 <a
                   href="/#contact"
-                  className="block w-full text-center py-3 px-6 border-2 border-primary-600 text-primary-600 font-semibold rounded-lg hover:bg-primary-50 transition-colors"
+                  className="block w-full text-center py-3.5 px-6 border-2 border-primary-600 text-primary-600 font-semibold rounded-lg hover:bg-primary-50 transition-colors"
                 >
                   {pkg.price === 'Custom' ? 'Contact Us' : 'Get Started'}
                 </a>
