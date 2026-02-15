@@ -6,22 +6,22 @@ import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 import WhatsAppLink from '@/components/WhatsAppLink'
 
 export const metadata: Metadata = {
-  title: 'ISO 9001 Cost Malaysia | Certification Pricing Guide 2024',
+  title: 'ISO 9001 Cost Malaysia 2026 | From RM 13,000',
   description: 'ISO 9001 certification cost in Malaysia from RM 13,000. Transparent pricing breakdown including consulting fees, certification body costs, and ongoing maintenance.',
-  keywords: ['ISO 9001 cost Malaysia', 'ISO 9001 price', 'ISO 9001 certification cost', 'QMS certification price Malaysia'],
+  keywords: ['ISO 9001 cost Malaysia', 'ISO 9001 price 2026', 'ISO 9001 certification cost', 'QMS certification price Malaysia'],
   openGraph: {
-    title: 'ISO 9001 Cost Malaysia | Certification Pricing Guide 2024',
+    title: 'ISO 9001 Cost Malaysia 2026 | From RM 13,000',
     description: 'ISO 9001 certification cost in Malaysia from RM 13,000. Transparent pricing breakdown for your business.',
-    url: 'https://iso9001.my/iso-9001-cost-malaysia',
+    url: 'https://isoconsultantmalaysia.com/iso-9001-cost-malaysia',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ISO 9001 Cost Malaysia | Certification Pricing Guide 2024',
+    title: 'ISO 9001 Cost Malaysia 2026 | From RM 13,000',
     description: 'ISO 9001 certification cost in Malaysia from RM 13,000.',
   },
   alternates: {
-    canonical: 'https://iso9001.my/iso-9001-cost-malaysia',
+    canonical: 'https://isoconsultantmalaysia.com/iso-9001-cost-malaysia',
   },
 }
 

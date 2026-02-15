@@ -6,22 +6,22 @@ import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 import WhatsAppLink from '@/components/WhatsAppLink'
 
 export const metadata: Metadata = {
-  title: 'ISO 9001 Certification Malaysia | QMS Certification Experts',
-  description: 'Get ISO 9001 certification in Malaysia with expert guidance. Our QMS consultants have helped 150+ Malaysian companies achieve quality management system certification.',
+  title: 'ISO 9001 Certification Malaysia | Get Certified',
+  description: 'Get ISO 9001 certification in Malaysia with expert guidance. Our QMS consultants have helped 500+ Malaysian companies achieve quality management system certification in 30 days.',
   keywords: ['ISO 9001 certification Malaysia', 'QMS certification Malaysia', 'quality management system Malaysia', 'ISO 9001 consultant Malaysia'],
   openGraph: {
-    title: 'ISO 9001 Certification Malaysia | QMS Certification Experts',
-    description: 'Get ISO 9001 certification in Malaysia with expert guidance. Our QMS consultants have helped 150+ Malaysian companies achieve quality management system certification.',
-    url: 'https://iso9001.my/iso-9001-certification-malaysia',
+    title: 'ISO 9001 Certification Malaysia | Get Certified',
+    description: 'Get ISO 9001 certification in Malaysia with expert guidance from AA Alive Sdn Bhd.',
+    url: 'https://isoconsultantmalaysia.com/iso-9001-certification-malaysia',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ISO 9001 Certification Malaysia | QMS Certification Experts',
+    title: 'ISO 9001 Certification Malaysia | Get Certified',
     description: 'Get ISO 9001 certification in Malaysia with expert guidance.',
   },
   alternates: {
-    canonical: 'https://iso9001.my/iso-9001-certification-malaysia',
+    canonical: 'https://isoconsultantmalaysia.com/iso-9001-certification-malaysia',
   },
 }
 

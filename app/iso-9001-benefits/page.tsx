@@ -5,22 +5,22 @@ import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 
 export const metadata: Metadata = {
-  title: 'ISO 9001 Benefits | Advantages of Quality Certification',
-  description: 'Discover the benefits of ISO 9001 certification: improved quality, customer satisfaction, competitive advantage, and operational efficiency for your business.',
-  keywords: ['ISO 9001 benefits', 'advantages of ISO 9001', 'quality certification benefits', 'QMS benefits'],
+  title: 'Benefits of ISO 9001 Certification Malaysia',
+  description: 'Discover the benefits of ISO 9001 certification: improved quality, customer satisfaction, competitive advantage, and operational efficiency for Malaysian businesses.',
+  keywords: ['ISO 9001 benefits', 'advantages of ISO 9001', 'quality certification benefits Malaysia', 'QMS benefits'],
   openGraph: {
-    title: 'ISO 9001 Benefits | Advantages of Quality Certification',
+    title: 'Benefits of ISO 9001 Certification Malaysia',
     description: 'Discover the benefits of ISO 9001 certification: improved quality, customer satisfaction, competitive advantage, and operational efficiency.',
-    url: 'https://iso9001.my/iso-9001-benefits',
+    url: 'https://isoconsultantmalaysia.com/iso-9001-benefits',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ISO 9001 Benefits | Advantages of Quality Certification',
+    title: 'Benefits of ISO 9001 Certification Malaysia',
     description: 'Discover the benefits of ISO 9001 certification for your business.',
   },
   alternates: {
-    canonical: 'https://iso9001.my/iso-9001-benefits',
+    canonical: 'https://isoconsultantmalaysia.com/iso-9001-benefits',
   },
 }
 

@@ -4,7 +4,7 @@ import './globals.css'
 import StructuredData from '@/components/StructuredData'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://iso9001.my'),
+  metadataBase: new URL('https://isoconsultantmalaysia.com'),
   title: {
     default: 'ISO 9001 Certification Malaysia | Quality Management System',
     template: '%s | ISO 9001 Malaysia'
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_MY',
-    url: 'https://iso9001.my',
+    url: 'https://isoconsultantmalaysia.com',
     siteName: 'ISO 9001 Malaysia',
     title: 'ISO 9001 Certification Malaysia | Quality Management System',
     description: 'Get ISO 9001 certified in Malaysia from RM 13,000. Expert QMS consultants help you achieve quality management certification.',
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://iso9001.my',
+    canonical: 'https://isoconsultantmalaysia.com',
   },
   verification: {
     google: 'your-google-verification-code',

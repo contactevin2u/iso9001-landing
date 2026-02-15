@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://iso9001.my/sitemap.xml
+Sitemap: https://isoconsultantmalaysia.com/sitemap.xml
 
 # Disallow admin and API routes
 Disallow: /api/

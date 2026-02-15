@@ -15,7 +15,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: `https://iso9001.my${item.href}`,
+      item: `https://isoconsultantmalaysia.com${item.href}`,
     })),
   }
 

@@ -5,22 +5,22 @@ import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 
 export const metadata: Metadata = {
-  title: 'ISO 9001 Requirements | Complete Checklist & Guide',
-  description: 'Complete guide to ISO 9001:2015 requirements. Understand every clause, from context and leadership to operations and continuous improvement. Free checklist included.',
-  keywords: ['ISO 9001 requirements', 'ISO 9001 checklist', 'ISO 9001:2015 clauses', 'QMS requirements'],
+  title: 'ISO 9001 Requirements | Clause-by-Clause Guide',
+  description: 'Complete guide to ISO 9001:2015 requirements. Understand every clause from context and leadership to operations and continuous improvement.',
+  keywords: ['ISO 9001 requirements', 'ISO 9001 checklist', 'ISO 9001:2015 clauses', 'QMS requirements Malaysia'],
   openGraph: {
-    title: 'ISO 9001 Requirements | Complete Checklist & Guide',
+    title: 'ISO 9001 Requirements | Clause-by-Clause Guide',
     description: 'Complete guide to ISO 9001:2015 requirements. Understand every clause and what you need for certification.',
-    url: 'https://iso9001.my/iso-9001-requirements',
+    url: 'https://isoconsultantmalaysia.com/iso-9001-requirements',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ISO 9001 Requirements | Complete Checklist & Guide',
+    title: 'ISO 9001 Requirements | Clause-by-Clause Guide',
     description: 'Complete guide to ISO 9001:2015 requirements and clauses.',
   },
   alternates: {
-    canonical: 'https://iso9001.my/iso-9001-requirements',
+    canonical: 'https://isoconsultantmalaysia.com/iso-9001-requirements',
   },
 }
 

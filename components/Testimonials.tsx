@@ -26,7 +26,7 @@ export default function Testimonials() {
   const aggregateRatingSchema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    '@id': 'https://iso9001.my/#business',
+    '@id': 'https://isoconsultantmalaysia.com/#business',
     name: 'AA Alive Sdn Bhd - ISO 9001 Malaysia',
     aggregateRating: {
       '@type': 'AggregateRating',

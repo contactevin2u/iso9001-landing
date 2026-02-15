@@ -4,13 +4,13 @@ export default function StructuredData() {
     '@graph': [
       {
         '@type': 'Organization',
-        '@id': 'https://iso9001.my/#organization',
+        '@id': 'https://isoconsultantmalaysia.com/#organization',
         name: 'AA Alive Sdn Bhd',
         alternateName: 'ISO 9001 Malaysia',
-        url: 'https://iso9001.my',
+        url: 'https://isoconsultantmalaysia.com',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://iso9001.my/logo.png',
+          url: 'https://isoconsultantmalaysia.com/logo.png',
         },
         description: 'Expert ISO 9001 quality management system certification consultants in Malaysia. Trusted by 500+ businesses since 2016.',
         foundingDate: '2016-10-06',
@@ -36,27 +36,27 @@ export default function StructuredData() {
       },
       {
         '@type': 'Person',
-        '@id': 'https://iso9001.my/#person',
+        '@id': 'https://isoconsultantmalaysia.com/#person',
         name: 'Evin Lim',
         jobTitle: 'Founder & Managing Director',
         worksFor: {
-          '@id': 'https://iso9001.my/#organization',
+          '@id': 'https://isoconsultantmalaysia.com/#organization',
         },
-        url: 'https://iso9001.my',
+        url: 'https://isoconsultantmalaysia.com',
         sameAs: [
           'https://my.linkedin.com/in/evin-lim-362a84258',
         ],
       },
       {
         '@type': 'LocalBusiness',
-        '@id': 'https://iso9001.my/#business',
+        '@id': 'https://isoconsultantmalaysia.com/#business',
         name: 'AA Alive Sdn Bhd - ISO 9001 Malaysia',
-        image: 'https://iso9001.my/logo.png',
-        url: 'https://iso9001.my',
+        image: 'https://isoconsultantmalaysia.com/logo.png',
+        url: 'https://isoconsultantmalaysia.com',
         telephone: '+601124102070',
         email: 'contact@evin2u.com',
         founder: {
-          '@id': 'https://iso9001.my/#person',
+          '@id': 'https://isoconsultantmalaysia.com/#person',
         },
         address: {
           '@type': 'PostalAddress',
@@ -90,10 +90,10 @@ export default function StructuredData() {
       },
       {
         '@type': 'Service',
-        '@id': 'https://iso9001.my/#service',
+        '@id': 'https://isoconsultantmalaysia.com/#service',
         name: 'ISO 9001 Certification Consulting Malaysia',
         provider: {
-          '@id': 'https://iso9001.my/#organization',
+          '@id': 'https://isoconsultantmalaysia.com/#organization',
         },
         serviceType: 'ISO 9001 Certification Consulting',
         description: 'Complete ISO 9001:2015 quality management system certification consulting services including gap analysis, documentation, implementation, internal audit, and certification audit preparation.',
@@ -121,11 +121,11 @@ export default function StructuredData() {
       },
       {
         '@type': 'WebSite',
-        '@id': 'https://iso9001.my/#website',
-        url: 'https://iso9001.my',
+        '@id': 'https://isoconsultantmalaysia.com/#website',
+        url: 'https://isoconsultantmalaysia.com',
         name: 'ISO 9001 Malaysia - AA Alive Sdn Bhd',
         publisher: {
-          '@id': 'https://iso9001.my/#organization',
+          '@id': 'https://isoconsultantmalaysia.com/#organization',
         },
       },
     ],

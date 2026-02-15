@@ -5,22 +5,22 @@ import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 
 export const metadata: Metadata = {
-  title: 'ISO 9001 Certification Process | Step-by-Step Guide',
-  description: 'Complete guide to the ISO 9001 certification process. Learn each step from gap analysis to certification audit, with timelines and what to expect at each stage.',
-  keywords: ['ISO 9001 certification process', 'how to get ISO 9001', 'ISO 9001 steps', 'QMS implementation'],
+  title: 'ISO 9001 Certification Process | 30-Day Guide',
+  description: 'Complete guide to the ISO 9001 certification process in Malaysia. Learn each step from gap analysis to certification audit in 30 days.',
+  keywords: ['ISO 9001 certification process', 'how to get ISO 9001 Malaysia', 'ISO 9001 steps', 'QMS implementation'],
   openGraph: {
-    title: 'ISO 9001 Certification Process | Step-by-Step Guide',
+    title: 'ISO 9001 Certification Process | 30-Day Guide',
     description: 'Complete guide to the ISO 9001 certification process. Learn each step from gap analysis to certification audit.',
-    url: 'https://iso9001.my/iso-9001-certification-process',
+    url: 'https://isoconsultantmalaysia.com/iso-9001-certification-process',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ISO 9001 Certification Process | Step-by-Step Guide',
+    title: 'ISO 9001 Certification Process | 30-Day Guide',
     description: 'Complete guide to the ISO 9001 certification process.',
   },
   alternates: {
-    canonical: 'https://iso9001.my/iso-9001-certification-process',
+    canonical: 'https://isoconsultantmalaysia.com/iso-9001-certification-process',
   },
 }
 
