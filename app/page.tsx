@@ -1,15 +1,15 @@
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
+import TrustBadges from '@/components/TrustBadges'
 import PainPoints from '@/components/PainPoints'
-import WhatIsISO from '@/components/WhatIsISO'
 import CaseStudy from '@/components/CaseStudy'
-import Benefits from '@/components/Benefits'
-import Process from '@/components/Process'
-import WhatsAppCTA from '@/components/WhatsAppCTA'
-import Industries from '@/components/Industries'
-import Pricing from '@/components/Pricing'
 import WhyChooseUs from '@/components/WhyChooseUs'
+import Benefits from '@/components/Benefits'
+import Industries from '@/components/Industries'
+import Process from '@/components/Process'
 import Founder from '@/components/Founder'
+import WhatIsISO from '@/components/WhatIsISO'
+import Pricing from '@/components/Pricing'
 import Testimonials from '@/components/Testimonials'
 import FAQ from '@/components/FAQ'
 import Contact from '@/components/Contact'
@@ -25,16 +25,16 @@ export default function Home() {
       <Header />
       <main id="main-content">
         <Hero />
+        <TrustBadges />
         <PainPoints />
         <CaseStudy />
-        <WhatIsISO />
-        <Benefits />
-        <WhatsAppCTA />
-        <Process />
-        <Industries />
-        <Pricing />
         <WhyChooseUs />
+        <Benefits />
+        <Industries />
+        <Process />
         <Founder />
+        <WhatIsISO />
+        <Pricing />
         <Testimonials />
         <FAQ />
         <Contact />

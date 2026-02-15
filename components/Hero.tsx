@@ -21,6 +21,13 @@ export default function Hero() {
   return (
     <section className="pt-32 pb-20 px-4 sm:px-6 bg-gradient-to-b from-primary-50 to-white">
       <div className="max-w-4xl mx-auto text-center">
+        <div className="inline-flex items-center gap-2 px-4 py-2 bg-amber-50 border border-amber-200 text-amber-800 text-sm font-semibold rounded-full mb-4 animate-pulse">
+          <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Only Accepting 5 New Clients This Month — Limited Availability
+        </div>
+
         <div className="inline-block px-4 py-1.5 bg-primary-100 text-primary-700 text-sm font-medium rounded-full mb-6">
           Trusted by 500+ Malaysian Businesses Since 2016
         </div>
