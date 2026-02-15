@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
+import WhatsAppLink from '@/components/WhatsAppLink'
 
 export const metadata: Metadata = {
   title: 'ISO 9001 Certification Malaysia | QMS Certification Experts',
@@ -195,14 +196,11 @@ export default function ISO9001CertificationMalaysia() {
                 >
                   Get Free Consultation
                 </a>
-                <a
-                  href="https://wa.me/601124102070"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <WhatsAppLink
                   className="inline-flex items-center justify-center px-6 py-3 border border-primary-600 text-primary-600 font-medium rounded-lg hover:bg-primary-50 transition-colors"
                 >
                   WhatsApp Us
-                </a>
+                </WhatsAppLink>
               </div>
             </div>
           </div>

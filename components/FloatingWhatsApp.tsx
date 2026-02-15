@@ -1,12 +1,29 @@
 'use client'
 
+declare global {
+  interface Window {
+    gtag_report_conversion: (url?: string) => boolean
+  }
+}
+
 export default function FloatingWhatsApp() {
   const phoneNumber = '601124102070'
   const message = encodeURIComponent('Hi, I would like to enquire about ISO 9001 certification.')
+  const waUrl = `https://wa.me/${phoneNumber}?text=${message}`
+
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault()
+    if (typeof window.gtag_report_conversion === 'function') {
+      window.gtag_report_conversion(waUrl)
+    } else {
+      window.open(waUrl, '_blank')
+    }
+  }
 
   return (
     <a
-      href={`https://wa.me/${phoneNumber}?text=${message}`}
+      href={waUrl}
+      onClick={handleClick}
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 w-12 h-12 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg hover:shadow-xl transition-all flex items-center justify-center"

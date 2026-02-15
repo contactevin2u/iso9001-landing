@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import WhatsAppLink from '@/components/WhatsAppLink'
 
 export default function Footer() {
   return (
@@ -10,9 +11,15 @@ export default function Footer() {
               <div className="text-2xl font-bold text-white leading-tight">ISO 9001</div>
               <div className="text-[10px] uppercase tracking-widest text-gray-500">Quality Management Begins Here</div>
             </div>
-            <p className="text-sm">
+            <p className="text-sm mb-3">
               Your trusted partner for ISO 9001 certification in Malaysia.
               We help businesses achieve quality excellence.
+            </p>
+            <p className="text-xs text-gray-500">
+              A service by <strong className="text-gray-400">AA Alive Sdn Bhd</strong> (1204108-D)
+            </p>
+            <p className="text-xs text-gray-500">
+              Founded by Evin Lim
             </p>
           </div>
 
@@ -23,6 +30,7 @@ export default function Footer() {
               <li><a href="/#benefits" className="hover:text-white transition-colors">Benefits</a></li>
               <li><a href="/#process" className="hover:text-white transition-colors">Certification Process</a></li>
               <li><a href="/#pricing" className="hover:text-white transition-colors">Pricing</a></li>
+              <li><a href="/#faq" className="hover:text-white transition-colors">FAQ</a></li>
               <li><a href="/#contact" className="hover:text-white transition-colors">Contact Us</a></li>
             </ul>
           </div>
@@ -32,7 +40,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/iso-9001-certification-malaysia" className="hover:text-white transition-colors">
-                  ISO 9001 Malaysia
+                  ISO 9001 Certification Malaysia
                 </Link>
               </li>
               <li>
@@ -68,21 +76,17 @@ export default function Footer() {
               </li>
               <li>
                 <a href="tel:+601124102070" className="hover:text-white transition-colors">
-                  +601124102070
+                  +6011-2410 2070
                 </a>
               </li>
               <li>
-                <a
-                  href="https://wa.me/601124102070"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-white transition-colors"
-                >
-                  WhatsApp
-                </a>
+                <WhatsAppLink className="hover:text-white transition-colors">
+                  WhatsApp Us
+                </WhatsAppLink>
               </li>
               <li className="pt-2 text-xs text-gray-500">
-                1, Jalan Perusahaan 4,<br />
+                Lot 1, Jalan Perusahaan 4,<br />
+                Pusat Industri Amari,<br />
                 Kawasan Industri Batu Caves,<br />
                 68100 Batu Caves, Selangor
               </li>
@@ -91,7 +95,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t border-gray-800 text-sm text-center">
-          <p>&copy; {new Date().getFullYear()} ISO9001 Malaysia. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} AA Alive Sdn Bhd (1204108-D). All rights reserved.</p>
         </div>
       </div>
     </footer>

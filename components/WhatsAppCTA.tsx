@@ -1,4 +1,23 @@
+'use client'
+
+declare global {
+  interface Window {
+    gtag_report_conversion: (url?: string) => boolean
+  }
+}
+
 export default function WhatsAppCTA() {
+  const waUrl = 'https://wa.me/601124102070?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20ISO%209001%20certification.'
+
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault()
+    if (typeof window.gtag_report_conversion === 'function') {
+      window.gtag_report_conversion(waUrl)
+    } else {
+      window.open(waUrl, '_blank')
+    }
+  }
+
   return (
     <section className="py-16 px-4 sm:px-6 bg-blue-600">
       <div className="max-w-3xl mx-auto text-center">
@@ -9,7 +28,8 @@ export default function WhatsAppCTA() {
           Chat with our consultants directly on WhatsApp for a quick response.
         </p>
         <a
-          href="https://wa.me/601124102070?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20ISO%209001%20certification."
+          href={waUrl}
+          onClick={handleClick}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-3 px-8 py-4 bg-white text-blue-700 font-semibold rounded-lg hover:bg-blue-50 transition-colors text-lg"

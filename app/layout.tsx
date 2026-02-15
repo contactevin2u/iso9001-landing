@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import './globals.css'
 import StructuredData from '@/components/StructuredData'
 
@@ -20,9 +21,9 @@ export const metadata: Metadata = {
     'ISO 9001:2015',
     'quality management certification Malaysia'
   ],
-  authors: [{ name: 'ISO 9001 Malaysia' }],
-  creator: 'ISO 9001 Malaysia',
-  publisher: 'ISO 9001 Malaysia',
+  authors: [{ name: 'Evin Lim', url: 'https://my.linkedin.com/in/evin-lim-362a84258' }],
+  creator: 'AA Alive Sdn Bhd',
+  publisher: 'AA Alive Sdn Bhd',
   robots: {
     index: true,
     follow: true,
@@ -78,6 +79,36 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#2563eb" />
         <link rel="icon" href="/favicon.ico" />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-795120559"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads-gtag" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-795120559');
+          `}
+        </Script>
+        <Script id="google-ads-conversion" strategy="afterInteractive">
+          {`
+            function gtag_report_conversion(url) {
+              var callback = function () {
+                if (typeof(url) != 'undefined') {
+                  window.location = url;
+                }
+              };
+              gtag('event', 'conversion', {
+                'send_to': 'AW-795120559/_Jh2CNeQw-ADEK-nkvsC',
+                'value': 1.0,
+                'currency': 'MYR',
+                'event_callback': callback
+              });
+              return false;
+            }
+          `}
+        </Script>
       </head>
       <body className="bg-white text-gray-900">
         <StructuredData />

@@ -2,6 +2,12 @@
 
 import { useState } from 'react'
 
+declare global {
+  interface Window {
+    gtag_report_conversion: (url?: string) => boolean
+  }
+}
+
 const WHATSAPP_NUMBER = '+601124102070'
 
 export default function Contact() {
@@ -19,7 +25,22 @@ export default function Contact() {
     const text = `New Enquiry ISO 9001\nName: ${formData.name}\nCompany: ${formData.company}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nMessage:\n${formData.message}`
 
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`
-    window.open(url, '_blank')
+
+    if (typeof window.gtag_report_conversion === 'function') {
+      window.gtag_report_conversion(url)
+    } else {
+      window.open(url, '_blank')
+    }
+  }
+
+  const handleWhatsAppClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault()
+    const waUrl = `https://wa.me/601124102070`
+    if (typeof window.gtag_report_conversion === 'function') {
+      window.gtag_report_conversion(waUrl)
+    } else {
+      window.open(waUrl, '_blank')
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -78,6 +99,7 @@ export default function Contact() {
                   <div className="font-medium text-gray-200">WhatsApp</div>
                   <a
                     href="https://wa.me/601124102070"
+                    onClick={handleWhatsAppClick}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white transition-colors"

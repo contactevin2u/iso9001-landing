@@ -1,4 +1,23 @@
+'use client'
+
+declare global {
+  interface Window {
+    gtag_report_conversion: (url?: string) => boolean
+  }
+}
+
 export default function Hero() {
+  const waUrl = 'https://wa.me/601124102070'
+
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault()
+    if (typeof window.gtag_report_conversion === 'function') {
+      window.gtag_report_conversion(waUrl)
+    } else {
+      window.open(waUrl, '_blank')
+    }
+  }
+
   return (
     <section className="pt-32 pb-20 px-4 sm:px-6 bg-gradient-to-b from-primary-50 to-white">
       <div className="max-w-4xl mx-auto text-center">
@@ -13,7 +32,8 @@ export default function Hero() {
         </p>
 
         <a
-          href="https://wa.me/601124102070"
+          href={waUrl}
+          onClick={handleClick}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
