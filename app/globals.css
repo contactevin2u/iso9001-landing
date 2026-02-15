@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -28,4 +29,24 @@ body {
 
 .skip-nav:focus {
   top: 0;
+}
+
+/* Mobile touch optimizations */
+@media (max-width: 640px) {
+  /* Ensure minimum tap target size of 44px */
+  a, button {
+    min-height: 44px;
+  }
+
+  /* Add safe area padding for notched phones */
+  .fixed.bottom-5 {
+    bottom: max(1.25rem, env(safe-area-inset-bottom, 1.25rem));
+  }
+}
+
+/* Safe area for bottom fixed elements */
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  footer {
+    padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+  }
 }
