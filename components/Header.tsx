@@ -16,7 +16,7 @@ export default function Header() {
             <span className="text-[10px] uppercase tracking-widest text-gray-500">Quality Management Begins Here</span>
           </Link>
 
-          <nav className="hidden md:flex items-center gap-6">
+          <nav className="hidden md:flex items-center gap-6" aria-label="Main navigation">
             <a href="/#what-is-iso" className="text-gray-600 hover:text-primary-600 transition-colors text-sm">
               What is ISO 9001
             </a>
@@ -35,41 +35,49 @@ export default function Header() {
                 onClick={() => setIsResourcesOpen(!isResourcesOpen)}
                 onBlur={() => setTimeout(() => setIsResourcesOpen(false), 200)}
                 className="flex items-center gap-1 text-gray-600 hover:text-primary-600 transition-colors text-sm"
+                aria-expanded={isResourcesOpen}
+                aria-haspopup="true"
+                aria-controls="resources-menu"
               >
                 Resources
-                <svg className={`w-4 h-4 transition-transform ${isResourcesOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className={`w-4 h-4 transition-transform ${isResourcesOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
 
               {isResourcesOpen && (
-                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-100 py-2">
+                <div id="resources-menu" role="menu" className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-100 py-2">
                   <Link
                     href="/iso-9001-certification-malaysia"
+                    role="menuitem"
                     className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
                   >
                     ISO 9001 Certification Malaysia
                   </Link>
                   <Link
                     href="/iso-9001-benefits"
+                    role="menuitem"
                     className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
                   >
                     Benefits of ISO 9001
                   </Link>
                   <Link
                     href="/iso-9001-requirements"
+                    role="menuitem"
                     className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
                   >
                     ISO 9001 Requirements
                   </Link>
                   <Link
                     href="/iso-9001-certification-process"
+                    role="menuitem"
                     className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
                   >
                     Certification Process
                   </Link>
                   <Link
                     href="/iso-9001-cost-malaysia"
+                    role="menuitem"
                     className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
                   >
                     Certification Cost
@@ -86,9 +94,11 @@ export default function Header() {
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden p-2"
-            aria-label="Menu"
+            aria-label={isOpen ? 'Close menu' : 'Open menu'}
+            aria-expanded={isOpen}
+            aria-controls="mobile-menu"
           >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               {isOpen ? (
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               ) : (
@@ -99,8 +109,8 @@ export default function Header() {
         </div>
 
         {isOpen && (
-          <div className="md:hidden py-4 border-t border-gray-100">
-            <nav className="flex flex-col gap-4">
+          <div id="mobile-menu" className="md:hidden py-4 border-t border-gray-100">
+            <nav className="flex flex-col gap-4" aria-label="Mobile navigation">
               <a href="/#what-is-iso" onClick={() => setIsOpen(false)} className="text-gray-600">What is ISO 9001</a>
               <a href="/#benefits" onClick={() => setIsOpen(false)} className="text-gray-600">Benefits</a>
               <a href="/#process" onClick={() => setIsOpen(false)} className="text-gray-600">Process</a>

@@ -18,6 +18,9 @@ const config: Config = {
           900: '#0c4a6e',
         },
       },
+      fontFamily: {
+        sans: ['var(--font-inter)', 'system-ui', '-apple-system', 'sans-serif'],
+      },
     },
   },
   plugins: [],

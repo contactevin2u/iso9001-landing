@@ -19,8 +19,11 @@ import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 export default function Home() {
   return (
     <>
+      <a href="#main-content" className="skip-nav">
+        Skip to main content
+      </a>
       <Header />
-      <main>
+      <main id="main-content">
         <Hero />
         <PainPoints />
         <CaseStudy />

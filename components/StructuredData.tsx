@@ -10,7 +10,7 @@ export default function StructuredData() {
         url: 'https://isoconsultantmalaysia.com',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://isoconsultantmalaysia.com/logo.png',
+          url: 'https://isoconsultantmalaysia.com/icon?size=192',
         },
         description: 'Expert ISO 9001 quality management system certification consultants in Malaysia. Trusted by 500+ businesses since 2016.',
         foundingDate: '2016-10-06',
@@ -51,7 +51,7 @@ export default function StructuredData() {
         '@type': 'LocalBusiness',
         '@id': 'https://isoconsultantmalaysia.com/#business',
         name: 'AA Alive Sdn Bhd - ISO 9001 Malaysia',
-        image: 'https://isoconsultantmalaysia.com/logo.png',
+        image: 'https://isoconsultantmalaysia.com/opengraph-image',
         url: 'https://isoconsultantmalaysia.com',
         telephone: '+601124102070',
         email: 'contact@evin2u.com',

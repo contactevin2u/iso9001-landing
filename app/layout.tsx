@@ -1,7 +1,20 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
+import { Inter } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
 import StructuredData from '@/components/StructuredData'
+
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+})
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#0284c7',
+}
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://isoconsultantmalaysia.com'),
@@ -44,10 +57,10 @@ export const metadata: Metadata = {
     description: 'Get ISO 9001 certified in Malaysia from RM 13,000. Expert QMS consultants help you achieve quality management certification.',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'ISO 9001 Certification Malaysia',
+        alt: 'ISO 9001 Certification Malaysia - AA Alive Sdn Bhd',
       },
     ],
   },
@@ -55,16 +68,16 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'ISO 9001 Certification Malaysia | Quality Management System',
     description: 'Get ISO 9001 certified in Malaysia from RM 13,000. Expert QMS consultants help you achieve quality management certification.',
-    images: ['/og-image.jpg'],
+    images: ['/og-image.png'],
   },
   alternates: {
     canonical: 'https://isoconsultantmalaysia.com',
-  },
-  verification: {
-    google: 'your-google-verification-code',
+    languages: {
+      'en-MY': 'https://isoconsultantmalaysia.com',
+    },
   },
   other: {
-    'theme-color': '#2563eb',
+    'format-detection': 'telephone=no',
   },
 }
 
@@ -74,11 +87,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en-MY" className={inter.variable}>
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#2563eb" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-795120559"
           strategy="afterInteractive"
@@ -110,7 +122,7 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className="bg-white text-gray-900">
+      <body className={`${inter.className} bg-white text-gray-900`}>
         <StructuredData />
         {children}
       </body>

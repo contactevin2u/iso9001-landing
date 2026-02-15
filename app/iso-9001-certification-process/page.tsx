@@ -27,8 +27,11 @@ export const metadata: Metadata = {
 export default function ISO9001CertificationProcess() {
   return (
     <>
+      <a href="#main-content" className="skip-nav">
+        Skip to main content
+      </a>
       <Header />
-      <main className="pt-20">
+      <main id="main-content" className="pt-20">
         <Breadcrumb
           items={[
             { name: 'Home', href: '/' },

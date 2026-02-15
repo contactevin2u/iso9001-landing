@@ -7,6 +7,25 @@ html {
 }
 
 body {
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Skip navigation link for accessibility */
+.skip-nav {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #0284c7;
+  color: white;
+  padding: 8px 16px;
+  z-index: 100;
+  font-size: 14px;
+  font-weight: 500;
+  transition: top 0.2s;
+}
+
+.skip-nav:focus {
+  top: 0;
 }
