@@ -82,6 +82,13 @@ export default function Header() {
                   >
                     Certification Cost
                   </Link>
+                  <Link
+                    href="/quality-management-system-malaysia"
+                    role="menuitem"
+                    className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
+                  >
+                    Quality Management System
+                  </Link>
                 </div>
               )}
             </div>
@@ -147,6 +154,9 @@ export default function Header() {
                   </Link>
                   <Link href="/iso-9001-cost-malaysia" onClick={() => setIsOpen(false)} className="text-gray-600 text-sm">
                     Certification Cost
+                  </Link>
+                  <Link href="/quality-management-system-malaysia" onClick={() => setIsOpen(false)} className="text-gray-600 text-sm">
+                    Quality Management System
                   </Link>
                 </div>
               </div>

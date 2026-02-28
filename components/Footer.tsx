@@ -63,6 +63,11 @@ export default function Footer() {
                   Certification Cost
                 </Link>
               </li>
+              <li>
+                <Link href="/quality-management-system-malaysia" className="hover:text-white transition-colors">
+                  Quality Management System
+                </Link>
+              </li>
             </ul>
           </div>
 
