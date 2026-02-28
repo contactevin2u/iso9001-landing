@@ -63,7 +63,7 @@ export default function Benefits() {
 
         <div className="mt-12 text-center space-y-4">
           <a
-            href="https://wa.me/601124102070?text=Hi%2C%20I%20want%20to%20learn%20how%20ISO%209001%20can%20benefit%20my%20business."
+            href="https://wa.me/60102062070?text=Hi%2C%20I%20want%20to%20learn%20how%20ISO%209001%20can%20benefit%20my%20business."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-5 py-3.5 sm:px-8 sm:py-4 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors text-base sm:text-lg"

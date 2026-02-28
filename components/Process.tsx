@@ -77,7 +77,7 @@ export default function Process() {
 
         <div className="mt-12 text-center space-y-4">
           <a
-            href="https://wa.me/601124102070?text=Hi%2C%20I%20would%20like%20to%20start%20the%20ISO%209001%20certification%20process."
+            href="https://wa.me/60102062070?text=Hi%2C%20I%20would%20like%20to%20start%20the%20ISO%209001%20certification%20process."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-5 py-3.5 sm:px-8 sm:py-4 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors text-base sm:text-lg"

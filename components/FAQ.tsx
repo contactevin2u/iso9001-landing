@@ -215,7 +215,7 @@ export default function FAQ() {
         <div className="mt-10 text-center">
           <p className="text-gray-600 mb-4">Still have questions about ISO 9001 certification?</p>
           <a
-            href="https://wa.me/601124102070?text=Hi%2C%20I%20have%20a%20question%20about%20ISO%209001%20certification."
+            href="https://wa.me/60102062070?text=Hi%2C%20I%20have%20a%20question%20about%20ISO%209001%20certification."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-5 py-3.5 sm:px-6 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors"

@@ -100,7 +100,7 @@ export default function Header() {
 
           <div className="flex items-center gap-2 md:hidden">
             <a
-              href="https://wa.me/601124102070?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20ISO%209001%20certification."
+              href="https://wa.me/60102062070?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20ISO%209001%20certification."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 px-3 py-2.5 bg-primary-600 text-white text-xs font-semibold rounded-lg hover:bg-primary-700 transition-colors"

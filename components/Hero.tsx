@@ -7,7 +7,7 @@ declare global {
 }
 
 export default function Hero() {
-  const waUrl = 'https://wa.me/601124102070?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20ISO%209001%20certification.'
+  const waUrl = 'https://wa.me/60102062070?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20ISO%209001%20certification.'
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault()

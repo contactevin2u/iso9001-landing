@@ -8,7 +8,7 @@ declare global {
   }
 }
 
-const WHATSAPP_NUMBER = '+601124102070'
+const WHATSAPP_NUMBER = '+60102062070'
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -35,7 +35,7 @@ export default function Contact() {
 
   const handleWhatsAppClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault()
-    const waUrl = `https://wa.me/601124102070`
+    const waUrl = `https://wa.me/60102062070`
     if (typeof window.gtag_report_conversion === 'function') {
       window.gtag_report_conversion(waUrl)
     } else {
@@ -83,8 +83,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-medium text-gray-200">Phone</div>
-                  <a href="tel:+601124102070" className="text-gray-400 hover:text-white transition-colors">
-                    +601124102070
+                  <a href="tel:+60102062070" className="text-gray-400 hover:text-white transition-colors">
+                    +60 10-206 2070
                   </a>
                 </div>
               </div>
@@ -98,7 +98,7 @@ export default function Contact() {
                 <div>
                   <div className="font-medium text-gray-200">WhatsApp</div>
                   <a
-                    href="https://wa.me/601124102070"
+                    href="https://wa.me/60102062070"
                     onClick={handleWhatsAppClick}
                     target="_blank"
                     rel="noopener noreferrer"

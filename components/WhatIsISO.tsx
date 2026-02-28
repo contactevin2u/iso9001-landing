@@ -104,7 +104,7 @@ export default function WhatIsISO() {
           </p>
           <div className="text-center">
             <a
-              href="https://wa.me/601124102070?text=Hi%2C%20I%20want%20to%20understand%20how%20ISO%209001%20applies%20to%20my%20business."
+              href="https://wa.me/60102062070?text=Hi%2C%20I%20want%20to%20understand%20how%20ISO%209001%20applies%20to%20my%20business."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-5 py-3.5 sm:px-6 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors"

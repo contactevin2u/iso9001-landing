@@ -67,7 +67,7 @@ export default function Industries() {
 
         <div className="mt-8 text-center">
           <a
-            href="https://wa.me/601124102070?text=Hi%2C%20I%20need%20ISO%209001%20certification%20for%20my%20industry."
+            href="https://wa.me/60102062070?text=Hi%2C%20I%20need%20ISO%209001%20certification%20for%20my%20industry."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-5 py-3.5 sm:px-8 sm:py-4 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors text-base sm:text-lg"

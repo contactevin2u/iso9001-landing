@@ -16,7 +16,7 @@ export default function StructuredData() {
         foundingDate: '2016-10-06',
         contactPoint: {
           '@type': 'ContactPoint',
-          telephone: '+601124102070',
+          telephone: '+60102062070',
           contactType: 'customer service',
           areaServed: 'MY',
           availableLanguage: ['English', 'Malay', 'Chinese'],
@@ -53,7 +53,7 @@ export default function StructuredData() {
         name: 'AA Alive Sdn Bhd - ISO 9001 Malaysia',
         image: 'https://isoconsultantmalaysia.com/opengraph-image',
         url: 'https://isoconsultantmalaysia.com',
-        telephone: '+601124102070',
+        telephone: '+60102062070',
         email: 'contact@evin2u.com',
         founder: {
           '@id': 'https://isoconsultantmalaysia.com/#person',

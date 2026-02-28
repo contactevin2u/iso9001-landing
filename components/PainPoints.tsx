@@ -105,7 +105,7 @@ export default function PainPoints() {
             Sound familiar? You&apos;re not alone. <strong className="text-white">We&apos;ve helped 500+ Malaysian companies</strong> escape this exact situation.
           </p>
           <a
-            href="https://wa.me/601124102070?text=Hi%2C%20I%20am%20losing%20tenders%20without%20ISO%209001.%20Can%20you%20help%3F"
+            href="https://wa.me/60102062070?text=Hi%2C%20I%20am%20losing%20tenders%20without%20ISO%209001.%20Can%20you%20help%3F"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-5 py-3.5 sm:px-6 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600 transition-colors"
