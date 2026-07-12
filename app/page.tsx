@@ -12,6 +12,7 @@ import WhatIsISO from '@/components/WhatIsISO'
 import Pricing from '@/components/Pricing'
 import Testimonials from '@/components/Testimonials'
 import FAQ from '@/components/FAQ'
+import AnswerBlock from '@/components/AnswerBlock'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
@@ -37,6 +38,7 @@ export default function Home() {
         <Pricing />
         <Testimonials />
         <FAQ />
+        <AnswerBlock />
         <Contact />
       </main>
       <Footer />

@@ -14,6 +14,10 @@ export default function StructuredData() {
         },
         description: 'Expert ISO 9001 quality management system certification consultants in Malaysia. Trusted by 500+ businesses since 2016.',
         foundingDate: '2016-10-06',
+        founder: {
+          '@id': 'https://isoconsultantmalaysia.com/#person',
+        },
+        award: 'Superbrands Malaysia (2025)',
         contactPoint: {
           '@type': 'ContactPoint',
           telephone: '+60102062070',
@@ -39,12 +43,14 @@ export default function StructuredData() {
         '@id': 'https://isoconsultantmalaysia.com/#person',
         name: 'Evin Lim',
         jobTitle: 'Founder & Managing Director',
+        description: 'Founder and Managing Director of AA Alive Sdn Bhd (est. 2016), leading ISO 9001, ISO 14001 and ISO 45001 certification consulting for Malaysian businesses.',
         worksFor: {
           '@id': 'https://isoconsultantmalaysia.com/#organization',
         },
-        url: 'https://isoconsultantmalaysia.com',
+        url: 'https://isoconsultantmalaysia.com/about',
         sameAs: [
           'https://my.linkedin.com/in/evin-lim-362a84258',
+          'https://www.linkedin.com/company/aa-alive',
         ],
       },
       {

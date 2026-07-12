@@ -1,9 +1,45 @@
+# robots.txt — isoconsultantmalaysia.com
+# Search engines and AI/answer-engine crawlers are explicitly allowed.
+
 User-agent: *
 Allow: /
-
-Sitemap: https://isoconsultantmalaysia.com/sitemap.xml
-
-# Disallow admin and API routes
 Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
+
+# Search engine crawlers
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Baiduspider
+User-agent: YandexBot
+# OpenAI
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+# Perplexity
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+# Anthropic
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: Claude-User
+User-agent: anthropic-ai
+# Google AI / Common Crawl
+User-agent: Google-Extended
+User-agent: CCBot
+# Apple
+User-agent: Applebot
+User-agent: Applebot-Extended
+# Others
+User-agent: Bytespider
+User-agent: Amazonbot
+User-agent: FacebookBot
+User-agent: meta-externalagent
+User-agent: cohere-ai
+User-agent: YouBot
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+Sitemap: https://isoconsultantmalaysia.com/sitemap.xml

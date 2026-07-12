@@ -32,6 +32,16 @@ export default function Footer() {
               <li><a href="/#pricing" className="hover:text-white transition-colors">Pricing</a></li>
               <li><a href="/#faq" className="hover:text-white transition-colors">FAQ</a></li>
               <li><a href="/#contact" className="hover:text-white transition-colors">Contact Us</a></li>
+              <li>
+                <Link href="/about" className="hover:text-white transition-colors">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link href="/media" className="hover:text-white transition-colors">
+                  Media Coverage
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -97,6 +107,25 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+        </div>
+
+        <div className="mb-8 text-sm">
+          <span className="font-medium text-white">Our other services: </span>
+          <a
+            href="https://esgiso.com"
+            rel="noopener"
+            className="hover:text-white transition-colors underline decoration-gray-700"
+          >
+            ISO 14001 &amp; ESG certification Malaysia (esgiso.com)
+          </a>
+          <span className="mx-2 text-gray-600">&middot;</span>
+          <a
+            href="https://iso13485.my"
+            rel="noopener"
+            className="hover:text-white transition-colors underline decoration-gray-700"
+          >
+            ISO 13485 &amp; medical device consulting (iso13485.my)
+          </a>
         </div>
 
         <div className="pt-8 border-t border-gray-800 text-sm text-center">
