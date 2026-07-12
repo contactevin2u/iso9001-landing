@@ -4,6 +4,7 @@ import Footer from '@/components/Footer'
 import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 import WhatsAppLink from '@/components/WhatsAppLink'
+import { CONTENT_LAST_UPDATED } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'ISO 9001 Cost Malaysia 2026 | From RM 13,000',
@@ -45,9 +46,12 @@ export default function ISO9001CostMalaysia() {
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
               ISO 9001 Certification Cost in Malaysia
             </h1>
+            <p className="text-sm text-gray-500 mb-4">Last updated: {CONTENT_LAST_UPDATED}</p>
             <p className="text-xl text-gray-600 mb-8">
-              A transparent guide to ISO 9001 certification costs in Malaysia. Understand all the
-              investment components including consulting fees, certification body costs, and ongoing maintenance.
+              ISO 9001 certification consulting in Malaysia costs from RM 13,000 and takes 30&ndash;45
+              days for most SMEs. Certification body audit fees are charged separately, typically
+              RM 3,000 to RM 8,000. Below is the full breakdown of every investment component —
+              consulting fees, certification body costs, and ongoing maintenance.
             </p>
 
             <div className="prose prose-lg max-w-none">
@@ -323,8 +327,9 @@ export default function ISO9001CostMalaysia() {
                 <li>Lower warranty and complaint costs</li>
               </ul>
               <p className="text-gray-600 mb-4">
-                Many of our clients report payback within 12-18 months of certification through cost savings
-                and new business wins. Learn more about the <a href="/iso-9001-benefits" className="text-primary-600 hover:underline">benefits of ISO 9001 certification</a>.
+                Most clients report payback within 12&ndash;18 months of certification through cost
+                savings and new business wins (across 500+ Malaysian client engagements since 2016 —
+                AA Alive internal data). Learn more about the <a href="/iso-9001-benefits" className="text-primary-600 hover:underline">benefits of ISO 9001 certification</a>.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">

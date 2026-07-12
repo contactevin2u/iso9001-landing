@@ -40,10 +40,11 @@ const personSchema = {
       '@type': 'VideoObject',
       name: 'Ruang Bicara: Aspirasi Ekonomi — BERNAMA TV (3 Julai 2026)',
       description:
-        'Panel discussion on the Malaysian pharmaceutical and medical device industry featuring Evin Lim, founder of AA Alive Sdn Bhd.',
+        'Panel discussion on the direction of the Malaysian pharmaceutical and medical device industry, with Datuk Lau Tiam Kwee (ACCCIM) and Evin Lim, founder of AA Alive Sdn Bhd, as industry consultant.',
       thumbnailUrl: 'https://i.ytimg.com/vi/p0rcj7kaqpQ/hq720.jpg',
       uploadDate: '2026-07-03',
       url: 'https://www.youtube.com/watch?v=p0rcj7kaqpQ',
+      embedUrl: 'https://www.youtube.com/embed/p0rcj7kaqpQ',
       publisher: { '@type': 'Organization', name: 'BERNAMA TV' },
     },
     {
@@ -51,14 +52,17 @@ const personSchema = {
       headline: 'Krisis tenaga global, peraturan ketat beri kesan kos perubatan',
       datePublished: '2026-07-04',
       url: 'https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/krisis-tenaga-global-peraturan-ketat-beri-kesan-kos-perubatan/',
-      publisher: { '@type': 'Organization', name: 'RTM' },
+      publisher: { '@type': 'Organization', name: 'Portal Berita RTM' },
     },
     {
       '@type': 'VideoObject',
       name: 'Superbrands Malaysia CEO Interviews 2025 — Evin Lim',
+      description:
+        'Superbrands Malaysia CEO Interviews 2025 with Evin Lim on the official Superbrands Limited channel. AA Alive Sdn Bhd is a Superbrands Malaysia 2025 (Malaysia’s Choice) award recipient.',
       thumbnailUrl: 'https://i.ytimg.com/vi/4Y7hNFsM3Jk/hqdefault.jpg',
       uploadDate: '2025-12-09',
       url: 'https://www.youtube.com/watch?v=4Y7hNFsM3Jk',
+      embedUrl: 'https://www.youtube.com/embed/4Y7hNFsM3Jk',
       publisher: { '@type': 'Organization', name: 'Superbrands Limited' },
     },
   ],
@@ -100,7 +104,9 @@ export default function MediaPage() {
             </h2>
             <p className="text-gray-600 mb-6">
               Panel discussion on the direction of Malaysia&apos;s pharmaceutical and medical
-              device industry, with Evin Lim appearing as an industry consultant.
+              device industry, broadcast 9&ndash;10 pm on 3 July 2026. Evin Lim appeared as an
+              industry consultant alongside Datuk Lau Tiam Kwee, representing ACCCIM (the
+              Associated Chinese Chambers of Commerce and Industry of Malaysia).
             </p>
             <div className="relative w-full aspect-video rounded-xl overflow-hidden border border-gray-200 mb-12">
               <iframe
@@ -114,18 +120,21 @@ export default function MediaPage() {
             </div>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-              RTM — news commentary (July 2026)
+              RTM — Selamat Pagi Malaysia &amp; Portal Berita RTM (July 2026)
             </h2>
             <p className="text-gray-600 mb-12">
+              Evin Lim was quoted in the Portal Berita RTM article{' '}
               <em>&ldquo;Krisis tenaga global, peraturan ketat beri kesan kos perubatan&rdquo;</em>{' '}
-              — RTM news coverage featuring Evin Lim on regulation and medical costs.{' '}
+              (published 4 July 2026), in conjunction with RTM&apos;s <em>Selamat Pagi
+              Malaysia</em> coverage at Angkasapuri — on how the global energy crisis and
+              tighter regulation affect medical equipment costs in Malaysia.{' '}
               <a
                 href="https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/krisis-tenaga-global-peraturan-ketat-beri-kesan-kos-perubatan/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary-600 hover:text-primary-700 underline"
               >
-                Read the article on berita.rtm.gov.my
+                Read the full article on berita.rtm.gov.my
               </a>
             </p>
 
@@ -133,7 +142,18 @@ export default function MediaPage() {
               Superbrands Malaysia — CEO Interviews 2025
             </h2>
             <p className="text-gray-600 mb-6">
-              Superbrands Malaysia CEO interview series featuring Evin Lim.
+              Evin Lim was interviewed in the <em>Superbrands Malaysia CEO Interviews 2025</em>{' '}
+              series (December 2025) on the official Superbrands Limited channel. AA Alive Sdn
+              Bhd is a <strong className="text-gray-900">Superbrands Malaysia 2025
+              (Malaysia&apos;s Choice)</strong> award recipient.{' '}
+              <a
+                href="https://www.instagram.com/superbrandsmalaysiaofficial/reel/DSRAd5fCIXl/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary-600 hover:text-primary-700 underline"
+              >
+                Watch the Superbrands reel on Instagram
+              </a>
             </p>
             <div className="relative w-full aspect-video rounded-xl overflow-hidden border border-gray-200 mb-8">
               <iframe

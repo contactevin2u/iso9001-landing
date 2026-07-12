@@ -1,4 +1,5 @@
 import WhatsAppLink from '@/components/WhatsAppLink'
+import { CONTENT_LAST_UPDATED } from '@/lib/constants'
 
 const packages = [
   {
@@ -67,10 +68,11 @@ export default function Pricing() {
           Transparent pricing with everything included. No hidden fees, no surprise charges.
           Every package includes full certification support from gap analysis to audit day.
         </p>
-        <p className="text-sm text-gray-500 text-center max-w-2xl mx-auto mb-12">
+        <p className="text-sm text-gray-500 text-center max-w-2xl mx-auto mb-4">
           Certification body (CB) audit fees are separate and typically range from RM 3,000 - RM 8,000
           depending on organization size. We help you choose the most cost-effective accredited CB.
         </p>
+        <p className="text-sm text-gray-500 text-center mb-12">Last updated: {CONTENT_LAST_UPDATED}</p>
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {packages.map((pkg, index) => (

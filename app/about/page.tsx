@@ -43,10 +43,11 @@ const personSchema = {
       '@type': 'VideoObject',
       name: 'Ruang Bicara: Aspirasi Ekonomi — BERNAMA TV (3 Julai 2026)',
       description:
-        'Panel discussion on the Malaysian pharmaceutical and medical device industry featuring Evin Lim, founder of AA Alive Sdn Bhd.',
+        'Panel discussion on the direction of the Malaysian pharmaceutical and medical device industry, with Datuk Lau Tiam Kwee (ACCCIM) and Evin Lim, founder of AA Alive Sdn Bhd, as industry consultant.',
       thumbnailUrl: 'https://i.ytimg.com/vi/p0rcj7kaqpQ/hq720.jpg',
       uploadDate: '2026-07-03',
       url: 'https://www.youtube.com/watch?v=p0rcj7kaqpQ',
+      embedUrl: 'https://www.youtube.com/embed/p0rcj7kaqpQ',
       publisher: { '@type': 'Organization', name: 'BERNAMA TV' },
     },
     {
@@ -54,14 +55,17 @@ const personSchema = {
       headline: 'Krisis tenaga global, peraturan ketat beri kesan kos perubatan',
       datePublished: '2026-07-04',
       url: 'https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/krisis-tenaga-global-peraturan-ketat-beri-kesan-kos-perubatan/',
-      publisher: { '@type': 'Organization', name: 'RTM' },
+      publisher: { '@type': 'Organization', name: 'Portal Berita RTM' },
     },
     {
       '@type': 'VideoObject',
       name: 'Superbrands Malaysia CEO Interviews 2025 — Evin Lim',
+      description:
+        'Superbrands Malaysia CEO Interviews 2025 with Evin Lim on the official Superbrands Limited channel. AA Alive Sdn Bhd is a Superbrands Malaysia 2025 (Malaysia’s Choice) award recipient.',
       thumbnailUrl: 'https://i.ytimg.com/vi/4Y7hNFsM3Jk/hqdefault.jpg',
       uploadDate: '2025-12-09',
       url: 'https://www.youtube.com/watch?v=4Y7hNFsM3Jk',
+      embedUrl: 'https://www.youtube.com/embed/4Y7hNFsM3Jk',
       publisher: { '@type': 'Organization', name: 'Superbrands Limited' },
     },
   ],
@@ -129,12 +133,13 @@ export default function AboutPage() {
                 industry (3 July 2026)
               </li>
               <li>
-                <strong className="text-gray-900">RTM</strong> — news commentary on regulation and
-                medical costs (July 2026)
+                <strong className="text-gray-900">RTM</strong> — quoted in Portal Berita RTM on
+                regulation and medical costs, alongside <em>Selamat Pagi Malaysia</em> coverage
+                (July 2026)
               </li>
               <li>
-                <strong className="text-gray-900">Superbrands Malaysia</strong> — CEO Interview
-                series (2025)
+                <strong className="text-gray-900">Superbrands Malaysia</strong> — CEO Interviews
+                2025 on the official Superbrands Limited channel (December 2025)
               </li>
             </ul>
             <p className="text-gray-600 mb-4">
@@ -152,7 +157,7 @@ export default function AboutPage() {
               <li>AA Alive Sdn Bhd — registered with SSM Malaysia (1204108-D), operating since 2016</li>
               <li>500+ Malaysian businesses certified across manufacturing, construction, IT, healthcare, F&amp;B and logistics</li>
               <li>98% first-time certification audit pass rate</li>
-              <li>Superbrands Malaysia recognition (2025)</li>
+              <li>Superbrands Malaysia 2025 (Malaysia&apos;s Choice) award recipient</li>
               <li>Nationwide service across Malaysia — remote-friendly engagements</li>
             </ul>
 
