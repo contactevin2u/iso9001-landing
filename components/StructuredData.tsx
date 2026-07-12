@@ -1,3 +1,5 @@
+import { testimonials } from '@/components/Testimonials'
+
 export default function StructuredData() {
   const schema = {
     '@context': 'https://schema.org',
@@ -10,7 +12,9 @@ export default function StructuredData() {
         url: 'https://isoconsultantmalaysia.com',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://isoconsultantmalaysia.com/icon?size=192',
+          url: 'https://isoconsultantmalaysia.com/logo.png',
+          width: 512,
+          height: 512,
         },
         description: 'Expert ISO 9001 quality management system certification consultants in Malaysia. Trusted by 500+ businesses since 2016.',
         foundingDate: '2016-10-06',
@@ -93,6 +97,19 @@ export default function StructuredData() {
           bestRating: '5',
           worstRating: '1',
         },
+        review: testimonials.map((testimonial) => ({
+          '@type': 'Review',
+          author: {
+            '@type': 'Person',
+            name: testimonial.name,
+          },
+          reviewRating: {
+            '@type': 'Rating',
+            ratingValue: testimonial.rating,
+            bestRating: 5,
+          },
+          reviewBody: testimonial.content,
+        })),
       },
       {
         '@type': 'Service',

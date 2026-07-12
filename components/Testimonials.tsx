@@ -1,4 +1,4 @@
-const testimonials = [
+export const testimonials = [
   {
     name: 'Dr. Ahmad Rizal',
     company: 'Orthowell Solutions',
@@ -23,39 +23,12 @@ const testimonials = [
 ]
 
 export default function Testimonials() {
-  const aggregateRatingSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
-    '@id': 'https://isoconsultantmalaysia.com/#business',
-    name: 'AA Alive Sdn Bhd - ISO 9001 Malaysia',
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '156',
-      bestRating: '5',
-      worstRating: '1',
-    },
-    review: testimonials.map((testimonial) => ({
-      '@type': 'Review',
-      author: {
-        '@type': 'Person',
-        name: testimonial.name,
-      },
-      reviewRating: {
-        '@type': 'Rating',
-        ratingValue: testimonial.rating,
-        bestRating: 5,
-      },
-      reviewBody: testimonial.content,
-    })),
-  }
-
+  // NOTE: the aggregateRating/review JSON-LD for
+  // @id https://isoconsultantmalaysia.com/#business now lives on the single
+  // consolidated LocalBusiness node in components/StructuredData.tsx
+  // (one canonical node per @id).
   return (
     <section id="testimonials" className="py-20 px-4 sm:px-6">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(aggregateRatingSchema) }}
-      />
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-4">
           What Our Clients Say
