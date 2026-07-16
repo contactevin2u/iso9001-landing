@@ -1,5 +1,7 @@
 'use client'
 
+import { getWhatsAppUrlWithBeacon } from '@/lib/beacon'
+
 declare global {
   interface Window {
     gtag_report_conversion: (url?: string) => boolean
@@ -13,10 +15,11 @@ export default function FloatingWhatsApp() {
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault()
+    const taggedUrl = getWhatsAppUrlWithBeacon(waUrl)
     if (typeof window.gtag_report_conversion === 'function') {
-      window.gtag_report_conversion(waUrl)
+      window.gtag_report_conversion(taggedUrl)
     } else {
-      window.open(waUrl, '_blank')
+      window.open(taggedUrl, '_blank')
     }
   }
 
