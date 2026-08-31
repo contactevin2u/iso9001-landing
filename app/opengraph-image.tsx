@@ -105,8 +105,8 @@ export default async function Image() {
                 color: 'white',
               }}
             >
-              <span style={{ fontSize: '36px', fontWeight: 800 }}>500+</span>
-              <span style={{ fontSize: '16px', color: '#bae6fd' }}>Companies</span>
+              <span style={{ fontSize: '36px', fontWeight: 800 }}>2016</span>
+              <span style={{ fontSize: '16px', color: '#bae6fd' }}>Since</span>
             </div>
             <div
               style={{
@@ -116,8 +116,8 @@ export default async function Image() {
                 color: 'white',
               }}
             >
-              <span style={{ fontSize: '36px', fontWeight: 800 }}>30</span>
-              <span style={{ fontSize: '16px', color: '#bae6fd' }}>Days</span>
+              <span style={{ fontSize: '36px', fontWeight: 800 }}>RM13k</span>
+              <span style={{ fontSize: '16px', color: '#bae6fd' }}>From</span>
             </div>
             <div
               style={{
@@ -127,8 +127,8 @@ export default async function Image() {
                 color: 'white',
               }}
             >
-              <span style={{ fontSize: '36px', fontWeight: 800 }}>98%</span>
-              <span style={{ fontSize: '16px', color: '#bae6fd' }}>Pass Rate</span>
+              <span style={{ fontSize: '36px', fontWeight: 800 }}>MY</span>
+              <span style={{ fontSize: '16px', color: '#bae6fd' }}>Nationwide</span>
             </div>
           </div>
           <div

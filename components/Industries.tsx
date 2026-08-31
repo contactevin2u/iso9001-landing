@@ -7,7 +7,7 @@ export default function Industries() {
     },
     {
       name: 'Construction & Engineering',
-      description: 'Civil, mechanical, electrical engineering. Required for CIDB G7 registration and government infrastructure projects. Our clients report winning 40% more tenders post-certification.',
+      description: 'Civil, mechanical, electrical engineering. Required for CIDB G7 registration and commonly requested for government infrastructure projects.',
       keywords: 'ISO 9001 construction Malaysia',
     },
     {

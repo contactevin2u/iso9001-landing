@@ -1,5 +1,3 @@
-import { testimonials } from '@/components/Testimonials'
-
 export default function StructuredData() {
   const schema = {
     '@context': 'https://schema.org',
@@ -16,7 +14,7 @@ export default function StructuredData() {
           width: 512,
           height: 512,
         },
-        description: 'Expert ISO 9001 quality management system certification consultants in Malaysia. Trusted by 500+ businesses since 2016.',
+        description: 'Expert ISO 9001 quality management system certification consultants in Malaysia. Serving Malaysian businesses since 2016.',
         foundingDate: '2016-10-06',
         founder: {
           '@id': 'https://isoconsultantmalaysia.com/#person',
@@ -90,26 +88,6 @@ export default function StructuredData() {
           },
         ],
         priceRange: 'RM13,000 - RM50,000',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '156',
-          bestRating: '5',
-          worstRating: '1',
-        },
-        review: testimonials.map((testimonial) => ({
-          '@type': 'Review',
-          author: {
-            '@type': 'Person',
-            name: testimonial.name,
-          },
-          reviewRating: {
-            '@type': 'Rating',
-            ratingValue: testimonial.rating,
-            bestRating: 5,
-          },
-          reviewBody: testimonial.content,
-        })),
       },
       {
         '@type': 'Service',

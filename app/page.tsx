@@ -2,7 +2,6 @@ import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import TrustBadges from '@/components/TrustBadges'
 import PainPoints from '@/components/PainPoints'
-import CaseStudy from '@/components/CaseStudy'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import Benefits from '@/components/Benefits'
 import Industries from '@/components/Industries'
@@ -10,7 +9,6 @@ import Process from '@/components/Process'
 import Founder from '@/components/Founder'
 import WhatIsISO from '@/components/WhatIsISO'
 import Pricing from '@/components/Pricing'
-import Testimonials from '@/components/Testimonials'
 import FAQ from '@/components/FAQ'
 import AnswerBlock from '@/components/AnswerBlock'
 import Contact from '@/components/Contact'
@@ -28,7 +26,6 @@ export default function Home() {
         <Hero />
         <TrustBadges />
         <PainPoints />
-        <CaseStudy />
         <WhyChooseUs />
         <Benefits />
         <Industries />
@@ -36,7 +33,6 @@ export default function Home() {
         <Founder />
         <WhatIsISO />
         <Pricing />
-        <Testimonials />
         <FAQ />
         <AnswerBlock />
         <Contact />

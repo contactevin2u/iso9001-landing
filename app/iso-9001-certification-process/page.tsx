@@ -6,7 +6,7 @@ import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 
 export const metadata: Metadata = {
   title: 'ISO 9001 Certification Process | 30-Day Guide',
-  description: 'Complete guide to the ISO 9001 certification process in Malaysia. Learn each step from gap analysis to certification audit in 30 days.',
+  description: 'Complete guide to the ISO 9001 certification process in Malaysia. Learn each step from gap analysis through to the certification audit.',
   keywords: ['ISO 9001 certification process', 'how to get ISO 9001 Malaysia', 'ISO 9001 steps', 'QMS implementation'],
   openGraph: {
     title: 'ISO 9001 Certification Process | 30-Day Guide',
@@ -51,10 +51,11 @@ export default function ISO9001CertificationProcess() {
 
             <div className="prose prose-lg max-w-none">
               <div className="bg-primary-50 p-6 rounded-lg mb-8">
-                <h2 className="text-xl font-bold text-gray-900 mb-2 mt-0">Typical Timeline: 30 Days</h2>
+                <h2 className="text-xl font-bold text-gray-900 mb-2 mt-0">Timeline</h2>
                 <p className="text-gray-600 mb-0">
-                  With our streamlined process, most organizations achieve certification within 30 days.
-                  Our efficient approach ensures you get certified quickly without compromising on quality.
+                  Your timeline depends on your size, scope and how quickly documentation is reviewed,
+                  plus the certification body’s audit availability. We agree a target date at kick-off
+                  and work to it without compromising on quality.
                 </p>
               </div>
 

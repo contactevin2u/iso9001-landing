@@ -7,7 +7,7 @@ import WhatsAppLink from '@/components/WhatsAppLink'
 
 export const metadata: Metadata = {
   title: 'ISO 9001 Certification Malaysia | Get Certified',
-  description: 'Get ISO 9001 certification in Malaysia with expert guidance. Our QMS consultants have helped 500+ Malaysian companies achieve quality management system certification in 30 days.',
+  description: 'Get ISO 9001 certification in Malaysia with expert guidance. Our QMS consultants help Malaysian companies achieve quality management system certification.',
   keywords: ['ISO 9001 certification Malaysia', 'QMS certification Malaysia', 'quality management system Malaysia', 'ISO 9001 consultant Malaysia'],
   openGraph: {
     title: 'ISO 9001 Certification Malaysia | Get Certified',
@@ -163,8 +163,8 @@ export default function ISO9001CertificationMalaysia() {
               <p className="text-gray-600 mb-4">
                 The investment for ISO 9001 certification in Malaysia varies based on organization size and complexity.
                 Our consulting packages start from <strong>RM 13,000</strong>, which includes gap analysis, documentation
-                development, implementation support, and audit preparation. Most organizations achieve certification
-                within 30 days.
+                development, implementation support, and audit preparation. We agree a target certification
+                date with you at kick-off.
               </p>
               <p className="text-gray-600 mb-4">
                 Learn more about <a href="/iso-9001-cost-malaysia" className="text-primary-600 hover:underline">ISO 9001 certification costs in Malaysia</a>.
@@ -180,7 +180,7 @@ export default function ISO9001CertificationMalaysia() {
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-8">
                 <li>Deep understanding of Malaysian business requirements</li>
                 <li>Practical, business-focused approach to QMS implementation</li>
-                <li>100% success rate in certification audits</li>
+                <li>Hands-on preparation for the Stage 1 and Stage 2 certification audits</li>
                 <li>Ongoing support for surveillance audits and continuous improvement</li>
               </ul>
             </div>

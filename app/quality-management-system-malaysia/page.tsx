@@ -140,8 +140,8 @@ export default function QualityManagementSystemMalaysia() {
                 <li><strong>Certification Audit:</strong> An accredited certification body conducts the formal QMS audit to award your quality management certification</li>
               </ol>
               <p className="text-gray-600 mb-4">
-                With our guidance, most Malaysian organizations complete the quality management certification
-                process within 30 days, from gap analysis to certified QMS.
+                With our guidance, Malaysian organisations work through the quality management
+                certification process to an agreed timeline, from gap analysis to certified QMS.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
@@ -177,9 +177,9 @@ export default function QualityManagementSystemMalaysia() {
                 Our clients consistently see measurable improvements after implementing a quality management system:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
-                <li><strong>500+ Malaysian companies</strong> have achieved quality management certification with our guidance</li>
-                <li><strong>100% certification success rate</strong> — every client who completes our program passes the QMS audit</li>
-                <li><strong>30-day average timeline</strong> from gap analysis to quality management certification</li>
+                <li><strong>Malaysian companies across many sectors</strong> have achieved quality management certification with our guidance</li>
+                <li><strong>Full audit preparation</strong> — we ready your documentation and evidence before the QMS audit</li>
+                <li><strong>A target timeline agreed at kick-off</strong>, from gap analysis to the certification audit</li>
                 <li><strong>Reduced operational costs</strong> through systematic quality control and process optimization</li>
                 <li><strong>Increased contract wins</strong> as certified quality management systems open doors to government and MNC opportunities</li>
               </ul>

@@ -28,22 +28,22 @@ export default function Hero() {
           <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
-          Only Accepting 5 New Clients This Month — Limited Availability
+          Free Initial Consultation — Malaysia-Wide Site Visits
         </div>
 
         <div className="inline-block px-4 py-1.5 bg-primary-100 text-primary-700 text-sm font-medium rounded-full mb-6">
-          Trusted by 500+ Malaysian Businesses Since 2016
+          Malaysian ISO 9001 Consultants Since 2016
         </div>
 
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
           Your Competitors Are Already ISO 9001 Certified.
-          <span className="block text-primary-600 mt-2">We&apos;ll Get You There in 30 Days.</span>
+          <span className="block text-primary-600 mt-2">We&apos;ll Get You There.</span>
         </h1>
 
         <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto mb-4 leading-relaxed">
           Losing tenders because you lack ISO certification? Watching competitors win contracts that should be yours?
-          We&apos;ve helped <strong className="text-gray-900">500+ Malaysian companies</strong> get ISO 9001 certified — from
-          small workshops to large manufacturers — with a <strong className="text-gray-900">98% first-time audit success rate</strong>.
+          We help Malaysian companies get ISO 9001 certified — from small workshops to large
+          manufacturers — with <strong className="text-gray-900">documentation and audit preparation handled for you</strong>.
         </p>
 
         <p className="text-base text-gray-500 max-w-2xl mx-auto mb-10">
@@ -74,20 +74,20 @@ export default function Hero() {
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-2xl mx-auto">
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary-600">500+</div>
-            <div className="text-sm text-gray-500">Companies Certified</div>
+            <div className="text-3xl font-bold text-primary-600">2016</div>
+            <div className="text-sm text-gray-500">Consulting Since</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary-600">98%</div>
-            <div className="text-sm text-gray-500">First-Time Pass Rate</div>
+            <div className="text-3xl font-bold text-primary-600">9001</div>
+            <div className="text-sm text-gray-500">ISO 9001:2015</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary-600">30</div>
-            <div className="text-sm text-gray-500">Days to Certify</div>
+            <div className="text-3xl font-bold text-primary-600">RM13k</div>
+            <div className="text-sm text-gray-500">Packages From</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary-600">50+</div>
-            <div className="text-sm text-gray-500">Industries Served</div>
+            <div className="text-3xl font-bold text-primary-600">MY</div>
+            <div className="text-sm text-gray-500">Nationwide Visits</div>
           </div>
         </div>
       </div>

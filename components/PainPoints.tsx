@@ -63,7 +63,7 @@ export default function PainPoints() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-green-400">After 30 Days With Us</h3>
+              <h3 className="text-xl font-bold text-green-400">After Working With Us</h3>
             </div>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
@@ -102,7 +102,7 @@ export default function PainPoints() {
 
         <div className="text-center bg-white/5 rounded-2xl p-6 sm:p-8 mb-12 border border-white/10">
           <p className="text-lg text-gray-300 mb-4">
-            Sound familiar? You&apos;re not alone. <strong className="text-white">We&apos;ve helped 500+ Malaysian companies</strong> escape this exact situation.
+            Sound familiar? You&apos;re not alone. <strong className="text-white">We help Malaysian companies</strong> escape this exact situation.
           </p>
           <a
             href="https://wa.me/60102062070?text=Hi%2C%20I%20am%20losing%20tenders%20without%20ISO%209001.%20Can%20you%20help%3F"

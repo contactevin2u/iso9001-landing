@@ -9,7 +9,7 @@ import WhatsAppLink from '@/components/WhatsAppLink'
 export const metadata: Metadata = {
   title: 'About Us — AA Alive Sdn Bhd',
   description:
-    'ISO 9001 Malaysia is the ISO consulting service of AA Alive Sdn Bhd (1204108-D), founded in 2016 by Evin Lim. 500+ Malaysian businesses certified with a 98% first-time pass rate.',
+    'ISO 9001 Malaysia is the ISO consulting service of AA Alive Sdn Bhd (1204108-D), founded in 2016 by Evin Lim. Quality management system consulting for Malaysian businesses.',
   openGraph: {
     title: 'About Us — AA Alive Sdn Bhd | ISO 9001 Malaysia',
     description:
@@ -155,8 +155,7 @@ export default function AboutPage() {
             </h2>
             <ul className="space-y-2 mb-4 text-gray-600 list-disc pl-6">
               <li>AA Alive Sdn Bhd — registered with SSM Malaysia (1204108-D), operating since 2016</li>
-              <li>500+ Malaysian businesses certified across manufacturing, construction, IT, healthcare, F&amp;B and logistics</li>
-              <li>98% first-time certification audit pass rate</li>
+              <li>Malaysian businesses certified across manufacturing, construction, IT, healthcare, F&amp;B and logistics</li>
               <li>Superbrands Malaysia 2025 (Malaysia&apos;s Choice) award recipient</li>
               <li>Nationwide service across Malaysia — remote-friendly engagements</li>
             </ul>

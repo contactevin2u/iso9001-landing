@@ -327,9 +327,8 @@ export default function ISO9001CostMalaysia() {
                 <li>Lower warranty and complaint costs</li>
               </ul>
               <p className="text-gray-600 mb-4">
-                Most clients report payback within 12&ndash;18 months of certification through cost
-                savings and new business wins (across 500+ Malaysian client engagements since 2016 —
-                AA Alive internal data). Learn more about the <a href="/iso-9001-benefits" className="text-primary-600 hover:underline">benefits of ISO 9001 certification</a>.
+                Certification is typically evaluated against the cost savings and new business it
+                unlocks; the payback period varies by organisation. Learn more about the <a href="/iso-9001-benefits" className="text-primary-600 hover:underline">benefits of ISO 9001 certification</a>.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">

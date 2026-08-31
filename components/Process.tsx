@@ -51,8 +51,8 @@ export default function Process() {
           Our Certification Process
         </h2>
         <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-12">
-          A clear, step-by-step approach to get you certified. Most organizations achieve
-          certification within 30 days.
+          A clear, step-by-step approach to get you certified, working to a target date we
+          agree with you at kick-off.
         </p>
 
         <div className="space-y-8">

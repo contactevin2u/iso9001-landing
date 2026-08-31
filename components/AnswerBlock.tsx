@@ -7,7 +7,7 @@ const answers: { question: string; answer: string }[] = [
   {
     question: 'How long does ISO 9001 certification take in Malaysia?',
     answer:
-      'Most Malaysian SMEs achieve ISO 9001 certification within 30 days using our fast-track process; medium-sized organizations typically take 30–45 days. The industry average with traditional consultants is 6–12 months. The difference comes from consultants handling the documentation, process setup and audit preparation rather than leaving it to your team.',
+      'ISO 9001 certification timelines in Malaysia depend on organisation size, scope, how quickly documentation is reviewed and the certification body’s audit availability. A target date is agreed at kick-off. Engaging a consultant shortens it because the consultant handles the documentation, process setup and audit preparation rather than leaving it to your team.',
   },
   {
     question: 'What is the ISO 9001 certification process?',

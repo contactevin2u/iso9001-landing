@@ -45,7 +45,7 @@ export default function Founder() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">500+ Companies Certified Successfully</h4>
+                  <h4 className="font-semibold text-gray-900">Companies Certified Across Malaysia</h4>
                   <p className="text-gray-600 text-sm">
                     From 5-person workshops to 500-employee factories. Manufacturing, construction,
                     IT, healthcare, food processing, logistics — we&apos;ve done it all.
@@ -60,10 +60,10 @@ export default function Founder() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">30-Day Fast-Track Certification</h4>
+                  <h4 className="font-semibold text-gray-900">Fast-Track Certification</h4>
                   <p className="text-gray-600 text-sm">
-                    Our streamlined methodology gets you certified in 30 days, not 6-12 months
-                    like traditional consultants. We handle the heavy lifting so your team isn&apos;t disrupted.
+                    A streamlined methodology with a timeline agreed upfront. We handle the heavy
+                    lifting so your team isn&apos;t disrupted.
                   </p>
                 </div>
               </div>
@@ -110,21 +110,10 @@ export default function Founder() {
 
             <blockquote className="text-gray-600 italic mb-6 border-l-4 border-primary-300 pl-4">
               &ldquo;I started AA Alive because I saw Malaysian SMEs struggling with expensive, slow ISO
-              consultants who overcomplicate the process. ISO 9001 doesn&apos;t have to take 6 months or
-              cost RM 50,000. My team and I have proven that you can get certified properly in 30 days
-              at a fair price — and actually improve your business in the process.&rdquo;
+              consultants who overcomplicate the process. ISO 9001 doesn&apos;t have to be drawn out or
+              overpriced. My team and I do it properly, at a fair price — and actually improve your
+              business in the process.&rdquo;
             </blockquote>
-
-            <div className="bg-white rounded-lg p-4 mb-6 border border-gray-100">
-              <p className="text-sm text-gray-600 italic">
-                &ldquo;Evin personally guided us through the entire process. His hands-on approach
-                and deep knowledge made what seemed overwhelming feel manageable. We got certified
-                in under 30 days.&rdquo;
-              </p>
-              <p className="text-xs text-gray-500 mt-2 font-medium">
-                — Operations Director, Manufacturing Company (Selangor)
-              </p>
-            </div>
 
             <div className="grid grid-cols-3 gap-4 mb-6">
               <div className="text-center">
@@ -132,12 +121,12 @@ export default function Founder() {
                 <div className="text-xs text-gray-500">Years</div>
               </div>
               <div className="text-center">
-                <div className="text-xl font-bold text-primary-600">500+</div>
-                <div className="text-xs text-gray-500">Clients</div>
+                <div className="text-xl font-bold text-primary-600">9001</div>
+                <div className="text-xs text-gray-500">ISO 9001:2015</div>
               </div>
               <div className="text-center">
-                <div className="text-xl font-bold text-primary-600">98%</div>
-                <div className="text-xs text-gray-500">Pass Rate</div>
+                <div className="text-xl font-bold text-primary-600">MY</div>
+                <div className="text-xs text-gray-500">Nationwide</div>
               </div>
             </div>
 

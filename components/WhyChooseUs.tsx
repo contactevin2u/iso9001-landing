@@ -5,8 +5,8 @@ const reasons = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
       </svg>
     ),
-    title: '98% First-Time Pass Rate',
-    description: 'Our clients pass their certification audit on the first attempt. We don\'t submit you for audit until we\'re 100% confident you\'re ready — saving you money and time on re-audits.',
+    title: 'Audit-Ready Before You Apply',
+    description: 'We prepare your quality system, your records and your team for the certification audit. We don\'t put you forward until the documentation and objective evidence are actually in place.',
   },
   {
     icon: (
@@ -14,8 +14,8 @@ const reasons = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
       </svg>
     ),
-    title: '30-Day Fast Track',
-    description: 'While other consultants take 6-12 months, our proven methodology gets you certified in 30 days. We handle the heavy lifting — your team spends minimal time away from their regular duties.',
+    title: 'Fast-Track Methodology',
+    description: 'A structured, staged methodology with a timeline agreed upfront. We handle the heavy lifting — your team spends minimal time away from their regular duties.',
   },
   {
     icon: (
@@ -60,7 +60,7 @@ export default function WhyChooseUs() {
     <section id="why-us" className="py-20 px-4 sm:px-6">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-4">
-          Why 500+ Malaysian Companies Choose AA Alive for ISO 9001
+          Why Malaysian Companies Choose AA Alive for ISO 9001
         </h2>
         <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-12">
           We&apos;re not a generic consulting firm. We&apos;re ISO certification specialists
@@ -111,7 +111,7 @@ export default function WhyChooseUs() {
               <tbody className="divide-y divide-gray-100">
                 <tr>
                   <td className="py-3 pr-4 text-gray-700">Timeline</td>
-                  <td className="py-3 px-4 text-center font-semibold text-primary-600">30 days</td>
+                  <td className="py-3 px-4 text-center font-semibold text-primary-600">Fast-tracked</td>
                   <td className="py-3 px-4 text-center text-gray-500">6-12 months</td>
                 </tr>
                 <tr>
@@ -128,11 +128,6 @@ export default function WhyChooseUs() {
                   <td className="py-3 pr-4 text-gray-700">Communication</td>
                   <td className="py-3 px-4 text-center font-semibold text-primary-600">Direct WhatsApp</td>
                   <td className="py-3 px-4 text-center text-gray-500">Email / Ticket system</td>
-                </tr>
-                <tr>
-                  <td className="py-3 pr-4 text-gray-700">First-time pass rate</td>
-                  <td className="py-3 px-4 text-center font-semibold text-primary-600">98%</td>
-                  <td className="py-3 px-4 text-center text-gray-500">70-80%</td>
                 </tr>
                 <tr>
                   <td className="py-3 pr-4 text-gray-700">Post-cert support</td>
