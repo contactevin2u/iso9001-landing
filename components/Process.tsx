@@ -10,7 +10,7 @@ const steps = [
     step: '2',
     title: 'Gap Analysis',
     description: 'We identify what you already have in place and what needs to be developed.',
-    details: 'Our comprehensive gap analysis compares your current practices against ISO 9001:2026 requirements. We\'ll document existing quality controls, identify compliance gaps, assess your processes and controls, and prioritize actions needed for certification.',
+    details: 'Our comprehensive gap analysis compares your current practices against ISO 9001:2015 requirements. We\'ll document existing quality controls, identify compliance gaps, assess your processes and controls, and prioritize actions needed for certification.',
     timeline: 'Days 2-4',
   },
   {

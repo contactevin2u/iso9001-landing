@@ -73,7 +73,7 @@ export default function ISO9001CertificationProcess() {
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-6">
                 <li>Understand your business operations and organizational context</li>
                 <li>Review your current quality practices and documentation</li>
-                <li>Explain the ISO 9001:2026 requirements and certification process</li>
+                <li>Explain the ISO 9001:2015 requirements and certification process</li>
                 <li>Discuss your timeline expectations and business drivers</li>
                 <li>Provide a detailed proposal including scope, timeline, and investment</li>
               </ul>
@@ -82,7 +82,7 @@ export default function ISO9001CertificationProcess() {
                 Step 2: Gap Analysis (Days 2-4)
               </h3>
               <p className="text-gray-600 mb-4">
-                A comprehensive gap analysis compares your current practices against ISO 9001:2026 requirements:
+                A comprehensive gap analysis compares your current practices against ISO 9001:2015 requirements:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-6">
                 <li>Review existing quality documentation and records</li>

@@ -7,18 +7,18 @@ import RelatedGuides from '@/components/RelatedGuides'
 
 export const metadata: Metadata = {
   title: 'ISO 9001 Requirements | Clause-by-Clause Guide',
-  description: 'Complete guide to ISO 9001:2026 requirements. Understand every clause from context and leadership to operations and continuous improvement.',
-  keywords: ['ISO 9001 requirements', 'ISO 9001 checklist', 'ISO 9001:2026 clauses', 'QMS requirements Malaysia'],
+  description: 'Complete guide to ISO 9001:2015 requirements. Understand every clause from context and leadership to operations and continuous improvement.',
+  keywords: ['ISO 9001 requirements', 'ISO 9001 checklist', 'ISO 9001:2015 clauses', 'QMS requirements Malaysia'],
   openGraph: {
     title: 'ISO 9001 Requirements | Clause-by-Clause Guide',
-    description: 'Complete guide to ISO 9001:2026 requirements. Understand every clause and what you need for certification.',
+    description: 'Complete guide to ISO 9001:2015 requirements. Understand every clause and what you need for certification.',
     url: 'https://isoconsultantmalaysia.com/iso-9001-requirements',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'ISO 9001 Requirements | Clause-by-Clause Guide',
-    description: 'Complete guide to ISO 9001:2026 requirements and clauses.',
+    description: 'Complete guide to ISO 9001:2015 requirements and clauses.',
   },
   alternates: {
     canonical: 'https://isoconsultantmalaysia.com/iso-9001-requirements',
@@ -46,18 +46,22 @@ export default function ISO9001Requirements() {
               ISO 9001 Requirements
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              A comprehensive guide to the requirements of ISO 9001:2026. Understand what your organization
+              A comprehensive guide to the requirements of ISO 9001:2015. Understand what your organization
               needs to implement for successful <a href="/quality-management-system-malaysia" className="text-primary-600 hover:underline">Quality Management System</a> certification.
             </p>
 
             <div className="prose prose-lg max-w-none">
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-                Understanding ISO 9001:2026 Structure
+                Understanding ISO 9001:2015 Structure
               </h2>
               <p className="text-gray-600 mb-4">
-                ISO 9001:2026 follows the Harmonized Structure (HS) common to all modern ISO management
+                ISO 9001:2015 follows the High-Level Structure (HLS) common to all modern ISO management
                 system standards. The standard contains 10 clauses, with clauses 1-3 providing introduction
                 and definitions, and clauses 4-10 containing the requirements for certification.
+              </p>
+              <p className="text-gray-600 mb-4">
+                ISO 9001:2026, published in September 2026, keeps the same 10-clause structure. The requirements
+                below are those of ISO 9001:2015, the version certification bodies audit against today.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
@@ -233,7 +237,7 @@ export default function ISO9001Requirements() {
                 Required Documented Information
               </h2>
               <p className="text-gray-600 mb-4">
-                ISO 9001:2026 requires the following documented information:
+                ISO 9001:2015 requires the following documented information:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-8">
                 <li>Scope of the QMS (4.3)</li>

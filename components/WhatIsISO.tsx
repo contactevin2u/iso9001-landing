@@ -10,17 +10,18 @@ export default function WhatIsISO() {
           <p>
             <strong className="text-gray-900">ISO 9001</strong> is the world&apos;s most recognized quality management standard,
             published by the International Organization for Standardization (ISO). It provides a systematic framework for organizations
-            to consistently deliver products and services that meet customer expectations and regulatory requirements. The current version,
-            <strong className="text-gray-900"> ISO 9001:2026</strong>, published in September 2026, builds on the 2015 edition with continued
-            emphasis on risk-based thinking, leadership commitment, and integration with business strategy.
+            to consistently deliver products and services that meet customer expectations and regulatory requirements. The version companies
+            certify to today, <strong className="text-gray-900">ISO 9001:2015</strong>, emphasizes risk-based thinking, leadership commitment,
+            and integration with business strategy. ISO published the next revision, <strong className="text-gray-900">ISO 9001:2026</strong>,
+            in September 2026 &mdash; we build every QMS to ISO 9001:2015 and prepare it for the move to 2026.
           </p>
 
           <div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
-              The ISO 9001:2026 Standard Structure
+              The ISO 9001:2015 Standard Structure
             </h3>
             <p className="mb-4">
-              ISO 9001:2026 follows the Harmonized Structure (HS) common to all ISO management system standards. This makes it
+              ISO 9001:2015 follows the High-Level Structure (HLS) common to all ISO management system standards. This makes it
               easier to integrate with other certifications like <a href="https://esgiso.com/iso-14001-requirements" rel="noopener" className="text-primary-600 hover:underline">ISO 14001 (Environmental)</a> and
               ISO 45001 (Occupational Health & Safety). The standard is organized into 10 clauses, with clauses 4-10 containing
               the requirements for certification.
@@ -57,7 +58,7 @@ export default function WhatIsISO() {
 
           <div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
-              Key Clauses of ISO 9001:2026
+              Key Clauses of ISO 9001:2015
             </h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="p-4 sm:p-5 bg-gray-50 rounded-lg">

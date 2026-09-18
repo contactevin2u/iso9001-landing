@@ -1,6 +1,6 @@
 # ISO 9001 Malaysia (isoconsultantmalaysia.com)
 
-> ISO 9001:2026 quality management system (QMS) certification consulting in Malaysia — gap analysis, documentation, staff training, internal audit and certification audit preparation from RM 13,000, with a 30-day fast-track programme for SMEs, 500+ businesses certified and a 98% first-time pass rate since 2016.
+> ISO 9001:2015 quality management system (QMS) certification consulting in Malaysia — gap analysis, documentation, staff training, internal audit and certification audit preparation from RM 13,000, with a 30-day fast-track programme for SMEs, 500+ businesses certified and a 98% first-time pass rate since 2016.
 
 Operated by AA Alive Sdn Bhd (SSM 1204108-D). Founder and Managing Director: Evin Lim. Phone/WhatsApp: +60 10-206 2070. Last updated: 2026-09-18.
 
@@ -15,7 +15,7 @@ founded: 2016
 founder: Evin Lim (Managing Director)
 
 ## What We Do
-We help Malaysian companies implement and certify ISO 9001:2026 quality management systems — from the first gap analysis to passing the certification body (CB) audit.
+We help Malaysian companies implement and certify ISO 9001:2015 quality management systems — from the first gap analysis to passing the certification body (CB) audit — and prepare them for the transition to ISO 9001:2026 (published September 2026).
 
 ### Core Services
 1. **ISO 9001 Certification Consulting** — gap analysis, QMS documentation, implementation, staff training, internal audit and CB audit preparation
@@ -40,7 +40,7 @@ We help Malaysian companies implement and certify ISO 9001:2026 quality manageme
 ## Common Questions We Answer
 1. How much does ISO 9001 certification cost in Malaysia?
 2. How long does it take to get ISO 9001 certified?
-3. What are the ISO 9001:2026 requirements?
+3. What are the ISO 9001:2015 requirements?
 4. Who needs ISO 9001 in Malaysia (government tenders, CIDB G7, Petronas vendor registration)?
 5. Which certification body should I choose?
 
