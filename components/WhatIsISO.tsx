@@ -1,7 +1,7 @@
 export default function WhatIsISO() {
   return (
     <section id="what-is-iso" className="py-20 px-4 sm:px-6">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-6xl mx-auto [&>*]:max-w-3xl">
         <h2 className="text-3xl sm:text-4xl mb-6">
           What is ISO 9001?
         </h2>

@@ -1,31 +1,31 @@
 const benefits = [
   {
-    title: 'Build Customer Trust',
+    title: 'Build customer trust',
     description: 'Show customers and partners that quality is your priority with internationally recognized certification.',
     details: 'ISO 9001 certification provides independent verification that your organization consistently meets customer requirements. Many Malaysian buyers and procurement teams ask for it before they will shortlist a supplier.',
   },
   {
-    title: 'Win More Contracts',
+    title: 'Win more contracts',
     description: 'Many organizations require ISO 9001 certification from their suppliers. Open doors to new business opportunities.',
     details: 'Major corporations like Petronas, Tenaga Nasional, and multinational companies increasingly require ISO 9001 certification from their supply chain partners. Government procurement policies also favor certified organizations for tender qualifications.',
   },
   {
-    title: 'Improve Efficiency',
+    title: 'Improve efficiency',
     description: 'Streamline your processes, reduce waste, and eliminate errors through systematic quality management.',
     details: 'The standard requires you to document processes, identify bottlenecks, and implement controls that reduce rework and waste.',
   },
   {
-    title: 'Reduce Costs',
+    title: 'Reduce costs',
     description: 'Fewer mistakes mean lower costs. Efficient processes save time and resources across your organization.',
     details: 'Certified organizations reduce cost through fewer defects, less rework and better use of resources, and the savings continue year after year as the system matures.',
   },
   {
-    title: 'Boost Employee Engagement',
+    title: 'Clearer roles for your team',
     description: 'Clear processes and responsibilities help your team work more effectively and with greater satisfaction.',
     details: 'ISO 9001 provides clear roles, responsibilities, and objectives for employees. Clear expectations make onboarding easier and reduce the friction that comes from unclear ownership.',
   },
   {
-    title: 'Drive Continuous Improvement',
+    title: 'Continual improvement',
     description: 'Build a culture of ongoing improvement that keeps your business competitive and adaptable.',
     details: 'The PDCA cycle embedded in ISO 9001 ensures your quality management system continuously evolves. Regular internal audits and management reviews identify opportunities for improvement, keeping your organization ahead of competitors and market changes.',
   },

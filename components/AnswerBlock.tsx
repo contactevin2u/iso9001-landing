@@ -37,7 +37,7 @@ const answersBm: { question: string; answer: string }[] = [
 export default function AnswerBlock() {
   return (
     <section id="quick-answers" className="py-20 px-4 sm:px-6 bg-white">
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-6xl mx-auto [&>*]:max-w-3xl">
         <h2 className="text-3xl sm:text-4xl mb-4">
           ISO 9001 certification in Malaysia: quick answers
         </h2>

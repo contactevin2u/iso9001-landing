@@ -3,7 +3,7 @@ import WhatsAppLink from '@/components/WhatsAppLink'
 export default function Founder() {
   return (
     <section className="py-20 px-4 sm:px-6 bg-white">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <div className="max-w-3xl mb-4">
           <h2 className="text-3xl sm:text-4xl mb-4">
             You work directly with the founder, not a junior consultant
@@ -27,7 +27,7 @@ export default function Founder() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">8+ Years of ISO Certification Experience</h4>
+                  <h4 className="font-semibold text-gray-900">8+ years of ISO certification experience</h4>
                   <p className="text-gray-600 text-sm">
                     Founded AA Alive Sdn Bhd in 2016. Personally guided hundreds of Malaysian businesses
                     through ISO 9001, ISO 14001, and ISO 45001 certification.
@@ -42,7 +42,7 @@ export default function Founder() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Companies Certified Across Malaysia</h4>
+                  <h4 className="font-semibold text-gray-900">Companies certified across Malaysia</h4>
                   <p className="text-gray-600 text-sm">
                     From 5-person workshops to 500-employee factories. Manufacturing, construction,
                     IT, healthcare, food processing, logistics — we&apos;ve done it all.
@@ -72,7 +72,7 @@ export default function Founder() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Direct WhatsApp Access to the Founder</h4>
+                  <h4 className="font-semibold text-gray-900">Direct WhatsApp access to the founder</h4>
                   <p className="text-gray-600 text-sm">
                     No call centers, no ticket systems. You chat directly with Evin on WhatsApp.
                     Questions answered within hours, not days.

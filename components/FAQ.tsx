@@ -168,7 +168,7 @@ export default function FAQ() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-6xl mx-auto [&>*]:max-w-3xl">
         <h2 className="text-3xl sm:text-4xl mb-4">
           ISO 9001 certification in Malaysia: frequently asked questions
         </h2>

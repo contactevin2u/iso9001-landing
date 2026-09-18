@@ -1,21 +1,21 @@
 const steps = [
   {
     step: '1',
-    title: 'Initial Consultation',
+    title: 'Initial consultation',
     description: 'We assess your current operations and create a customized certification roadmap.',
     details: 'During this free consultation, our ISO consultants will review your existing quality practices, understand your business operations, and explain the certification journey. We\'ll provide a detailed proposal including timeline, investment, and expected outcomes.',
     timeline: 'Day 1',
   },
   {
     step: '2',
-    title: 'Gap Analysis',
+    title: 'Gap analysis',
     description: 'We identify what you already have in place and what needs to be developed.',
     details: 'Our comprehensive gap analysis compares your current practices against ISO 9001:2015 requirements. We\'ll document existing quality controls, identify compliance gaps, assess your processes and controls, and prioritize actions needed for certification.',
     timeline: 'Days 2-4',
   },
   {
     step: '3',
-    title: 'Documentation Development',
+    title: 'Documentation',
     description: 'We help you create all required QMS documentation tailored to your organization.',
     details: 'Working closely with your team, we develop essential documents including: Quality Policy, Quality Manual, Process Procedures, Work Instructions, Forms and Records, and Control of Documents procedures. All documentation is customized for your specific operations.',
     timeline: 'Days 5-12',
@@ -29,14 +29,14 @@ const steps = [
   },
   {
     step: '5',
-    title: 'Internal Audit & Review',
+    title: 'Internal audit and management review',
     description: 'We conduct internal audits and prepare you for the certification audit.',
     details: 'Our certified auditors perform a thorough internal audit to verify QMS effectiveness and identify any non-conformities. We train your internal audit team, facilitate management review meetings, and address any findings before the external certification audit.',
     timeline: 'Days 21-25',
   },
   {
     step: '6',
-    title: 'Certification Audit',
+    title: 'Certification audit',
     description: 'We prepare you for the external audit and support you through the process.',
     details: 'We help you select an accredited certification body (SIRIM, BSI, TUV, etc.) and prepare for the Stage 1 (documentation review) and Stage 2 (implementation audit) assessments. Our team is available to support you during the audits and help address any findings.',
     timeline: 'Days 26-30',
@@ -46,7 +46,7 @@ const steps = [
 export default function Process() {
   return (
     <section id="process" className="py-20 px-4 sm:px-6">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-6xl mx-auto [&>*]:max-w-3xl">
         <h2 className="text-3xl sm:text-4xl mb-4">
           Our certification process
         </h2>

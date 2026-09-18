@@ -47,11 +47,11 @@ export default function Hero() {
             ISO 9001 consultants in Malaysia since 2016
           </p>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] leading-[1.08] mb-6 max-w-[16ch]">
+          <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] leading-[1.08] mb-6 max-w-[20ch] text-balance">
             ISO 9001 certification for Malaysian businesses
           </h1>
 
-          <p className="text-lg sm:text-xl text-gray-600 leading-relaxed mb-8 max-w-[34rem]">
+          <p className="text-lg sm:text-xl text-gray-600 leading-relaxed mb-8 max-w-[34rem] text-pretty">
             We build your quality management system, write the documentation, train your team and
             prepare you for the certification body audit. Every project is led by founder Evin Lim.
           </p>
@@ -90,51 +90,53 @@ export default function Hero() {
           </dl>
         </div>
 
-        <figure className="relative">
-          <div aria-hidden="true" className="absolute inset-0 translate-x-3 translate-y-3 rounded-md bg-primary-50 border border-primary-100" />
-          <div className="relative bg-white border border-gray-300 rounded-md shadow-[0_1px_2px_rgba(14,34,56,0.06),0_12px_32px_-12px_rgba(14,34,56,0.18)]">
-            <div className="flex items-baseline justify-between gap-4 px-5 sm:px-6 pt-5 pb-4 border-b border-gray-200">
-              <span className="font-serif text-lg font-semibold text-ink">QMS readiness file</span>
-              <span className="text-xs text-gray-500">Prepared by AA Alive</span>
-            </div>
-            <div className="grid grid-cols-2 text-xs border-b border-gray-200">
-              <div className="px-5 sm:px-6 py-2.5 border-r border-gray-200">
-                <span className="block text-gray-500">Standard</span>
-                <span className="font-medium text-gray-900">ISO 9001:2015</span>
+        <figure>
+          <div className="relative">
+            <div aria-hidden="true" className="absolute inset-0 translate-x-3 translate-y-3 rounded-md bg-primary-50 border border-primary-100" />
+            <div className="relative bg-white border border-gray-300 rounded-md shadow-[0_1px_2px_rgba(14,34,56,0.06),0_12px_32px_-12px_rgba(14,34,56,0.18)]">
+              <div className="flex items-baseline justify-between gap-4 px-5 sm:px-6 pt-5 pb-4 border-b border-gray-200">
+                <span className="font-serif text-lg font-semibold text-ink">QMS readiness file</span>
+                <span className="text-xs text-gray-500">Prepared by AA Alive</span>
               </div>
-              <div className="px-5 sm:px-6 py-2.5">
-                <span className="block text-gray-500">Next revision</span>
-                <span className="font-medium text-gray-900">ISO 9001:2026</span>
+              <div className="grid grid-cols-2 text-xs border-b border-gray-200">
+                <div className="px-5 sm:px-6 py-2.5 border-r border-gray-200">
+                  <span className="block text-gray-500">Standard</span>
+                  <span className="font-medium text-gray-900">ISO 9001:2015</span>
+                </div>
+                <div className="px-5 sm:px-6 py-2.5">
+                  <span className="block text-gray-500">Next revision</span>
+                  <span className="font-medium text-gray-900">ISO 9001:2026</span>
+                </div>
               </div>
-            </div>
 
-            <ol className="divide-y divide-gray-100">
-              {clauses.map((clause, i) => (
-                <li key={clause.no} className="flex items-center gap-4 px-5 sm:px-6 py-2.5">
-                  <span className="w-6 text-sm font-semibold text-primary-700 tabular-nums">{clause.no}</span>
-                  <span className="flex-1 text-sm text-gray-800">{clause.title}</span>
-                  <span className="clause-tick flex items-center gap-1.5 text-xs font-medium text-emerald-700" style={{ '--i': i } as React.CSSProperties}>
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.25} d="M5 13l4 4L19 7" />
-                    </svg>
-                    Prepared
-                  </span>
-                </li>
-              ))}
-            </ol>
+              <ol className="divide-y divide-gray-100">
+                {clauses.map((clause, i) => (
+                  <li key={clause.no} className="flex items-center gap-4 px-5 sm:px-6 py-2.5">
+                    <span className="w-6 text-sm font-semibold text-primary-700 tabular-nums">{clause.no}</span>
+                    <span className="flex-1 text-sm text-gray-800">{clause.title}</span>
+                    <span className="clause-tick flex items-center gap-1.5 text-xs font-medium text-emerald-700" style={{ '--i': i } as React.CSSProperties}>
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.25} d="M5 13l4 4L19 7" />
+                      </svg>
+                      Prepared
+                    </span>
+                  </li>
+                ))}
+              </ol>
 
-            <div className="grid grid-cols-2 text-xs border-t border-gray-200 bg-gray-50 rounded-b-md">
-              <div className="px-5 sm:px-6 py-3 border-r border-gray-200">
-                <span className="block font-medium text-gray-900">Stage 1 audit</span>
-                <span className="text-gray-500">Document review</span>
-              </div>
-              <div className="px-5 sm:px-6 py-3">
-                <span className="block font-medium text-gray-900">Stage 2 audit</span>
-                <span className="text-gray-500">On-site implementation</span>
+              <div className="grid grid-cols-2 text-xs border-t border-gray-200 bg-gray-50 rounded-b-md">
+                <div className="px-5 sm:px-6 py-3 border-r border-gray-200">
+                  <span className="block font-medium text-gray-900">Stage 1 audit</span>
+                  <span className="text-gray-500">Document review</span>
+                </div>
+                <div className="px-5 sm:px-6 py-3">
+                  <span className="block font-medium text-gray-900">Stage 2 audit</span>
+                  <span className="text-gray-500">On-site implementation</span>
+                </div>
               </div>
             </div>
           </div>
-          <figcaption className="relative mt-6 text-sm text-gray-500">
+          <figcaption className="mt-6 text-sm text-gray-500">
             What we prepare with you, clause by clause, before the certification body audits your system.
           </figcaption>
         </figure>
