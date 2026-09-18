@@ -1,19 +1,20 @@
 import Link from 'next/link'
 import WhatsAppLink from '@/components/WhatsAppLink'
+import { SITE_LAST_UPDATED, SITE_LAST_UPDATED_ISO } from '@/lib/constants'
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-400 py-12 px-4 sm:px-6">
+    <footer className="bg-ink text-gray-400 py-12 px-4 sm:px-6">
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="mb-4">
-              <div className="text-2xl font-bold text-white leading-tight">ISO 9001</div>
-              <div className="text-[10px] uppercase tracking-widest text-gray-500">Quality Management Begins Here</div>
+              <div className="font-serif text-2xl font-semibold text-white leading-none">AA Alive</div>
+              <div className="text-xs text-gray-500 mt-1">ISO certification consultants, Malaysia</div>
             </div>
             <p className="text-sm mb-3">
-              Your trusted partner for ISO 9001 certification in Malaysia.
-              We help businesses achieve quality excellence.
+              ISO 9001 consulting for Malaysian companies: gap analysis, documentation,
+              training and certification audit preparation.
             </p>
             <p className="text-xs text-gray-500">
               A service by <strong className="text-gray-400">AA Alive Sdn Bhd</strong> (1204108-D)
@@ -128,8 +129,11 @@ export default function Footer() {
           </a>
         </div>
 
-        <div className="pt-8 border-t border-gray-800 text-sm text-center">
+        <div className="pt-8 border-t border-gray-800 text-sm flex flex-col sm:flex-row sm:justify-between gap-2">
           <p>&copy; {new Date().getFullYear()} AA Alive Sdn Bhd (1204108-D). All rights reserved.</p>
+          <p className="text-gray-500">
+            Last updated <time dateTime={SITE_LAST_UPDATED_ISO}>{SITE_LAST_UPDATED}</time>
+          </p>
         </div>
       </div>
     </footer>

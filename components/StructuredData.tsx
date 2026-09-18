@@ -1,3 +1,5 @@
+import { SITE_LAST_UPDATED_ISO } from '@/lib/constants'
+
 export default function StructuredData() {
   const schema = {
     '@context': 'https://schema.org',
@@ -125,6 +127,7 @@ export default function StructuredData() {
         '@id': 'https://isoconsultantmalaysia.com/#website',
         url: 'https://isoconsultantmalaysia.com',
         name: 'ISO 9001 Malaysia - AA Alive Sdn Bhd',
+        dateModified: SITE_LAST_UPDATED_ISO,
         publisher: {
           '@id': 'https://isoconsultantmalaysia.com/#organization',
         },
