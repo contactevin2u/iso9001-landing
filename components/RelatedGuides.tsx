@@ -7,6 +7,7 @@ import Link from 'next/link'
  */
 const GUIDES = [
   { href: '/iso-9001-certification-malaysia', title: 'ISO 9001 Certification Malaysia' },
+  { href: '/iso-9001-2026-transition', title: 'ISO 9001:2026 Transition' },
   { href: '/quality-management-system-malaysia', title: 'Quality Management System (QMS) Malaysia' },
   { href: '/iso-9001-requirements', title: 'ISO 9001 Requirements' },
   { href: '/iso-9001-certification-process', title: 'ISO 9001 Certification Process' },

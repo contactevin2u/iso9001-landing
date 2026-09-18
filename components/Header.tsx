@@ -65,6 +65,13 @@ export default function Header({ locale = 'en' }: { locale?: Locale }) {
                   ISO 9001 Certification Malaysia
                 </Link>
                 <Link
+                  href="/iso-9001-2026-transition"
+                  role="menuitem"
+                  className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
+                >
+                  ISO 9001:2026 Transition
+                </Link>
+                <Link
                   href="/iso-9001-benefits"
                   role="menuitem"
                   className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
@@ -146,6 +153,9 @@ export default function Header({ locale = 'en' }: { locale?: Locale }) {
                 <div className="flex flex-col gap-3 pl-2">
                   <Link href="/iso-9001-certification-malaysia" onClick={() => setIsOpen(false)} className="text-gray-600 text-sm">
                     ISO 9001 Certification Malaysia
+                  </Link>
+                  <Link href="/iso-9001-2026-transition" onClick={() => setIsOpen(false)} className="text-gray-600 text-sm">
+                    ISO 9001:2026 Transition
                   </Link>
                   <Link href="/iso-9001-benefits" onClick={() => setIsOpen(false)} className="text-gray-600 text-sm">
                     Benefits of ISO 9001

@@ -8,8 +8,17 @@ declare global {
   }
 }
 
-export default function WhatsAppLink({ className, children }: { className?: string; children: React.ReactNode }) {
-  const waUrl = 'https://wa.me/60102062070'
+export default function WhatsAppLink({
+  className,
+  children,
+  text,
+}: {
+  className?: string
+  children: React.ReactNode
+  /** Optional prefilled message. */
+  text?: string
+}) {
+  const waUrl = text ? `https://wa.me/60102062070?text=${encodeURIComponent(text)}` : 'https://wa.me/60102062070'
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault()

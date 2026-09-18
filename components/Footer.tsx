@@ -53,6 +53,11 @@ export default function Footer({ locale = 'en' }: { locale?: Locale }) {
                 </Link>
               </li>
               <li>
+                <Link href="/iso-9001-2026-transition" className="hover:text-white transition-colors">
+                  ISO 9001:2026 Transition
+                </Link>
+              </li>
+              <li>
                 <Link href="/iso-9001-benefits" className="hover:text-white transition-colors">
                   ISO 9001 Benefits
                 </Link>
