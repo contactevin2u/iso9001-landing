@@ -9,7 +9,7 @@ export default function VideoThumbnailLink({ video, className = '' }: { video: F
   return (
     <Link
       href={watchPath(video)}
-      className={`group relative block w-full aspect-video rounded-xl overflow-hidden border border-gray-200 bg-gray-900 ${className}`}
+      className={`group relative block w-full aspect-video rounded-lg overflow-hidden border border-gray-200 bg-gray-900 ${className}`}
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img

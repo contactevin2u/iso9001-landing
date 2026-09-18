@@ -38,10 +38,10 @@ export default function AnswerBlock() {
   return (
     <section id="quick-answers" className="py-20 px-4 sm:px-6 bg-white">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-4">
-          ISO 9001 Certification Malaysia — Quick Answers
+        <h2 className="text-3xl sm:text-4xl mb-4">
+          ISO 9001 certification in Malaysia: quick answers
         </h2>
-        <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-12">
+        <p className="text-lg text-gray-600 max-w-2xl mb-12">
           Direct answers to the questions Malaysian businesses ask most before starting ISO 9001
           certification.
         </p>

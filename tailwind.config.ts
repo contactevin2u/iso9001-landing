@@ -8,18 +8,24 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        // "Standards navy": deeper, more institutional than the old sky blue.
         primary: {
-          50: '#f0f9ff',
-          100: '#e0f2fe',
-          500: '#0ea5e9',
-          600: '#0284c7',
-          700: '#0369a1',
-          800: '#075985',
-          900: '#0c4a6e',
+          50: '#eef4fb',
+          100: '#d9e6f5',
+          200: '#b3cdea',
+          300: '#83acd9',
+          400: '#4f86c4',
+          500: '#2468b0',
+          600: '#0f559c',
+          700: '#0c457f',
+          800: '#0d3966',
+          900: '#0e2f52',
         },
+        ink: '#0e2238',
       },
       fontFamily: {
-        sans: ['var(--font-inter)', 'system-ui', '-apple-system', 'sans-serif'],
+        sans: ['var(--font-sans)', 'system-ui', '-apple-system', 'sans-serif'],
+        serif: ['var(--font-serif)', 'Georgia', 'serif'],
       },
     },
   },

@@ -56,8 +56,8 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
           <div className="text-white">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              Let&apos;s Discuss Your Certification
+            <h2 className="text-3xl sm:text-4xl text-white mb-4">
+              Let&apos;s discuss your certification
             </h2>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
               Share your details and one of our consultants will get back to you
@@ -115,7 +115,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl p-6 sm:p-8">
+          <div className="bg-white rounded-lg p-6 sm:p-8">
             <form onSubmit={handleSubmit} className="space-y-5">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
@@ -202,7 +202,7 @@ export default function Contact() {
 
               <button
                 type="submit"
-                className="w-full px-8 py-4 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
+                className="w-full px-8 py-4 bg-primary-600 text-white font-medium rounded-md hover:bg-primary-700 transition-colors"
               >
                 Send Enquiry
               </button>

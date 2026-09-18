@@ -1,14 +1,22 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter } from 'next/font/google'
+import { IBM_Plex_Sans, Source_Serif_4 } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
 import StructuredData from '@/components/StructuredData'
 import GclidTracker from '@/components/GclidTracker'
 
-const inter = Inter({
+const plexSans = IBM_Plex_Sans({
   subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
   display: 'swap',
-  variable: '--font-inter',
+  variable: '--font-sans',
+})
+
+const sourceSerif = Source_Serif_4({
+  subsets: ['latin'],
+  weight: ['600', '700'],
+  display: 'swap',
+  variable: '--font-serif',
 })
 
 export const viewport: Viewport = {
@@ -16,8 +24,8 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 5,
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#0284c7' },
-    { media: '(prefers-color-scheme: dark)', color: '#075985' },
+    { media: '(prefers-color-scheme: light)', color: '#0f559c' },
+    { media: '(prefers-color-scheme: dark)', color: '#0e2238' },
   ],
 }
 
@@ -93,7 +101,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en-MY" className={inter.variable}>
+    <html lang="en-MY" className={`${plexSans.variable} ${sourceSerif.variable}`}>
       <head>
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
@@ -129,7 +137,7 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className={`${inter.className} bg-white text-gray-900`}>
+      <body className={`${plexSans.className} bg-white text-gray-900`}>
         <StructuredData />
         <GclidTracker />
         {children}

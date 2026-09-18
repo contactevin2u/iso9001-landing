@@ -8,9 +8,30 @@ html {
 }
 
 body {
-  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Section and page headings set in the serif: the voice of a standards
+   document rather than a SaaS landing page. Card titles (h3/h4) stay sans. */
+h1,
+h2 {
+  font-family: var(--font-serif), Georgia, serif;
+  font-weight: 600;
+  letter-spacing: -0.012em;
+  color: #0e2238;
+}
+
+:focus-visible {
+  outline: 2px solid #0f559c;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 /* Skip navigation link for accessibility */
@@ -18,7 +39,7 @@ body {
   position: absolute;
   top: -40px;
   left: 0;
-  background: #0284c7;
+  background: #0f559c;
   color: white;
   padding: 8px 16px;
   z-index: 100;
@@ -48,5 +69,29 @@ body {
 @supports (padding-bottom: env(safe-area-inset-bottom)) {
   footer {
     padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+  }
+}
+
+/* Hero readiness file: the one orchestrated moment on the page.
+   Each clause is ticked off in sequence on first load. */
+@keyframes clause-tick-in {
+  from {
+    opacity: 0;
+    transform: translateX(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.clause-tick {
+  animation: clause-tick-in 360ms ease-out both;
+  animation-delay: calc(var(--i, 0) * 110ms + 350ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .clause-tick {
+    animation: none;
   }
 }

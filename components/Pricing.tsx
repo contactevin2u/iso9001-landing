@@ -61,24 +61,24 @@ export default function Pricing() {
   return (
     <section id="pricing" className="py-20 px-4 sm:px-6 bg-gray-50">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-4">
-          ISO 9001 Certification Packages & Pricing
+        <h2 className="text-3xl sm:text-4xl mb-4">
+          ISO 9001 packages and pricing
         </h2>
-        <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-4">
+        <p className="text-lg text-gray-600 max-w-3xl mb-4">
           Transparent pricing with everything included. No hidden fees, no surprise charges.
           Every package includes full certification support from gap analysis to audit day.
         </p>
-        <p className="text-sm text-gray-500 text-center max-w-2xl mx-auto mb-4">
+        <p className="text-sm text-gray-500 max-w-3xl mb-4">
           Certification body (CB) audit fees are separate and typically range from RM 3,000 - RM 8,000
           depending on organization size. We help you choose the most cost-effective accredited CB.
         </p>
-        <p className="text-sm text-gray-500 text-center mb-12">Last updated: {CONTENT_LAST_UPDATED}</p>
+        <p className="text-sm text-gray-500 mb-12">Last updated: {CONTENT_LAST_UPDATED}</p>
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {packages.map((pkg, index) => (
             <div
               key={index}
-              className={`bg-white rounded-2xl p-6 sm:p-8 border-2 ${
+              className={`bg-white rounded-lg p-6 sm:p-8 border-2 ${
                 pkg.popular ? 'border-primary-600 shadow-xl relative' : 'border-gray-200'
               }`}
             >
@@ -114,7 +114,7 @@ export default function Pricing() {
               </ul>
 
               {pkg.popular ? (
-                <WhatsAppLink className="block w-full text-center py-3.5 px-6 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors">
+                <WhatsAppLink className="block w-full text-center py-3.5 px-6 bg-primary-600 text-white font-semibold rounded-md hover:bg-primary-700 transition-colors">
                   Get Started
                 </WhatsAppLink>
               ) : (
@@ -129,28 +129,13 @@ export default function Pricing() {
           ))}
         </div>
 
-        <div className="bg-white rounded-2xl p-8 border border-gray-200">
-          <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">
-            What&apos;s the True Cost of NOT Getting ISO 9001 Certified?
-          </h3>
-          <div className="grid sm:grid-cols-3 gap-6 text-center">
-            <div>
-              <div className="text-2xl font-bold text-red-600 mb-1">RM 50K - 500K+</div>
-              <p className="text-sm text-gray-600">Lost tenders per year from not having ISO certification as a prerequisite</p>
-            </div>
-            <div>
-              <div className="text-2xl font-bold text-red-600 mb-1">10-20%</div>
-              <p className="text-sm text-gray-600">Higher operational costs due to undocumented processes, rework, and waste</p>
-            </div>
-            <div>
-              <div className="text-2xl font-bold text-red-600 mb-1">Unlimited</div>
-              <p className="text-sm text-gray-600">Lost trust from customers who see competitors with ISO 9001 certificates</p>
-            </div>
-          </div>
-          <p className="text-center text-gray-500 text-sm mt-6">
-            Flexible payment plans available. Contact us to discuss a plan that works for your budget.
-          </p>
-        </div>
+        <p className="text-gray-600">
+          Flexible payment plans are available.{' '}
+          <a href="/#contact" className="font-medium text-primary-700 underline underline-offset-4 hover:text-primary-800">
+            Ask us about a plan that works for your budget
+          </a>
+          .
+        </p>
       </div>
     </section>
   )
