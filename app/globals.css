@@ -37,7 +37,7 @@ h2 {
 /* Skip navigation link for accessibility */
 .skip-nav {
   position: absolute;
-  top: -40px;
+  top: -64px;
   left: 0;
   background: #0f559c;
   color: white;
