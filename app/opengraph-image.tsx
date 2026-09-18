@@ -77,7 +77,7 @@ export default async function Image() {
               lineHeight: 1.3,
             }}
           >
-            Quality Management Certification
+            Quality Management System Consulting
           </div>
           <div
             style={{
@@ -88,7 +88,7 @@ export default async function Image() {
               lineHeight: 1.3,
             }}
           >
-            {"Malaysia's Trusted ISO Consultant Since 2016"}
+            {'ISO 9001 Consultant, Since 2016'}
           </div>
           <div
             style={{

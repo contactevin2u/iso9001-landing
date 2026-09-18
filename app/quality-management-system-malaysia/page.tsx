@@ -7,19 +7,19 @@ import RelatedGuides from '@/components/RelatedGuides'
 import WhatsAppLink from '@/components/WhatsAppLink'
 
 export const metadata: Metadata = {
-  title: 'Quality Management System Malaysia | QMS Certification',
-  description: 'Implement a quality management system (QMS) in Malaysia with expert guidance. From quality control systems to QMS audits and certification, we help Malaysian businesses build effective quality management frameworks.',
+  title: 'Quality Management System Malaysia | QMS Consultancy',
+  description: 'Implement a quality management system (QMS) in Malaysia with consultant guidance. From quality control systems to internal QMS audits, we help Malaysian businesses build a QMS and prepare for certification by an accredited certification body.',
   keywords: ['quality management system Malaysia', 'quality management certification', 'quality control system', 'qms audit', 'QMS certification Malaysia', 'quality management system certification'],
   openGraph: {
-    title: 'Quality Management System Malaysia | QMS Certification',
-    description: 'Implement a quality management system (QMS) in Malaysia with expert guidance from AA Alive Sdn Bhd.',
+    title: 'Quality Management System Malaysia | QMS Consultancy',
+    description: 'Implement a quality management system (QMS) in Malaysia with consultant guidance from AA Alive Sdn Bhd.',
     url: 'https://isoconsultantmalaysia.com/quality-management-system-malaysia',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Quality Management System Malaysia | QMS Certification',
-    description: 'Implement a quality management system (QMS) in Malaysia with expert guidance.',
+    title: 'Quality Management System Malaysia | QMS Consultancy',
+    description: 'Implement a quality management system (QMS) in Malaysia with consultant guidance.',
   },
   alternates: {
     canonical: 'https://isoconsultantmalaysia.com/quality-management-system-malaysia',
@@ -48,8 +48,8 @@ export default function QualityManagementSystemMalaysia() {
             </h1>
             <p className="text-xl text-gray-600 mb-8">
               A quality management system is the foundation of operational excellence. Learn how Malaysian
-              businesses use QMS frameworks to improve quality control, pass audits, and achieve certification
-              that wins contracts and builds customer trust.
+              businesses use QMS frameworks to improve quality control and prepare for certification by an
+              accredited certification body.
             </p>
 
             <div className="prose prose-lg max-w-none">
@@ -65,8 +65,8 @@ export default function QualityManagementSystemMalaysia() {
               <p className="text-gray-600 mb-4">
                 The most widely recognized quality management system standard is ISO 9001:2015, which
                 provides the requirements for building and maintaining an effective QMS. In Malaysia,
-                thousands of companies across manufacturing, construction, IT, and services rely on
-                a quality management system to drive performance and competitiveness.
+                companies across manufacturing, construction, IT and services use a quality management
+                system to run their operations consistently.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
@@ -77,8 +77,8 @@ export default function QualityManagementSystemMalaysia() {
                 and internationally. A quality management system helps organizations in several critical ways:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
-                <li><strong>Win government tenders:</strong> Many Malaysian government procurement programs require suppliers to have a certified quality management system</li>
-                <li><strong>Access MNC supply chains:</strong> Multinational corporations operating in Malaysia require certified quality control systems from their vendors</li>
+                <li><strong>Government tenders:</strong> A certified quality management system is often requested in Malaysian government and GLC tenders; requirements vary by tender</li>
+                <li><strong>MNC supply chains:</strong> Larger buyers, including multinationals operating in Malaysia, often ask their vendors for a certified QMS</li>
                 <li><strong>Reduce waste and costs:</strong> A well-implemented QMS identifies inefficiencies and drives process improvements</li>
                 <li><strong>Improve customer satisfaction:</strong> Consistent quality delivery builds trust and long-term relationships</li>
                 <li><strong>Meet regulatory requirements:</strong> Industries like food manufacturing, medical devices, and construction have quality management obligations</li>
@@ -127,9 +127,9 @@ export default function QualityManagementSystemMalaysia() {
                 Quality Management Certification Process
               </h2>
               <p className="text-gray-600 mb-4">
-                Achieving quality management certification demonstrates to customers, partners, and regulators
-                that your organization meets international quality standards. Here&apos;s how the certification
-                process works in Malaysia:
+                Quality management certification, issued by an accredited certification body, shows customers,
+                partners and regulators that your QMS conforms to an international standard. Here&apos;s how
+                the certification process works in Malaysia:
               </p>
               <ol className="list-decimal pl-6 text-gray-600 space-y-3 mb-4">
                 <li><strong>Gap Analysis:</strong> Assess your current practices against quality management system requirements to identify what needs improvement</li>
@@ -138,11 +138,12 @@ export default function QualityManagementSystemMalaysia() {
                 <li><strong>Implementation:</strong> Roll out the quality management system across your organization with staff training and process adoption</li>
                 <li><strong>Internal QMS Audit:</strong> Conduct a thorough internal audit to verify your quality control system is working effectively before the external audit</li>
                 <li><strong>Management Review:</strong> Leadership evaluates QMS performance data, audit findings, and readiness for certification</li>
-                <li><strong>Certification Audit:</strong> An accredited certification body conducts the formal QMS audit to award your quality management certification</li>
+                <li><strong>Certification Audit:</strong> An accredited certification body conducts the formal QMS audit and makes the certification decision</li>
               </ol>
               <p className="text-gray-600 mb-4">
-                With our guidance, Malaysian organisations work through the quality management
-                certification process to an agreed timeline, from gap analysis to certified QMS.
+                We guide Malaysian organisations through these steps and prepare them for the certification
+                body audit. The timeline depends on your readiness and the certification body&apos;s audit
+                date, and is agreed with you after the gap analysis.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
@@ -150,7 +151,7 @@ export default function QualityManagementSystemMalaysia() {
               </h2>
               <p className="text-gray-600 mb-4">
                 While a quality management system benefits any organization, these Malaysian industries
-                see the greatest impact from QMS implementation and certification:
+                commonly implement a QMS and seek certification:
               </p>
               <div className="grid md:grid-cols-2 gap-4 mb-8">
                 <div className="p-4 bg-gray-50 rounded-lg">
@@ -159,7 +160,7 @@ export default function QualityManagementSystemMalaysia() {
                 </div>
                 <div className="p-4 bg-gray-50 rounded-lg">
                   <h3 className="font-semibold text-gray-900 mb-2">Construction</h3>
-                  <p className="text-sm text-gray-600">Building contractors and civil engineers need QMS certification to bid on government infrastructure projects</p>
+                  <p className="text-sm text-gray-600">QMS certification is often requested when bidding for government infrastructure projects</p>
                 </div>
                 <div className="p-4 bg-gray-50 rounded-lg">
                   <h3 className="font-semibold text-gray-900 mb-2">IT & Technology</h3>
@@ -172,30 +173,16 @@ export default function QualityManagementSystemMalaysia() {
               </div>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-                Real Results from QMS Implementation
-              </h2>
-              <p className="text-gray-600 mb-4">
-                Our clients consistently see measurable improvements after implementing a quality management system:
-              </p>
-              <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
-                <li><strong>Malaysian companies across many sectors</strong> have achieved quality management certification with our guidance</li>
-                <li><strong>Full audit preparation</strong> — we ready your documentation and evidence before the QMS audit</li>
-                <li><strong>A target timeline agreed at kick-off</strong>, from gap analysis to the certification audit</li>
-                <li><strong>Reduced operational costs</strong> through systematic quality control and process optimization</li>
-                <li><strong>Increased contract wins</strong> as certified quality management systems open doors to government and MNC opportunities</li>
-              </ul>
-
-              <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
                 Why Choose Us for Your Quality Management System
               </h2>
               <p className="text-gray-600 mb-4">
-                With over a decade of experience implementing quality management systems for Malaysian
-                businesses, our certified consultants deliver:
+                Since 2016, our consultants have helped Malaysian businesses implement quality management
+                systems. We offer:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-8">
                 <li>Practical, business-focused QMS design — not generic templates</li>
                 <li>Deep understanding of Malaysian industry requirements and regulations</li>
-                <li>Full support from quality management system design through QMS audit and certification</li>
+                <li>Support from quality management system design through to the certification body audit</li>
                 <li>Ongoing assistance for surveillance audits and continuous improvement</li>
                 <li>Consulting packages starting from <strong>RM 13,000</strong></li>
               </ul>

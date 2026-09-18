@@ -22,7 +22,7 @@ const clauses = [
 const facts = [
   { value: 'Since 2016', label: 'Consulting for Malaysian companies' },
   { value: 'From RM 13,000', label: 'Full consultancy packages' },
-  { value: 'Nationwide', label: 'Site visits across Malaysia' },
+  { value: 'Nationwide', label: 'On-site visits in paid packages' },
   { value: 'ISO 9001:2015', label: 'Ready for the 2026 revision' },
 ]
 
@@ -77,7 +77,8 @@ export default function Hero() {
             </a>
           </div>
           <p className="text-sm text-gray-500 mb-12">
-            Free initial consultation. Site visits anywhere in Malaysia.
+            Free initial consultation by WhatsApp, phone or video. On-site visits anywhere in
+            Malaysia are part of our paid packages.
           </p>
 
           <dl className="grid grid-cols-2 gap-x-8 gap-y-6 border-t border-gray-200 pt-6 max-w-xl">

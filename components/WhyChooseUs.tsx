@@ -15,7 +15,7 @@ const reasons = [
       </svg>
     ),
     title: 'A structured, staged method',
-    description: 'A structured, staged methodology with a timeline agreed upfront. We handle the heavy lifting — your team spends minimal time away from their regular duties.',
+    description: 'A structured, staged methodology, with the project timeline agreed after the gap analysis. We do the documentation work so your team can stay focused on their regular duties.',
   },
   {
     icon: (
@@ -24,7 +24,7 @@ const reasons = [
       </svg>
     ),
     title: 'Founder-led consulting',
-    description: 'Work directly with Evin Lim and our senior consultants — not junior staff. Your questions are answered within hours on WhatsApp, not buried in a ticketing system for days.',
+    description: 'Work directly with Evin Lim and our senior consultants. Direct WhatsApp access to your consultant throughout the project.',
   },
   {
     icon: (
@@ -32,8 +32,8 @@ const reasons = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     ),
-    title: 'Transparent, fair pricing',
-    description: 'Full packages from RM 13,000 with no hidden costs. We tell you everything upfront — consulting fees, CB audit costs, what\'s included, what\'s extra. No surprises on invoice day.',
+    title: 'Published, transparent pricing',
+    description: 'Consultancy packages from RM 13,000. We explain everything upfront: our consultancy fees, what is included, what is extra, and the certification body audit fees, which the certification body quotes separately.',
   },
   {
     icon: (
@@ -42,7 +42,7 @@ const reasons = [
       </svg>
     ),
     title: 'Documentation written for you',
-    description: 'We don\'t just advise — we write your Quality Manual, SOPs, procedures, forms, and records. Customized to your actual operations, not generic templates copied from the internet.',
+    description: 'We don\'t just advise — we write your Quality Manual, SOPs, procedures, forms, and records. Customized to your actual operations.',
   },
   {
     icon: (
@@ -51,7 +51,7 @@ const reasons = [
       </svg>
     ),
     title: 'Support after certification',
-    description: 'Certification is the beginning, not the end. We support you through surveillance audits, management reviews, and continuous improvement — so you stay certified year after year.',
+    description: 'Every package includes a period of post-certification support (3 to 12 months, depending on the package) to help you maintain your QMS between certification body audits.',
   },
 ]
 
@@ -60,11 +60,11 @@ export default function WhyChooseUs() {
     <section id="why-us" className="py-20 px-4 sm:px-6">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl mb-4">
-          Why Malaysian companies choose AA Alive
+          Why work with AA Alive
         </h2>
         <p className="text-lg text-gray-600 max-w-3xl mb-12">
-          We are ISO certification specialists, not a generic consulting firm: a clear
-          method, a fair price, and direct access to the people doing the work.
+          We focus on ISO management system consulting: a clear method, published pricing,
+          and direct access to the people doing the work.
         </p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -79,50 +79,6 @@ export default function WhyChooseUs() {
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="mt-16 bg-gray-50 border border-gray-200 rounded-lg p-6 sm:p-10">
-          <h3 className="text-xl font-semibold text-gray-900 mb-6">
-            How we compare with typical ISO consultants in Malaysia
-          </h3>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b-2 border-gray-200">
-                  <th className="text-left py-3 pr-4 font-semibold text-gray-900"></th>
-                  <th className="text-center py-3 px-4 font-semibold text-primary-600">AA Alive</th>
-                  <th className="text-center py-3 px-4 font-semibold text-gray-500">Typical consultant</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-100">
-                <tr>
-                  <td className="py-3 pr-4 text-gray-700">Timeline</td>
-                  <td className="py-3 px-4 text-center font-semibold text-primary-600">Fast-tracked</td>
-                  <td className="py-3 px-4 text-center text-gray-500">6-12 months</td>
-                </tr>
-                <tr>
-                  <td className="py-3 pr-4 text-gray-700">Price (SME)</td>
-                  <td className="py-3 px-4 text-center font-semibold text-primary-600">From RM 13,000</td>
-                  <td className="py-3 px-4 text-center text-gray-500">RM 25,000 - 50,000</td>
-                </tr>
-                <tr>
-                  <td className="py-3 pr-4 text-gray-700">Documentation</td>
-                  <td className="py-3 px-4 text-center font-semibold text-primary-600">Done for you</td>
-                  <td className="py-3 px-4 text-center text-gray-500">Templates only</td>
-                </tr>
-                <tr>
-                  <td className="py-3 pr-4 text-gray-700">Communication</td>
-                  <td className="py-3 px-4 text-center font-semibold text-primary-600">Direct WhatsApp</td>
-                  <td className="py-3 px-4 text-center text-gray-500">Email / Ticket system</td>
-                </tr>
-                <tr>
-                  <td className="py-3 pr-4 text-gray-700">Post-cert support</td>
-                  <td className="py-3 px-4 text-center font-semibold text-primary-600">3-12 months included</td>
-                  <td className="py-3 px-4 text-center text-gray-500">Extra charge</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
         </div>
       </div>
     </section>

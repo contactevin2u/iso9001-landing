@@ -51,12 +51,12 @@ export const FOUNDER_VIDEOS: FounderVideo[] = [
     youTubeId: '4Y7hNFsM3Jk',
     name: 'Superbrands Malaysia CEO Interviews 2025 — Evin Lim',
     description:
-      'Superbrands Malaysia CEO Interviews 2025 with Evin Lim on the official Superbrands Limited channel. AA Alive Sdn Bhd is a Superbrands Malaysia 2025 (Malaysia’s Choice) award recipient.',
+      'Superbrands Malaysia CEO Interviews 2025 with Evin Lim on the official Superbrands Limited channel. Superbrands Malaysia 2025 (Malaysia’s Choice) — awarded to AA Alive’s medical-support brand, Evin Limb Specialist.',
     publisher: 'Superbrands Limited',
     uploadDate: '2025-12-09T17:04:50+08:00',
     duration: 'PT2M2S',
     context:
-      'Evin Lim was interviewed in the Superbrands Malaysia CEO Interviews 2025 series (December 2025) on the official Superbrands Limited channel. AA Alive Sdn Bhd is a Superbrands Malaysia 2025 (Malaysia’s Choice) award recipient.',
+      'Evin Lim was interviewed in the Superbrands Malaysia CEO Interviews 2025 series (December 2025) on the official Superbrands Limited channel. Superbrands Malaysia 2025 (Malaysia’s Choice) — awarded to AA Alive’s medical-support brand, Evin Limb Specialist.',
   },
 ]
 

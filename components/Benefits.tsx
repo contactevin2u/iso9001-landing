@@ -5,9 +5,9 @@ const benefits = [
     details: 'ISO 9001 certification provides independent verification that your organization consistently meets customer requirements. Many Malaysian buyers and procurement teams ask for it before they will shortlist a supplier.',
   },
   {
-    title: 'Win more contracts',
-    description: 'Many organizations require ISO 9001 certification from their suppliers. Open doors to new business opportunities.',
-    details: 'Major corporations like Petronas, Tenaga Nasional, and multinational companies increasingly require ISO 9001 certification from their supply chain partners. Government procurement policies also favor certified organizations for tender qualifications.',
+    title: 'Respond to tender requirements',
+    description: 'ISO 9001 is often requested by larger buyers and in tenders. Certification lets you respond to those requests.',
+    details: 'Larger buyers, including multinational companies and GLCs, often ask supply chain partners for ISO 9001 certification, and it is often requested in government tenders. Requirements vary by buyer and tender.',
   },
   {
     title: 'Improve efficiency',
@@ -17,7 +17,7 @@ const benefits = [
   {
     title: 'Reduce costs',
     description: 'Fewer mistakes mean lower costs. Efficient processes save time and resources across your organization.',
-    details: 'Certified organizations reduce cost through fewer defects, less rework and better use of resources, and the savings continue year after year as the system matures.',
+    details: 'A working QMS helps control cost through fewer defects, less rework and better use of resources.',
   },
   {
     title: 'Clearer roles for your team',
@@ -27,7 +27,7 @@ const benefits = [
   {
     title: 'Continual improvement',
     description: 'Build a culture of ongoing improvement that keeps your business competitive and adaptable.',
-    details: 'The PDCA cycle embedded in ISO 9001 ensures your quality management system continuously evolves. Regular internal audits and management reviews identify opportunities for improvement, keeping your organization ahead of competitors and market changes.',
+    details: 'The PDCA cycle embedded in ISO 9001 ensures your quality management system continuously evolves. Regular internal audits and management reviews identify opportunities for improvement, helping your organization adapt to customer and market changes.',
   },
 ]
 
@@ -39,8 +39,8 @@ export default function Benefits() {
           Why ISO 9001 matters
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl mb-12">
-          Certification delivers real, measurable benefits for your business.
-          Discover why leading Malaysian companies choose ISO 9001.
+          What a certified quality management system can do for your business, and why
+          Malaysian companies pursue ISO 9001.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

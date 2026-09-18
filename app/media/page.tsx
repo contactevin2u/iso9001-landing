@@ -82,8 +82,8 @@ export default function MediaPage() {
               <Link href="/about" className="text-primary-600 hover:text-primary-700 underline">
                 Evin Lim
               </Link>
-              , is regularly consulted on Malaysian industry and compliance topics. Selected
-              national media appearances:
+              , has commented on Malaysian industry and compliance topics in national media.
+              Selected appearances:
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
@@ -125,9 +125,10 @@ export default function MediaPage() {
             </h2>
             <p className="text-gray-600 mb-6">
               Evin Lim was interviewed in the <em>Superbrands Malaysia CEO Interviews 2025</em>{' '}
-              series (December 2025) on the official Superbrands Limited channel. AA Alive Sdn
-              Bhd is a <strong className="text-gray-900">Superbrands Malaysia 2025
-              (Malaysia&apos;s Choice)</strong> award recipient.{' '}
+              series (December 2025) on the official Superbrands Limited channel.{' '}
+              <strong className="text-gray-900">Superbrands Malaysia 2025 (Malaysia&apos;s
+              Choice)</strong> — awarded to AA Alive&apos;s medical-support brand, Evin Limb
+              Specialist.{' '}
               <a
                 href="https://www.instagram.com/superbrandsmalaysiaofficial/reel/DSRAd5fCIXl/"
                 target="_blank"

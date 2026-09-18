@@ -1,7 +1,7 @@
 const comparison = [
   {
-    without: 'Excluded from government tenders and MNC supply chains that require ISO 9001',
-    with: 'Eligible for tenders and vendor registrations that require ISO 9001, including Petronas, TNB and government procurement',
+    without: 'Unable to respond when a tender or MNC supplier registration asks for ISO 9001',
+    with: 'Able to respond to tenders and vendor registrations that ask for ISO 9001 certification',
   },
   {
     without: 'No independent evidence that your processes meet an international standard',

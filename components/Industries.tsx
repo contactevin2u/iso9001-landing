@@ -2,17 +2,17 @@ export default function Industries() {
   const industries = [
     {
       name: 'Manufacturing',
-      description: 'Metal fabrication, plastics, electronics, food processing, automotive parts. ISO 9001 is essential for Petronas vendor registration, MITI incentives, and export markets.',
+      description: 'Metal fabrication, plastics, electronics, food processing, automotive parts. ISO 9001 is often requested by larger buyers, in tenders and by export customers.',
       keywords: 'ISO 9001 manufacturing Malaysia',
     },
     {
       name: 'Construction & Engineering',
-      description: 'Civil, mechanical, electrical engineering. Required for CIDB G7 registration and commonly requested for government infrastructure projects.',
+      description: 'Civil, mechanical, electrical engineering. ISO 9001 is often requested in construction tenders, including government infrastructure projects.',
       keywords: 'ISO 9001 construction Malaysia',
     },
     {
       name: 'IT & Technology',
-      description: 'Software development, IT services, system integrators. Essential for MDEC grants, government IT contracts, and GLC partnerships across Malaysia.',
+      description: 'Software development, IT services, system integrators. ISO 9001 is often requested in government IT tenders and by GLC and corporate clients.',
       keywords: 'ISO 9001 IT company Malaysia',
     },
     {
@@ -22,22 +22,22 @@ export default function Industries() {
     },
     {
       name: 'Oil & Gas',
-      description: 'Upstream, downstream, and support services. Petronas SWEC license and vendor registration require quality management systems aligned with ISO 9001.',
+      description: 'Upstream, downstream, and support services. Oil and gas buyers often ask vendors for a quality management system aligned with ISO 9001.',
       keywords: 'ISO 9001 oil gas Malaysia',
     },
     {
       name: 'Logistics & Warehousing',
-      description: 'Freight forwarding, 3PL, cold chain, distribution. Certified quality processes reduce damage, delays, and customer complaints significantly.',
+      description: 'Freight forwarding, 3PL, cold chain, distribution. Documented quality processes help reduce damage, delays and customer complaints.',
       keywords: 'ISO 9001 logistics Malaysia',
     },
     {
       name: 'Education & Training',
-      description: 'Private colleges, training providers, education groups. MQA and JPT increasingly value ISO 9001 for institutional quality assurance.',
+      description: 'Private colleges, training providers, education groups. ISO 9001 provides a framework for institutional quality assurance.',
       keywords: 'ISO 9001 education Malaysia',
     },
     {
       name: 'Professional Services',
-      description: 'Consulting, legal, accounting, recruitment firms. Differentiate your firm from competitors and win larger corporate clients who require certified partners.',
+      description: 'Consulting, legal, accounting, recruitment firms. Show corporate clients that ask for ISO 9001 how your firm manages quality.',
       keywords: 'ISO 9001 professional services Malaysia',
     },
   ]
@@ -49,8 +49,8 @@ export default function Industries() {
           ISO 9001 for every Malaysian industry
         </h2>
         <p className="text-lg text-gray-600 max-w-3xl mb-12">
-          We&apos;ve certified companies across 50+ industries in Malaysia. Our consultants understand
-          the unique requirements, regulations, and challenges of your specific sector.
+          We work with companies across many industries in Malaysia. Our consultants take the time to
+          understand the requirements, regulations and challenges of your sector.
         </p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">

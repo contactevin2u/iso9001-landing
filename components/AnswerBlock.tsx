@@ -7,17 +7,17 @@ const answers: { question: string; answer: string }[] = [
   {
     question: 'How long does ISO 9001 certification take in Malaysia?',
     answer:
-      'ISO 9001 certification timelines in Malaysia depend on organisation size, scope, how quickly documentation is reviewed and the certification body’s audit availability. A target date is agreed at kick-off. Engaging a consultant shortens it because the consultant handles the documentation, process setup and audit preparation rather than leaving it to your team.',
+      'ISO 9001 certification timelines in Malaysia depend on your organisation’s readiness, size and scope, and on the date the certification body schedules the audit. The timeline is agreed with you after the gap analysis. As consultants, we handle the documentation, process setup and audit preparation with your team.',
   },
   {
     question: 'What is the ISO 9001 certification process?',
     answer:
-      'ISO 9001 certification in Malaysia follows five steps: (1) a free consultation and gap analysis of your current practices, (2) QMS documentation development, (3) implementation and staff training, (4) internal audit and management review, and (5) the certification body audit — Stage 1 reviews your documentation and Stage 2 verifies implementation on-site. Accredited certification bodies include SIRIM QAS, BSI, TUV, SGS, Bureau Veritas, DNV and Lloyd’s Register.',
+      'ISO 9001 certification in Malaysia follows five steps: (1) a free initial consultation, followed by a gap analysis of your current practices, (2) QMS documentation development, (3) implementation and staff training, (4) internal audit and management review, and (5) the certification body audit — Stage 1 reviews your documentation and Stage 2 verifies implementation on-site. Accredited certification bodies include SIRIM QAS, BSI, TUV, SGS, Bureau Veritas, DNV and Lloyd’s Register.',
   },
   {
     question: 'Who needs ISO 9001 certification in Malaysia?',
     answer:
-      'Any Malaysian company bidding for government tenders, GLC contracts or MNC supply-chain work benefits from ISO 9001 — many procurements require it outright. It is required for CIDB G7 registration in construction and for Petronas vendor registration in oil and gas. There are no prerequisites: organizations of any size and industry can be certified.',
+      'ISO 9001 is often requested by larger buyers and in tenders, including government, GLC and MNC supply-chain procurement in Malaysia. Requirements vary by buyer and scheme, so check the specific tender or vendor registration you are targeting. There are no prerequisites: organizations of any size and industry can pursue certification.',
   },
 ]
 
@@ -30,7 +30,7 @@ const answersBm: { question: string; answer: string }[] = [
   {
     question: 'Berapa lama tempoh untuk mendapatkan sijil ISO 9001?',
     answer:
-      'Melalui proses fast-track kami, kebanyakan PKS di Malaysia boleh disahkan dalam tempoh 30 hari — jauh lebih pantas berbanding purata industri 6 hingga 12 bulan. Konsultasi pertama adalah percuma: hubungi kami melalui WhatsApp di +60 10-206 2070.',
+      'Tempoh pensijilan bergantung pada tahap kesediaan syarikat anda dan tarikh audit yang ditetapkan oleh badan pensijilan. Jadual kerja dipersetujui bersama anda selepas analisis jurang. Konsultasi pertama adalah percuma: hubungi kami melalui WhatsApp di +60 10-206 2070.',
   },
 ]
 

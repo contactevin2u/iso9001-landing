@@ -28,7 +28,7 @@ export default function WhatsAppCTA() {
           Have Questions About ISO 9001 Certification?
         </h2>
         <p className="text-blue-100 text-lg mb-8">
-          Chat with our consultants directly on WhatsApp for a quick response.
+          Chat with our consultants directly on WhatsApp.
         </p>
         <a
           href={waUrl}

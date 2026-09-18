@@ -16,12 +16,11 @@ export default function StructuredData() {
           width: 512,
           height: 512,
         },
-        description: 'Expert ISO 9001 quality management system certification consultants in Malaysia. Serving Malaysian businesses since 2016.',
+        description: 'ISO 9001 quality management system consultants in Malaysia, since 2016. We prepare clients for certification by accredited certification bodies.',
         foundingDate: '2016-10-06',
         founder: {
           '@id': 'https://isoconsultantmalaysia.com/#person',
         },
-        award: 'Superbrands Malaysia (2025)',
         contactPoint: {
           '@type': 'ContactPoint',
           telephone: '+60102062070',
@@ -89,7 +88,7 @@ export default function StructuredData() {
             closes: '18:00',
           },
         ],
-        priceRange: 'RM13,000 - RM50,000',
+        priceRange: 'From RM13,000',
       },
       {
         '@type': 'Service',
@@ -99,20 +98,20 @@ export default function StructuredData() {
           '@id': 'https://isoconsultantmalaysia.com/#organization',
         },
         serviceType: 'ISO 9001 Certification Consulting',
-        description: 'Complete ISO 9001:2015 quality management system certification consulting services including gap analysis, documentation, implementation, internal audit, certification audit preparation, and ISO 9001:2026 transition readiness.',
+        description: 'ISO 9001:2015 quality management system consulting: gap analysis, documentation, implementation support, internal audit, certification audit preparation and ISO 9001:2026 transition readiness. Certification itself is issued by an accredited certification body.',
         areaServed: {
           '@type': 'Country',
           name: 'Malaysia',
         },
         hasOfferCatalog: {
           '@type': 'OfferCatalog',
-          name: 'ISO 9001 Certification Packages 2026',
+          name: 'ISO 9001 Consultancy Packages',
           itemListElement: [
             {
               '@type': 'Offer',
               itemOffered: {
                 '@type': 'Service',
-                name: 'Complete ISO 9001 Certification Package',
+                name: 'ISO 9001 Consultancy Package',
               },
               price: '13000',
               priceCurrency: 'MYR',

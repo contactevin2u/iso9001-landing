@@ -59,9 +59,13 @@ export default function Contact() {
             <h2 className="text-3xl sm:text-4xl text-white mb-4">
               Let&apos;s discuss your certification
             </h2>
-            <p className="text-gray-300 text-lg mb-8 leading-relaxed">
+            <p className="text-gray-300 text-lg mb-4 leading-relaxed">
               Share your details and one of our consultants will get back to you
               to understand your needs and answer any questions.
+            </p>
+            <p className="text-white font-medium mb-8 leading-relaxed">
+              Your first consultation is free and without obligation (WhatsApp, phone or video).
+              Paid work starts only after you accept a written proposal.
             </p>
 
             <div className="space-y-6">
@@ -204,7 +208,7 @@ export default function Contact() {
                 type="submit"
                 className="w-full px-8 py-4 bg-primary-600 text-white font-medium rounded-md hover:bg-primary-700 transition-colors"
               >
-                Send Enquiry
+                Send via WhatsApp
               </button>
             </form>
           </div>

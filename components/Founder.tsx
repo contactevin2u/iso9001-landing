@@ -9,8 +9,7 @@ export default function Founder() {
             You work directly with the founder, not a junior consultant
           </h2>
           <p className="text-lg text-gray-600">
-            Unlike large consulting firms that assign fresh graduates to your project,
-            at AA Alive every client works directly with founder Evin Lim and our senior team.
+            At AA Alive every client works directly with founder Evin Lim and our senior team.
           </p>
         </div>
 
@@ -27,10 +26,10 @@ export default function Founder() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">8+ years of ISO certification experience</h4>
+                  <h4 className="font-semibold text-gray-900">ISO consulting since 2016</h4>
                   <p className="text-gray-600 text-sm">
-                    Founded AA Alive Sdn Bhd in 2016. Personally guided hundreds of Malaysian businesses
-                    through ISO 9001, ISO 14001, and ISO 45001 certification.
+                    Founded AA Alive Sdn Bhd in 2016 and leads its ISO 9001, ISO 14001 and ISO 45001
+                    consulting work for Malaysian businesses.
                   </p>
                 </div>
               </div>
@@ -42,10 +41,10 @@ export default function Founder() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Companies certified across Malaysia</h4>
+                  <h4 className="font-semibold text-gray-900">Work across industries</h4>
                   <p className="text-gray-600 text-sm">
-                    From 5-person workshops to 500-employee factories. Manufacturing, construction,
-                    IT, healthcare, food processing, logistics — we&apos;ve done it all.
+                    We work with small and larger companies in manufacturing, construction, IT,
+                    healthcare, food processing and logistics.
                   </p>
                 </div>
               </div>
@@ -57,10 +56,10 @@ export default function Founder() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">A timeline agreed upfront</h4>
+                  <h4 className="font-semibold text-gray-900">A clear, staged plan</h4>
                   <p className="text-gray-600 text-sm">
-                    A streamlined methodology with a timeline agreed upfront. We handle the heavy
-                    lifting so your team isn&apos;t disrupted.
+                    A structured method, with the project timeline agreed after the gap analysis. We do
+                    the documentation work so your team can stay focused on daily operations.
                   </p>
                 </div>
               </div>
@@ -74,8 +73,7 @@ export default function Founder() {
                 <div>
                   <h4 className="font-semibold text-gray-900">Direct WhatsApp access to the founder</h4>
                   <p className="text-gray-600 text-sm">
-                    No call centers, no ticket systems. You chat directly with Evin on WhatsApp.
-                    Questions answered within hours, not days.
+                    No call centres or ticket systems: direct WhatsApp access to your consultant.
                   </p>
                 </div>
               </div>
@@ -104,10 +102,7 @@ export default function Founder() {
             </div>
 
             <blockquote className="font-serif text-lg leading-relaxed text-gray-700 mb-6 border-l-2 border-primary-600 pl-4">
-              &ldquo;I started AA Alive because I saw Malaysian SMEs struggling with expensive, slow ISO
-              consultants who overcomplicate the process. ISO 9001 doesn&apos;t have to be drawn out or
-              overpriced. My team and I do it properly, at a fair price — and actually improve your
-              business in the process.&rdquo;
+              &ldquo;My team and I do it properly, at a fair price.&rdquo;
             </blockquote>
 
             <p className="text-sm text-gray-600 border-t border-gray-200 pt-4 mb-6">

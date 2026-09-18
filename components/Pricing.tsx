@@ -1,7 +1,8 @@
 import WhatsAppLink from '@/components/WhatsAppLink'
 import { CONTENT_LAST_UPDATED } from '@/lib/constants'
 
-const packages = [
+// Single source of truth for package tiers: also rendered on /iso-9001-cost-malaysia.
+export const packages = [
   {
     name: 'SME Package',
     price: 'RM 13,000',
@@ -16,7 +17,6 @@ const packages = [
       'Audit day support',
       '3 months post-certification guidance',
     ],
-    timeline: '30 days',
     popular: false,
   },
   {
@@ -34,7 +34,6 @@ const packages = [
       '6 months post-certification support',
       'Surveillance audit preparation (Year 1)',
     ],
-    timeline: '30-45 days',
     popular: true,
   },
   {
@@ -52,7 +51,6 @@ const packages = [
       '12 months ongoing support',
       'Full recertification cycle management',
     ],
-    timeline: 'Custom timeline',
     popular: false,
   },
 ]
@@ -65,12 +63,12 @@ export default function Pricing() {
           ISO 9001 packages and pricing
         </h2>
         <p className="text-lg text-gray-600 max-w-3xl mb-4">
-          Transparent pricing with everything included. No hidden fees, no surprise charges.
-          Every package includes full certification support from gap analysis to audit day.
+          Transparent consultancy pricing. Certification body audit fees are quoted separately.
+          Every package covers our consultancy support from gap analysis to the certification audit.
         </p>
         <p className="text-sm text-gray-500 max-w-3xl mb-4">
           Certification body (CB) audit fees are separate and typically range from RM 3,000 - RM 8,000
-          depending on organization size. We help you choose the most cost-effective accredited CB.
+          depending on organization size. We help you compare quotes from accredited CBs.
         </p>
         <p className="text-sm text-gray-500 mb-12">Last updated: {CONTENT_LAST_UPDATED}</p>
 
@@ -94,7 +92,6 @@ export default function Pricing() {
                 <h3 className="text-lg font-bold text-gray-900 mb-1">{pkg.name}</h3>
                 <p className="text-sm text-gray-500 mb-3">{pkg.description}</p>
                 <div className="text-4xl font-bold text-gray-900">{pkg.price}</div>
-                <p className="text-sm text-gray-500 mt-1">Timeline: {pkg.timeline}</p>
               </div>
 
               <ul className="space-y-3 mb-8">

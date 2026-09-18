@@ -7,19 +7,19 @@ import RelatedGuides from '@/components/RelatedGuides'
 import WhatsAppLink from '@/components/WhatsAppLink'
 
 export const metadata: Metadata = {
-  title: 'ISO 9001 Certification Malaysia | Get Certified',
-  description: 'Get ISO 9001 certification in Malaysia with expert guidance. Our QMS consultants help Malaysian companies achieve quality management system certification.',
+  title: 'ISO 9001 Certification Malaysia | Consultant Guide',
+  description: 'ISO 9001 certification in Malaysia explained. Our QMS consultants help Malaysian companies prepare for certification by an accredited certification body.',
   keywords: ['ISO 9001 certification Malaysia', 'QMS certification Malaysia', 'quality management system Malaysia', 'ISO 9001 consultant Malaysia'],
   openGraph: {
-    title: 'ISO 9001 Certification Malaysia | Get Certified',
-    description: 'Get ISO 9001 certification in Malaysia with expert guidance from AA Alive Sdn Bhd.',
+    title: 'ISO 9001 Certification Malaysia | Consultant Guide',
+    description: 'ISO 9001 consultancy in Malaysia from AA Alive Sdn Bhd: we prepare you for certification by an accredited certification body.',
     url: 'https://isoconsultantmalaysia.com/iso-9001-certification-malaysia',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ISO 9001 Certification Malaysia | Get Certified',
-    description: 'Get ISO 9001 certification in Malaysia with expert guidance.',
+    title: 'ISO 9001 Certification Malaysia | Consultant Guide',
+    description: 'ISO 9001 certification in Malaysia explained, with consultancy from AA Alive Sdn Bhd.',
   },
   alternates: {
     canonical: 'https://isoconsultantmalaysia.com/iso-9001-certification-malaysia',
@@ -48,7 +48,7 @@ export default function ISO9001CertificationMalaysia() {
             </h1>
             <p className="text-xl text-gray-600 mb-8">
               Your complete guide to achieving ISO 9001 quality management system certification in Malaysia.
-              Learn about requirements, process, costs, and how our expert consultants can help your organization.
+              Learn about requirements, process, costs, and how our consultants can help your organization.
             </p>
 
             <div className="prose prose-lg max-w-none">
@@ -56,15 +56,13 @@ export default function ISO9001CertificationMalaysia() {
                 Why Malaysian Businesses Need ISO 9001 Certification
               </h2>
               <p className="text-gray-600 mb-4">
-                In today&apos;s competitive business landscape, ISO 9001 certification has become
-                essential for Malaysian companies looking to demonstrate their commitment to quality.
-                As Malaysia continues its journey towards becoming a developed nation, quality management
-                is no longer optional—it&apos;s a business imperative.
+                ISO 9001 certification is widely used by Malaysian companies to demonstrate their
+                commitment to quality, and it is often requested by larger buyers and in tenders.
               </p>
               <p className="text-gray-600 mb-4">
                 Whether you&apos;re targeting government contracts, multinational supply chains, or simply
-                want to improve your operations, ISO 9001 certification provides the framework and
-                credibility you need to succeed.
+                want to improve your operations, ISO 9001 provides a recognised framework for managing
+                quality.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
@@ -89,7 +87,7 @@ export default function ISO9001CertificationMalaysia() {
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-                Industries in Malaysia Requiring ISO 9001
+                Industries in Malaysia Where ISO 9001 Is Common
               </h2>
               <p className="text-gray-600 mb-4">
                 While ISO 9001 is applicable to any organization regardless of size or industry, certain sectors
@@ -152,8 +150,8 @@ export default function ISO9001CertificationMalaysia() {
                 ISO 9001 certification provides numerous benefits for Malaysian businesses:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
-                <li>Qualify for government tenders and procurement programs</li>
-                <li>Access contracts with multinational corporations requiring certified suppliers</li>
+                <li>Respond to government tenders and procurement that ask for ISO 9001</li>
+                <li>Meet supplier requirements of larger buyers, including multinationals, that ask for certification</li>
                 <li>Improve operational efficiency and reduce costs</li>
                 <li>Enhance customer satisfaction and loyalty</li>
                 <li>Build credibility and competitive advantage</li>
@@ -166,8 +164,7 @@ export default function ISO9001CertificationMalaysia() {
               <p className="text-gray-600 mb-4">
                 The investment for ISO 9001 certification in Malaysia varies based on organization size and complexity.
                 Our consulting packages start from <strong>RM 13,000</strong>, which includes gap analysis, documentation
-                development, implementation support, and audit preparation. We agree a target certification
-                date with you at kick-off.
+                development, implementation support, and audit preparation. The timeline depends on your readiness and the certification body&apos;s audit date, and is agreed with you after the gap analysis.
               </p>
               <p className="text-gray-600 mb-4">
                 Learn more about <a href="/iso-9001-cost-malaysia" className="text-primary-600 hover:underline">ISO 9001 certification costs in Malaysia</a>.
@@ -177,8 +174,8 @@ export default function ISO9001CertificationMalaysia() {
                 Why Choose Our Consulting Services
               </h2>
               <p className="text-gray-600 mb-4">
-                With over a decade of experience helping Malaysian companies achieve ISO 9001 certification,
-                our team of certified consultants brings:
+                Since 2016, our consultants have helped Malaysian companies prepare for ISO 9001
+                certification. We bring:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-8">
                 <li>Deep understanding of Malaysian business requirements</li>
@@ -190,7 +187,7 @@ export default function ISO9001CertificationMalaysia() {
 
             <div className="mt-12 p-8 bg-primary-50 rounded-xl border border-primary-100">
               <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">
-                Ready to Get ISO 9001 Certified?
+                Ready to Start Your ISO 9001 Project?
               </h3>
               <p className="text-gray-600 text-center mb-6">
                 Contact us today for a free consultation and customized proposal for your organization.

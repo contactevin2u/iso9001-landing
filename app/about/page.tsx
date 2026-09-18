@@ -100,9 +100,9 @@ export default function AboutPage() {
               ISO 9001 Malaysia is the ISO consulting service of{' '}
               <strong className="text-gray-900">AA Alive Sdn Bhd</strong> (SSM 1204108-D), founded
               in 2016 by <strong className="text-gray-900">Evin Lim</strong>. We help Malaysian
-              businesses implement and certify ISO 9001:2015 quality management systems — from gap
-              analysis and documentation to staff training, internal audit and certification audit
-              preparation.
+              businesses implement ISO 9001:2015 quality management systems and prepare for
+              certification by an accredited certification body — from gap analysis and documentation
+              to staff training, internal audit and certification audit preparation.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Our founder</h2>
@@ -147,8 +147,8 @@ export default function AboutPage() {
             </h2>
             <ul className="space-y-2 mb-4 text-gray-600 list-disc pl-6">
               <li>AA Alive Sdn Bhd — registered with SSM Malaysia (1204108-D), operating since 2016</li>
-              <li>Malaysian businesses certified across manufacturing, construction, IT, healthcare, F&amp;B and logistics</li>
-              <li>Superbrands Malaysia 2025 (Malaysia&apos;s Choice) award recipient</li>
+              <li>Consulting for Malaysian businesses in manufacturing, construction, IT, healthcare, F&amp;B and logistics</li>
+              <li>Superbrands Malaysia 2025 (Malaysia&apos;s Choice) — awarded to AA Alive&apos;s medical-support brand, Evin Limb Specialist</li>
               <li>Nationwide service across Malaysia — remote-friendly engagements</li>
             </ul>
 
@@ -158,7 +158,7 @@ export default function AboutPage() {
                 <Link href="/iso-9001-certification-malaysia" className="text-primary-600 hover:text-primary-700 underline">
                   ISO 9001 certification consulting
                 </Link>{' '}
-                — gap analysis to certificate, from RM 13,000
+                — from gap analysis to certification audit preparation, from RM 13,000
               </li>
               <li>
                 <Link href="/quality-management-system-malaysia" className="text-primary-600 hover:text-primary-700 underline">

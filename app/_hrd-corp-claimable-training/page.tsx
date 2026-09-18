@@ -5,8 +5,11 @@ import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 import WhatsAppLink from '@/components/WhatsAppLink'
 
 // HIDDEN PAGE — HRD Corp RTP registration in progress (Jul 2026).
+// UNROUTED since Sep 2026: the `_` folder prefix makes Next.js exclude it from routing (404).
 // noindex + not in sitemap + not linked from any nav/footer.
 // TO ACTIVATE when RTP registration completes:
+//   0. Rename the folder back to app/hrd-corp-claimable-training and re-check every claim below
+//      against Google Ads misleading-content rules (no net-cost, approval-time or outcome promises)
 //   1. Remove the robots noindex below
 //   2. Add the route to public/sitemap.xml
 //   3. Link from Footer/services nav
@@ -30,8 +33,8 @@ export default function HrdCorpTrainingPage() {
           <p className="text-lg text-gray-700 mb-4">
             Your company already pays the HRD Corp levy — 1% of monthly wages for employers with 10
             or more Malaysian staff. Our ISO training programmes are designed to be{' '}
-            <strong>HRD Corp claimable</strong>, which means the course fee is paid directly from
-            your levy balance. Your net cash cost is effectively zero.
+            <strong>HRD Corp claimable</strong>, which means the course fee can be claimed against
+            your levy balance, subject to HRD Corp approval.
           </p>
           <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
             Training programmes we deliver
@@ -50,19 +53,19 @@ export default function HrdCorpTrainingPage() {
             Unlike standalone course providers, we build competency-based training directly into
             your ISO implementation — your team learns on your own SOPs and documentation, not
             generic slides. The result: staff who can actually run the management system after
-            certification, and training spend that comes from your levy instead of your budget.
+            certification.
           </p>
           <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">How claiming works</h2>
           <ol className="list-decimal pl-6 space-y-2 text-gray-700">
             <li>We register the course and submit the grant application via HRD Corp e-TRiS.</li>
-            <li>HRD Corp approves the grant (typical SLA: 48 hours).</li>
+            <li>HRD Corp reviews and approves the grant.</li>
             <li>Training is delivered at your site or ours.</li>
-            <li>HRD Corp pays us directly from your levy — no reimbursement paperwork for you.</li>
+            <li>Once approved, HRD Corp pays the training fee from your levy balance.</li>
           </ol>
           <div className="mt-10 bg-primary-50 border border-primary-200 rounded-xl p-6">
             <p className="text-gray-800 font-medium mb-4">
-              Want ISO training that costs you nothing net of levy? Chat with us about bundling HRD
-              Corp claimable training into your certification project.
+              Chat with us about bundling HRD Corp claimable training into your ISO implementation
+              project.
             </p>
             <WhatsAppLink className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg">
               WhatsApp Us About HRD Training

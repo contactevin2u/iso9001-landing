@@ -5,6 +5,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 import RelatedGuides from '@/components/RelatedGuides'
 import WhatsAppLink from '@/components/WhatsAppLink'
+import { packages } from '@/components/Pricing'
 import { CONTENT_LAST_UPDATED } from '@/lib/constants'
 
 export const metadata: Metadata = {
@@ -49,10 +50,12 @@ export default function ISO9001CostMalaysia() {
             </h1>
             <p className="text-sm text-gray-500 mb-4">Last updated: {CONTENT_LAST_UPDATED}</p>
             <p className="text-xl text-gray-600 mb-8">
-              ISO 9001 certification consulting in Malaysia costs from RM 13,000 and takes 30&ndash;45
-              days for most SMEs. Certification body audit fees are charged separately, typically
-              RM 3,000 to RM 8,000. Below is the full breakdown of every investment component —
-              consulting fees, certification body costs, and ongoing maintenance.
+              ISO 9001 certification consulting in Malaysia costs from RM 13,000. Certification body
+              audit fees are charged separately, typically RM 3,000 to RM 8,000 depending on
+              organization size. The timeline depends on your readiness and the certification
+              body&apos;s audit date, and is agreed with you after the gap analysis. Below is the full
+              breakdown of every investment component — consulting fees, certification body costs, and
+              ongoing maintenance.
             </p>
 
             <div className="prose prose-lg max-w-none">
@@ -81,143 +84,27 @@ export default function ISO9001CostMalaysia() {
               </p>
 
               <div className="grid gap-6 mb-8">
-                <div className="border border-gray-200 rounded-lg overflow-hidden">
-                  <div className="bg-gray-50 p-4 border-b border-gray-200">
-                    <h3 className="font-bold text-gray-900 mb-1">SME Package</h3>
-                    <p className="text-2xl font-bold text-primary-600">From RM 13,000</p>
-                    <p className="text-sm text-gray-600">For small to medium enterprises (up to 50 employees)</p>
+                {packages.map((pkg) => (
+                  <div key={pkg.name} className="border border-gray-200 rounded-lg overflow-hidden">
+                    <div className="bg-gray-50 p-4 border-b border-gray-200">
+                      <h3 className="font-bold text-gray-900 mb-1">{pkg.name}</h3>
+                      <p className="text-2xl font-bold text-primary-600">{pkg.price}</p>
+                      <p className="text-sm text-gray-600">{pkg.description}</p>
+                    </div>
+                    <div className="p-4">
+                      <ul className="space-y-2 text-gray-600">
+                        {pkg.features.map((feature) => (
+                          <li key={feature} className="flex items-start gap-2">
+                            <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>{feature}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
-                  <div className="p-4">
-                    <ul className="space-y-2 text-gray-600">
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Comprehensive gap analysis</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Process mapping and risk assessment</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Full QMS documentation package</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Implementation guidance</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Internal audit training</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Certification audit preparation</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div className="border border-gray-200 rounded-lg overflow-hidden">
-                  <div className="bg-gray-50 p-4 border-b border-gray-200">
-                    <h3 className="font-bold text-gray-900 mb-1">Enterprise Package</h3>
-                    <p className="text-2xl font-bold text-primary-600">From RM 22,000</p>
-                    <p className="text-sm text-gray-600">For larger organizations (50-200 employees)</p>
-                  </div>
-                  <div className="p-4">
-                    <ul className="space-y-2 text-gray-600">
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Everything in SME Package</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Detailed process documentation</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Extended on-site implementation support</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Quality awareness training for all staff</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Full internal audit conduct</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Audit attendance support</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div className="border border-primary-200 rounded-lg overflow-hidden bg-primary-50">
-                  <div className="bg-primary-100 p-4 border-b border-primary-200">
-                    <h3 className="font-bold text-gray-900 mb-1">Corporate Package</h3>
-                    <p className="text-2xl font-bold text-primary-600">Custom Quote</p>
-                    <p className="text-sm text-gray-600">For large enterprises and multi-site organizations</p>
-                  </div>
-                  <div className="p-4">
-                    <ul className="space-y-2 text-gray-600">
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Everything in Enterprise Package</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Multi-site coordination</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Integration with ISO 14001/45001 if applicable</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Dedicated project manager</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Ongoing maintenance support</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+                ))}
               </div>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
@@ -237,20 +124,16 @@ export default function ISO9001CostMalaysia() {
                   </thead>
                   <tbody>
                     <tr className="border-b border-gray-200">
-                      <td className="py-3">Application Fee</td>
-                      <td className="text-right">RM 500 - RM 1,500</td>
-                    </tr>
-                    <tr className="border-b border-gray-200">
-                      <td className="py-3">Initial Certification Audit (Stage 1 & 2)</td>
-                      <td className="text-right">RM 4,000 - RM 12,000</td>
+                      <td className="py-3">Initial Certification Audit (Stage 1 &amp; 2), depending on organization size</td>
+                      <td className="text-right">RM 3,000 - RM 8,000</td>
                     </tr>
                     <tr className="border-b border-gray-200">
                       <td className="py-3">Annual Surveillance Audit</td>
-                      <td className="text-right">RM 2,500 - RM 6,000</td>
+                      <td className="text-right">Quoted by the certification body</td>
                     </tr>
                     <tr>
                       <td className="py-3">Recertification Audit (every 3 years)</td>
-                      <td className="text-right">RM 3,500 - RM 10,000</td>
+                      <td className="text-right">Quoted by the certification body</td>
                     </tr>
                   </tbody>
                 </table>
@@ -282,7 +165,7 @@ export default function ISO9001CostMalaysia() {
                 Maintaining ISO 9001 certification requires ongoing investment:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-6">
-                <li><strong>Annual Surveillance Audits:</strong> RM 2,500 - RM 6,000 per year</li>
+                <li><strong>Annual Surveillance Audits:</strong> fee quoted by your certification body</li>
                 <li><strong>Internal Audits:</strong> Internal resources or external support</li>
                 <li><strong>Training:</strong> Refresher and new employee training</li>
                 <li><strong>Calibration:</strong> Equipment calibration and maintenance</li>
@@ -318,13 +201,12 @@ export default function ISO9001CostMalaysia() {
                 Return on Investment
               </h2>
               <p className="text-gray-600 mb-4">
-                While ISO 9001 certification requires investment, most organizations achieve positive ROI through:
+                Organizations usually weigh the investment against potential returns such as:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-6">
-                <li>10-20% reduction in operational costs through improved efficiency</li>
                 <li>Reduced defects and rework costs</li>
-                <li>Access to new contracts and business opportunities</li>
-                <li>Higher customer retention rates</li>
+                <li>Being able to respond to tenders and buyers that ask for ISO 9001</li>
+                <li>Customer retention supported by consistent quality</li>
                 <li>Lower warranty and complaint costs</li>
               </ul>
               <p className="text-gray-600 mb-4">

@@ -6,18 +6,18 @@ import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 import RelatedGuides from '@/components/RelatedGuides'
 
 export const metadata: Metadata = {
-  title: 'ISO 9001 Certification Process | 30-Day Guide',
+  title: 'ISO 9001 Certification Process | Step-by-Step Guide',
   description: 'Complete guide to the ISO 9001 certification process in Malaysia. Learn each step from gap analysis through to the certification audit.',
   keywords: ['ISO 9001 certification process', 'how to get ISO 9001 Malaysia', 'ISO 9001 steps', 'QMS implementation'],
   openGraph: {
-    title: 'ISO 9001 Certification Process | 30-Day Guide',
+    title: 'ISO 9001 Certification Process | Step-by-Step Guide',
     description: 'Complete guide to the ISO 9001 certification process. Learn each step from gap analysis to certification audit.',
     url: 'https://isoconsultantmalaysia.com/iso-9001-certification-process',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ISO 9001 Certification Process | 30-Day Guide',
+    title: 'ISO 9001 Certification Process | Step-by-Step Guide',
     description: 'Complete guide to the ISO 9001 certification process.',
   },
   alternates: {
@@ -46,17 +46,17 @@ export default function ISO9001CertificationProcess() {
               ISO 9001 Certification Process
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              A comprehensive guide to achieving ISO 9001 certification. Understand every step of the journey,
-              from initial assessment to successful certification and beyond.
+              A comprehensive guide to the ISO 9001 certification process. Understand every step, from
+              the initial assessment to the certification body audit and beyond.
             </p>
 
             <div className="prose prose-lg max-w-none">
               <div className="bg-primary-50 p-6 rounded-lg mb-8">
                 <h2 className="text-xl font-bold text-gray-900 mb-2 mt-0">Timeline</h2>
                 <p className="text-gray-600 mb-0">
-                  Your timeline depends on your size, scope and how quickly documentation is reviewed,
-                  plus the certification body’s audit availability. We agree a target date at kick-off
-                  and work to it without compromising on quality.
+                  Your timeline depends on your readiness, size and scope, how quickly documentation is
+                  reviewed, and the certification body’s audit date. We agree the project timeline with
+                  you after the gap analysis.
                 </p>
               </div>
 
@@ -65,7 +65,7 @@ export default function ISO9001CertificationProcess() {
               </h2>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 1: Free Consultation (Day 1)
+                Step 1: Free Initial Consultation
               </h3>
               <p className="text-gray-600 mb-4">
                 The certification journey begins with a free initial consultation where our ISO consultants:
@@ -75,11 +75,11 @@ export default function ISO9001CertificationProcess() {
                 <li>Review your current quality practices and documentation</li>
                 <li>Explain the ISO 9001:2015 requirements and certification process</li>
                 <li>Discuss your timeline expectations and business drivers</li>
-                <li>Provide a detailed proposal including scope, timeline, and investment</li>
+                <li>Send a written proposal covering scope and investment; paid work starts only after you accept it</li>
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 2: Gap Analysis (Days 2-4)
+                Step 2: Gap Analysis
               </h3>
               <p className="text-gray-600 mb-4">
                 A comprehensive gap analysis compares your current practices against ISO 9001:2015 requirements:
@@ -91,6 +91,7 @@ export default function ISO9001CertificationProcess() {
                 <li>Identify quality controls already in place</li>
                 <li>Document gaps and prioritize actions for closure</li>
                 <li>Deliver gap analysis report with recommendations</li>
+                <li>Agree the project timeline with you</li>
               </ul>
               <div className="bg-gray-50 p-4 rounded-lg mb-6">
                 <p className="text-sm text-gray-600 mb-0">
@@ -104,7 +105,7 @@ export default function ISO9001CertificationProcess() {
               </h2>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 3: Quality Policy Development (Days 5-6)
+                Step 3: Quality Policy Development
               </h3>
               <p className="text-gray-600 mb-4">
                 Develop a quality policy that reflects your organization&apos;s commitment:
@@ -118,7 +119,7 @@ export default function ISO9001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 4: Process Mapping (Days 7-8)
+                Step 4: Process Mapping
               </h3>
               <p className="text-gray-600 mb-4">
                 Identify and document your key business processes:
@@ -132,7 +133,7 @@ export default function ISO9001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 5: Risk Assessment (Days 9-10)
+                Step 5: Risk Assessment
               </h3>
               <p className="text-gray-600 mb-4">
                 Implement risk-based thinking across your organization:
@@ -146,7 +147,7 @@ export default function ISO9001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 6: Documentation Development (Days 11-15)
+                Step 6: Documentation Development
               </h3>
               <p className="text-gray-600 mb-4">
                 Develop the required QMS documentation:
@@ -164,7 +165,7 @@ export default function ISO9001CertificationProcess() {
               </h2>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 7: Training and Awareness (Days 16-18)
+                Step 7: Training and Awareness
               </h3>
               <p className="text-gray-600 mb-4">
                 Ensure all personnel understand their quality responsibilities:
@@ -178,7 +179,7 @@ export default function ISO9001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 8: Operational Implementation (Days 19-22)
+                Step 8: Operational Implementation
               </h3>
               <p className="text-gray-600 mb-4">
                 Put the QMS into practice across the organization:
@@ -196,7 +197,7 @@ export default function ISO9001CertificationProcess() {
               </h2>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 9: Internal Audit (Days 23-25)
+                Step 9: Internal Audit
               </h3>
               <p className="text-gray-600 mb-4">
                 Conduct a thorough internal audit to verify QMS effectiveness:
@@ -210,7 +211,7 @@ export default function ISO9001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 10: Management Review (Day 26)
+                Step 10: Management Review
               </h3>
               <p className="text-gray-600 mb-4">
                 Top management reviews the QMS to ensure continuing suitability:
@@ -228,7 +229,7 @@ export default function ISO9001CertificationProcess() {
               </h2>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 11: Stage 1 Audit (Days 27-28)
+                Step 11: Stage 1 Audit
               </h3>
               <p className="text-gray-600 mb-4">
                 The certification body conducts a documentation review:
@@ -242,7 +243,7 @@ export default function ISO9001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 12: Stage 2 Audit (Days 29-30)
+                Step 12: Stage 2 Audit
               </h3>
               <p className="text-gray-600 mb-4">
                 The certification body verifies implementation effectiveness:
