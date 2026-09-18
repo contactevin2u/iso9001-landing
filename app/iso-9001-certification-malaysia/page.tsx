@@ -82,8 +82,10 @@ export default function ISO9001CertificationMalaysia() {
                 <li>Demonstrate conformity to specified quality management system requirements</li>
               </ul>
               <p className="text-gray-600 mb-4">
-                The current version, ISO 9001:2015, was updated to align with other management system standards
-                and places greater emphasis on leadership commitment, risk-based thinking, and organizational context.
+                The current version, ISO 9001:2026, was published in September 2026. It follows the Harmonized
+                Structure shared by other ISO management system standards and continues the emphasis on leadership
+                commitment, risk-based thinking, and organizational context. Organizations already certified to
+                ISO 9001:2015 have a three-year transition period to move to the new version.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">

@@ -1,5 +1,5 @@
 # ISO 9001 Malaysia — Full AI Context
-dateReviewed: 2026-07-12
+dateReviewed: 2026-09-18
 
 ## Identity
 - Brand: ISO 9001 Malaysia (isoconsultantmalaysia.com)
@@ -54,7 +54,7 @@ Evin Lim, founder of AA Alive Sdn Bhd (2016), leads the ISO consulting practice 
 ## FAQ digest
 - Cost: consulting from RM 13,000 (SME), RM 22,000 (Professional), custom (Enterprise); CB audit fees separate at RM 3,000–8,000.
 - Timeline: most SMEs certified within 30 days; medium organizations 30–45 days.
-- Requirements: ISO 9001:2015 clauses 4–10 (Context, Leadership, Planning, Support, Operation, Performance Evaluation, Improvement) following the PDCA cycle.
+- Requirements: ISO 9001:2026 clauses 4–10 (Context, Leadership, Planning, Support, Operation, Performance Evaluation, Improvement) following the PDCA cycle.
 - Renewal: 3-year validity; surveillance audits years 1–2; recertification audit year 3.
 - Prerequisites: none — open to any organization.
 - Tenders: required or preferred for JKR, CIDB G7, Petronas vendors and many GLC/state procurements.
@@ -66,7 +66,7 @@ Evin Lim, founder of AA Alive Sdn Bhd (2016), leads the ISO consulting practice 
 - /iso-9001-certification-malaysia — full certification guide
 - /iso-9001-cost-malaysia — cost breakdown
 - /iso-9001-certification-process — step-by-step process
-- /iso-9001-requirements — ISO 9001:2015 requirements explained
+- /iso-9001-requirements — ISO 9001:2026 requirements explained
 - /iso-9001-benefits — benefits for Malaysian businesses
 - /quality-management-system-malaysia — QMS implementation in Malaysia
 - /about — company & founder profile

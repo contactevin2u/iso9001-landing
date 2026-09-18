@@ -63,7 +63,7 @@ export default function QualityManagementSystemMalaysia() {
                 and process management to internal audits and continuous improvement.
               </p>
               <p className="text-gray-600 mb-4">
-                The most widely recognized quality management system standard is ISO 9001:2015, which
+                The most widely recognized quality management system standard is ISO 9001:2026, which
                 provides the requirements for building and maintaining an effective QMS. In Malaysia,
                 thousands of companies across manufacturing, construction, IT, and services rely on
                 a quality management system to drive performance and competitiveness.

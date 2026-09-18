@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     'ISO 9001 consultant Malaysia',
     'ISO 9001 cost Malaysia',
     'quality certification',
-    'ISO 9001:2015',
+    'ISO 9001:2026',
     'quality management certification Malaysia'
   ],
   authors: [{ name: 'Evin Lim', url: 'https://my.linkedin.com/in/evin-lim-362a84258' }],

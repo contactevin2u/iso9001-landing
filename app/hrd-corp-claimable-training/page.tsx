@@ -37,7 +37,7 @@ export default function HrdCorpTrainingPage() {
             Training programmes we deliver
           </h2>
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
-            <li>ISO 9001:2015 awareness &amp; internal auditor training</li>
+            <li>ISO 9001:2026 awareness &amp; internal auditor training</li>
             <li>ISO 14001:2015 environmental management system training</li>
             <li>ISO 45001:2018 occupational health &amp; safety training</li>
             <li>ISO 13485:2016 medical device QMS &amp; GDPMD training</li>

@@ -43,8 +43,8 @@ const faqs: { question: string; summary: string; bullets: string[]; schemaAnswer
     schemaAnswer: 'ISO 9001 is the world\'s most recognized Quality Management System (QMS) standard. Malaysian businesses need it because many government tenders and GLC contracts require it, it builds customer trust, improves operations by 15-25%, and is required for CIDB G7 and Petronas vendor registration.',
   },
   {
-    question: 'What are the key requirements of ISO 9001:2015?',
-    summary: 'ISO 9001:2015 has 10 clauses, with clauses 4-10 containing certification requirements:',
+    question: 'What are the key requirements of ISO 9001:2026?',
+    summary: 'ISO 9001:2026 has 10 clauses, with clauses 4-10 containing certification requirements:',
     bullets: [
       'Clause 4 (Context): Understand your organization, stakeholders, and QMS scope',
       'Clause 5 (Leadership): Top management commitment and quality policy',
@@ -55,7 +55,7 @@ const faqs: { question: string; summary: string; bullets: string[]; schemaAnswer
       'Clause 10 (Improvement): Corrective actions and continual improvement',
       'The standard follows the Plan-Do-Check-Act (PDCA) cycle with emphasis on risk-based thinking',
     ],
-    schemaAnswer: 'ISO 9001:2015 has 10 clauses. Clauses 4-10 contain requirements: Context of the Organization, Leadership, Planning, Support, Operation, Performance Evaluation, and Improvement. The standard follows the Plan-Do-Check-Act (PDCA) cycle and emphasizes risk-based thinking.',
+    schemaAnswer: 'ISO 9001:2026 has 10 clauses. Clauses 4-10 contain requirements: Context of the Organization, Leadership, Planning, Support, Operation, Performance Evaluation, and Improvement. The standard follows the Plan-Do-Check-Act (PDCA) cycle and emphasizes risk-based thinking.',
   },
   {
     question: 'Do I need any prerequisites before getting ISO 9001?',

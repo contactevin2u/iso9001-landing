@@ -100,7 +100,7 @@ export default function AboutPage() {
               ISO 9001 Malaysia is the ISO consulting service of{' '}
               <strong className="text-gray-900">AA Alive Sdn Bhd</strong> (SSM 1204108-D), founded
               in 2016 by <strong className="text-gray-900">Evin Lim</strong>. We help Malaysian
-              businesses implement and certify ISO 9001:2015 quality management systems — from gap
+              businesses implement and certify ISO 9001:2026 quality management systems — from gap
               analysis and documentation to staff training, internal audit and certification audit
               preparation.
             </p>

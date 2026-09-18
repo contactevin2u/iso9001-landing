@@ -122,7 +122,7 @@ export default function Founder() {
               </div>
               <div className="text-center">
                 <div className="text-xl font-bold text-primary-600">9001</div>
-                <div className="text-xs text-gray-500">ISO 9001:2015</div>
+                <div className="text-xs text-gray-500">ISO 9001:2026</div>
               </div>
               <div className="text-center">
                 <div className="text-xl font-bold text-primary-600">MY</div>

@@ -97,7 +97,7 @@ export default function StructuredData() {
           '@id': 'https://isoconsultantmalaysia.com/#organization',
         },
         serviceType: 'ISO 9001 Certification Consulting',
-        description: 'Complete ISO 9001:2015 quality management system certification consulting services including gap analysis, documentation, implementation, internal audit, and certification audit preparation.',
+        description: 'Complete ISO 9001:2026 quality management system certification consulting services including gap analysis, documentation, implementation, internal audit, and certification audit preparation.',
         areaServed: {
           '@type': 'Country',
           name: 'Malaysia',

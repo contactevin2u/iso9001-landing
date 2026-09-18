@@ -148,7 +148,7 @@ export default function ISO9001Benefits() {
                 6. Risk Management
               </h2>
               <p className="text-gray-600 mb-4">
-                ISO 9001:2015 emphasizes risk-based thinking:
+                ISO 9001:2026 emphasizes risk-based thinking:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
                 <li>Systematic identification of risks and opportunities</li>

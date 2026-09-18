@@ -79,7 +79,7 @@ export default function Hero() {
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold text-primary-600">9001</div>
-            <div className="text-sm text-gray-500">ISO 9001:2015</div>
+            <div className="text-sm text-gray-500">ISO 9001:2026</div>
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold text-primary-600">RM13k</div>
