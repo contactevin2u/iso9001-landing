@@ -1,25 +1,9 @@
 'use client'
 
-import { getWhatsAppUrlWithBeacon } from '@/lib/beacon'
-
-declare global {
-  interface Window {
-    gtag_report_conversion: (url?: string) => boolean
-  }
-}
+import { onWhatsAppClick } from '@/lib/whatsapp'
 
 export default function WhatsAppCTA() {
   const waUrl = 'https://wa.me/60102062070?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20ISO%209001%20certification.'
-
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault()
-    const taggedUrl = getWhatsAppUrlWithBeacon(waUrl)
-    if (typeof window.gtag_report_conversion === 'function') {
-      window.gtag_report_conversion(taggedUrl)
-    } else {
-      window.open(taggedUrl, '_blank')
-    }
-  }
 
   return (
     <section className="py-16 px-4 sm:px-6 bg-blue-600">
@@ -32,7 +16,7 @@ export default function WhatsAppCTA() {
         </p>
         <a
           href={waUrl}
-          onClick={handleClick}
+          onClick={onWhatsAppClick}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-3 px-8 py-4 bg-white text-blue-700 font-semibold rounded-lg hover:bg-blue-50 transition-colors text-lg"

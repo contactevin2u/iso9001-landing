@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import type { HomeDict } from '@/lib/i18n/home-types'
+import { onWhatsAppClick } from '@/lib/whatsapp'
 
 export default function FAQ({ t, waText }: { t: HomeDict['faq']; waText: string }) {
   const [openIndex, setOpenIndex] = useState<number | null>(0)
@@ -79,6 +80,7 @@ export default function FAQ({ t, waText }: { t: HomeDict['faq']; waText: string 
           <p className="text-gray-600 mb-4">{t.stillQuestions}</p>
           <a
             href={`https://wa.me/60102062070?text=${encodeURIComponent(waText)}`}
+            onClick={onWhatsAppClick}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-5 py-3.5 sm:px-6 bg-primary-600 text-white font-semibold rounded-md hover:bg-primary-700 transition-colors"

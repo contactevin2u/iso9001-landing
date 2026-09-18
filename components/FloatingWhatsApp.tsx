@@ -1,14 +1,8 @@
 'use client'
 
-import { getWhatsAppUrlWithBeacon } from '@/lib/beacon'
+import { onWhatsAppClick } from '@/lib/whatsapp'
 import type { Locale } from '@/lib/i18n/config'
 import { chrome } from '@/lib/i18n/chrome'
-
-declare global {
-  interface Window {
-    gtag_report_conversion: (url?: string) => boolean
-  }
-}
 
 export default function FloatingWhatsApp({ locale = 'en' }: { locale?: Locale }) {
   const t = chrome[locale].whatsapp
@@ -16,20 +10,10 @@ export default function FloatingWhatsApp({ locale = 'en' }: { locale?: Locale })
   const message = encodeURIComponent(t.enquiry)
   const waUrl = `https://wa.me/${phoneNumber}?text=${message}`
 
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault()
-    const taggedUrl = getWhatsAppUrlWithBeacon(waUrl)
-    if (typeof window.gtag_report_conversion === 'function') {
-      window.gtag_report_conversion(taggedUrl)
-    } else {
-      window.open(taggedUrl, '_blank')
-    }
-  }
-
   return (
     <a
       href={waUrl}
-      onClick={handleClick}
+      onClick={onWhatsAppClick}
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-5 right-5 z-50 flex items-center gap-2 bg-green-500 hover:bg-green-600 active:bg-green-700 text-white rounded-full shadow-lg hover:shadow-xl transition-all group"

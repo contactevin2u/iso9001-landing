@@ -1,26 +1,10 @@
 'use client'
 
-import { getWhatsAppUrlWithBeacon } from '@/lib/beacon'
+import { onWhatsAppClick } from '@/lib/whatsapp'
 import type { HomeDict } from '@/lib/i18n/home-types'
-
-declare global {
-  interface Window {
-    gtag_report_conversion: (url?: string) => boolean
-  }
-}
 
 export default function Hero({ t, waText }: { t: HomeDict['hero']; waText: string }) {
   const waUrl = `https://wa.me/60102062070?text=${encodeURIComponent(waText)}`
-
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault()
-    const taggedUrl = getWhatsAppUrlWithBeacon(waUrl)
-    if (typeof window.gtag_report_conversion === 'function') {
-      window.gtag_report_conversion(taggedUrl)
-    } else {
-      window.open(taggedUrl, '_blank')
-    }
-  }
 
   return (
     <section className="pt-32 pb-20 sm:pt-36 px-4 sm:px-6 bg-white">
@@ -39,7 +23,7 @@ export default function Hero({ t, waText }: { t: HomeDict['hero']; waText: strin
           <div className="flex flex-col sm:flex-row gap-3 mb-4">
             <a
               href={waUrl}
-              onClick={handleClick}
+              onClick={onWhatsAppClick}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-6 py-3.5 sm:px-7 sm:py-4 bg-primary-600 text-white font-semibold rounded-md hover:bg-primary-700 transition-colors text-base sm:text-lg"

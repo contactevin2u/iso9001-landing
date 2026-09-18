@@ -118,24 +118,6 @@ export default function RootLayout({
             gtag('config', 'G-CZ31QYXLKK'); // GA4 (provisioned 2026-07-12)
           `}
         </Script>
-        <Script id="google-ads-conversion" strategy="afterInteractive">
-          {`
-            function gtag_report_conversion(url) {
-              var callback = function () {
-                if (typeof(url) != 'undefined') {
-                  window.location = url;
-                }
-              };
-              gtag('event', 'conversion', {
-                'send_to': 'AW-795120559/_Jh2CNeQw-ADEK-nkvsC',
-                'value': 1.0,
-                'currency': 'MYR',
-                'event_callback': callback
-              });
-              return false;
-            }
-          `}
-        </Script>
       </head>
       <body className={`${plexSans.className} bg-white text-gray-900`}>
         <StructuredData />

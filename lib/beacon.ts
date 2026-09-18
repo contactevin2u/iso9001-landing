@@ -1,12 +1,12 @@
 /**
  * Chatbaby confirmed-lead beacon.
  *
- * The WhatsApp CTAs on this site navigate via gtag_report_conversion(url) /
- * window.open(url) with a locally-built URL, so a generic href-mutation beacon
- * can never tag the message. Instead the click handlers call
- * getWhatsAppUrlWithBeacon() so the [REF:xxxxxx] code travels inside the URL
- * the app itself opens. The REF lets Chatbaby match the WhatsApp conversation
- * back to the stored Google click id for offline conversion upload.
+ * The WhatsApp CTAs are plain wa.me links; their shared click handler
+ * (lib/whatsapp.ts onWhatsAppClick) calls getWhatsAppUrlWithBeacon() and swaps
+ * the tagged URL into the href before the browser follows it, so the
+ * [REF:xxxxxx] code travels inside the message. The REF lets Chatbaby match the
+ * WhatsApp conversation back to the stored Google click id for offline
+ * conversion upload.
  *
  * gclid flows to Chatbaby/Google only — never to Meta.
  */

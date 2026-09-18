@@ -1,15 +1,8 @@
 'use client'
 
-import { getWhatsAppUrlWithBeacon } from '@/lib/beacon'
-
+import { onWhatsAppClick, openWhatsApp } from '@/lib/whatsapp'
 import { useState } from 'react'
 import type { HomeDict } from '@/lib/i18n/home-types'
-
-declare global {
-  interface Window {
-    gtag_report_conversion: (url?: string) => boolean
-  }
-}
 
 const WHATSAPP_NUMBER = '+60102062070'
 
@@ -27,25 +20,7 @@ export default function Contact({ t }: { t: HomeDict['contact'] }) {
 
     const text = `New Enquiry ISO 9001\nName: ${formData.name}\nCompany: ${formData.company}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nMessage:\n${formData.message}`
 
-    const url = getWhatsAppUrlWithBeacon(
-      `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`
-    )
-
-    if (typeof window.gtag_report_conversion === 'function') {
-      window.gtag_report_conversion(url)
-    } else {
-      window.open(url, '_blank')
-    }
-  }
-
-  const handleWhatsAppClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault()
-    const waUrl = getWhatsAppUrlWithBeacon(`https://wa.me/60102062070`)
-    if (typeof window.gtag_report_conversion === 'function') {
-      window.gtag_report_conversion(waUrl)
-    } else {
-      window.open(waUrl, '_blank')
-    }
+    openWhatsApp(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`)
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -100,7 +75,7 @@ export default function Contact({ t }: { t: HomeDict['contact'] }) {
                   <div className="font-medium text-gray-200">{t.whatsapp}</div>
                   <a
                     href="https://wa.me/60102062070"
-                    onClick={handleWhatsAppClick}
+                    onClick={onWhatsAppClick}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white transition-colors"

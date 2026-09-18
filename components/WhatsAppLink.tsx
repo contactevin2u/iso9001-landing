@@ -1,12 +1,6 @@
 'use client'
 
-import { getWhatsAppUrlWithBeacon } from '@/lib/beacon'
-
-declare global {
-  interface Window {
-    gtag_report_conversion: (url?: string) => boolean
-  }
-}
+import { onWhatsAppClick } from '@/lib/whatsapp'
 
 export default function WhatsAppLink({
   className,
@@ -20,20 +14,10 @@ export default function WhatsAppLink({
 }) {
   const waUrl = text ? `https://wa.me/60102062070?text=${encodeURIComponent(text)}` : 'https://wa.me/60102062070'
 
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault()
-    const taggedUrl = getWhatsAppUrlWithBeacon(waUrl)
-    if (typeof window.gtag_report_conversion === 'function') {
-      window.gtag_report_conversion(taggedUrl)
-    } else {
-      window.open(taggedUrl, '_blank')
-    }
-  }
-
   return (
     <a
       href={waUrl}
-      onClick={handleClick}
+      onClick={onWhatsAppClick}
       target="_blank"
       rel="noopener noreferrer"
       className={className}
