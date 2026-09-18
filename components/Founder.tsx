@@ -14,7 +14,7 @@ export default function Founder() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center mt-12">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start mt-12">
           <div>
             <h3 className="text-xl font-semibold text-gray-900 mb-6">
               Why Malaysian businesses work with Evin Lim
