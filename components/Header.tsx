@@ -45,52 +45,55 @@ export default function Header() {
                 </svg>
               </button>
 
-              {isResourcesOpen && (
-                <div id="resources-menu" role="menu" className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-100 py-2">
-                  <Link
-                    href="/iso-9001-certification-malaysia"
-                    role="menuitem"
-                    className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
-                  >
-                    ISO 9001 Certification Malaysia
-                  </Link>
-                  <Link
-                    href="/iso-9001-benefits"
-                    role="menuitem"
-                    className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
-                  >
-                    Benefits of ISO 9001
-                  </Link>
-                  <Link
-                    href="/iso-9001-requirements"
-                    role="menuitem"
-                    className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
-                  >
-                    ISO 9001 Requirements
-                  </Link>
-                  <Link
-                    href="/iso-9001-certification-process"
-                    role="menuitem"
-                    className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
-                  >
-                    Certification Process
-                  </Link>
-                  <Link
-                    href="/iso-9001-cost-malaysia"
-                    role="menuitem"
-                    className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
-                  >
-                    Certification Cost
-                  </Link>
-                  <Link
-                    href="/quality-management-system-malaysia"
-                    role="menuitem"
-                    className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
-                  >
-                    Quality Management System
-                  </Link>
-                </div>
-              )}
+              {/* Always rendered (hidden via CSS when closed) so the guide links are in the server HTML for crawlers. */}
+              <div
+                id="resources-menu"
+                role="menu"
+                className={`${isResourcesOpen ? 'block' : 'hidden'} absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-100 py-2`}
+              >
+                <Link
+                  href="/iso-9001-certification-malaysia"
+                  role="menuitem"
+                  className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
+                >
+                  ISO 9001 Certification Malaysia
+                </Link>
+                <Link
+                  href="/iso-9001-benefits"
+                  role="menuitem"
+                  className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
+                >
+                  Benefits of ISO 9001
+                </Link>
+                <Link
+                  href="/iso-9001-requirements"
+                  role="menuitem"
+                  className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
+                >
+                  ISO 9001 Requirements
+                </Link>
+                <Link
+                  href="/iso-9001-certification-process"
+                  role="menuitem"
+                  className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
+                >
+                  Certification Process
+                </Link>
+                <Link
+                  href="/iso-9001-cost-malaysia"
+                  role="menuitem"
+                  className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
+                >
+                  Certification Cost
+                </Link>
+                <Link
+                  href="/quality-management-system-malaysia"
+                  role="menuitem"
+                  className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
+                >
+                  Quality Management System
+                </Link>
+              </div>
             </div>
 
             <a href="/#contact" className="text-primary-600 hover:text-primary-700 transition-colors text-sm font-medium">

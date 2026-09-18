@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
+import RelatedGuides from '@/components/RelatedGuides'
 import WhatsAppLink from '@/components/WhatsAppLink'
 
 export const metadata: Metadata = {
@@ -70,7 +71,7 @@ export default function ISO9001CertificationMalaysia() {
                 What is ISO 9001 Certification?
               </h2>
               <p className="text-gray-600 mb-4">
-                ISO 9001 is an internationally recognized standard for Quality Management Systems (QMS).
+                ISO 9001 is an internationally recognized standard for <a href="/quality-management-system-malaysia" className="text-primary-600 hover:underline">Quality Management Systems (QMS)</a>.
                 Published by the International Organization for Standardization (ISO), it provides a framework
                 for organizations to:
               </p>
@@ -208,6 +209,7 @@ export default function ISO9001CertificationMalaysia() {
             </div>
           </div>
         </section>
+        <RelatedGuides current="/iso-9001-certification-malaysia" />
       </main>
       <Footer />
       <FloatingWhatsApp />

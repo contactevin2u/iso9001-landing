@@ -21,7 +21,7 @@ export default function WhatIsISO() {
             </h3>
             <p className="mb-4">
               ISO 9001:2015 follows the High-Level Structure (HLS) common to all ISO management system standards. This makes it
-              easier to integrate with other certifications like <a href="/iso-9001-requirements" className="text-primary-600 hover:underline">ISO 14001 (Environmental)</a> and
+              easier to integrate with other certifications like <a href="https://esgiso.com/iso-14001-requirements" rel="noopener" className="text-primary-600 hover:underline">ISO 14001 (Environmental)</a> and
               ISO 45001 (Occupational Health & Safety). The standard is organized into 10 clauses, with clauses 4-10 containing
               the requirements for certification.
             </p>
@@ -32,8 +32,8 @@ export default function WhatIsISO() {
               The Plan-Do-Check-Act (PDCA) Cycle
             </h3>
             <p className="mb-4">
-              At the heart of ISO 9001 is the PDCA cycle, a continuous improvement methodology that ensures your Quality
-              Management System (QMS) evolves and improves over time:
+              At the heart of ISO 9001 is the PDCA cycle, a continuous improvement methodology that ensures your{' '}
+              <a href="/quality-management-system-malaysia" className="text-primary-600 hover:underline">Quality Management System (QMS)</a> evolves and improves over time:
             </p>
             <ul className="space-y-3 ml-6">
               <li className="flex items-start gap-3">

@@ -5,6 +5,11 @@ import Footer from '@/components/Footer'
 import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 import WhatsAppLink from '@/components/WhatsAppLink'
+import RelatedGuides from '@/components/RelatedGuides'
+import { getFounderVideoByYouTubeId, videoRef, watchPath } from '@/lib/videos'
+
+const bernama = getFounderVideoByYouTubeId('p0rcj7kaqpQ')
+const superbrands = getFounderVideoByYouTubeId('4Y7hNFsM3Jk')
 
 export const metadata: Metadata = {
   title: 'About Us — AA Alive Sdn Bhd',
@@ -38,18 +43,10 @@ const personSchema = {
     'https://my.linkedin.com/in/evin-lim-362a84258',
     'https://www.linkedin.com/company/aa-alive',
   ],
+  // Videos are referenced by @id only: their full VideoObjects live on the
+  // dedicated watch pages (/media/<slug>), where each video is the main content.
   subjectOf: [
-    {
-      '@type': 'VideoObject',
-      name: 'Ruang Bicara: Aspirasi Ekonomi — BERNAMA TV (3 Julai 2026)',
-      description:
-        'Panel discussion on the direction of the Malaysian pharmaceutical and medical device industry, with Datuk Lau Tiam Kwee (ACCCIM) and Evin Lim, founder of AA Alive Sdn Bhd, as industry consultant.',
-      thumbnailUrl: 'https://i.ytimg.com/vi/p0rcj7kaqpQ/hq720.jpg',
-      uploadDate: '2026-07-03',
-      url: 'https://www.youtube.com/watch?v=p0rcj7kaqpQ',
-      embedUrl: 'https://www.youtube.com/embed/p0rcj7kaqpQ',
-      publisher: { '@type': 'Organization', name: 'BERNAMA TV' },
-    },
+    videoRef(bernama),
     {
       '@type': 'NewsArticle',
       headline: 'Krisis tenaga global, peraturan ketat beri kesan kos perubatan',
@@ -57,17 +54,7 @@ const personSchema = {
       url: 'https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/krisis-tenaga-global-peraturan-ketat-beri-kesan-kos-perubatan/',
       publisher: { '@type': 'Organization', name: 'Portal Berita RTM' },
     },
-    {
-      '@type': 'VideoObject',
-      name: 'Superbrands Malaysia CEO Interviews 2025 — Evin Lim',
-      description:
-        'Superbrands Malaysia CEO Interviews 2025 with Evin Lim on the official Superbrands Limited channel. AA Alive Sdn Bhd is a Superbrands Malaysia 2025 (Malaysia’s Choice) award recipient.',
-      thumbnailUrl: 'https://i.ytimg.com/vi/4Y7hNFsM3Jk/hqdefault.jpg',
-      uploadDate: '2025-12-09',
-      url: 'https://www.youtube.com/watch?v=4Y7hNFsM3Jk',
-      embedUrl: 'https://www.youtube.com/embed/4Y7hNFsM3Jk',
-      publisher: { '@type': 'Organization', name: 'Superbrands Limited' },
-    },
+    videoRef(superbrands),
   ],
 }
 
@@ -129,8 +116,10 @@ export default function AboutPage() {
             <ul className="space-y-2 mb-4 text-gray-600 list-disc pl-6">
               <li>
                 <strong className="text-gray-900">BERNAMA TV</strong> — panelist,{' '}
-                <em>Ruang Bicara: Aspirasi Ekonomi</em>, on the pharmaceutical and medical device
-                industry (3 July 2026)
+                <Link href={watchPath(bernama)} className="text-primary-600 hover:text-primary-700 underline">
+                  <em>Ruang Bicara: Aspirasi Ekonomi</em>
+                </Link>
+                , on the pharmaceutical and medical device industry (3 July 2026)
               </li>
               <li>
                 <strong className="text-gray-900">RTM</strong> — quoted in Portal Berita RTM on
@@ -138,8 +127,11 @@ export default function AboutPage() {
                 (July 2026)
               </li>
               <li>
-                <strong className="text-gray-900">Superbrands Malaysia</strong> — CEO Interviews
-                2025 on the official Superbrands Limited channel (December 2025)
+                <strong className="text-gray-900">Superbrands Malaysia</strong> —{' '}
+                <Link href={watchPath(superbrands)} className="text-primary-600 hover:text-primary-700 underline">
+                  CEO Interviews 2025
+                </Link>{' '}
+                on the official Superbrands Limited channel (December 2025)
               </li>
             </ul>
             <p className="text-gray-600 mb-4">
@@ -208,6 +200,7 @@ export default function AboutPage() {
             </WhatsAppLink>
           </div>
         </section>
+        <RelatedGuides current="/about" />
       </main>
       <Footer />
       <FloatingWhatsApp />

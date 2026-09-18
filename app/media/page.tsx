@@ -4,6 +4,11 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
+import VideoThumbnailLink from '@/components/VideoThumbnailLink'
+import { getFounderVideoByYouTubeId, videoRef, watchPath } from '@/lib/videos'
+
+const bernama = getFounderVideoByYouTubeId('p0rcj7kaqpQ')
+const superbrands = getFounderVideoByYouTubeId('4Y7hNFsM3Jk')
 
 export const metadata: Metadata = {
   title: 'Media Coverage',
@@ -35,18 +40,10 @@ const personSchema = {
     'https://my.linkedin.com/in/evin-lim-362a84258',
     'https://www.linkedin.com/company/aa-alive',
   ],
+  // Videos are referenced by @id only: their full VideoObjects live on the
+  // dedicated watch pages (/media/<slug>), where each video is the main content.
   subjectOf: [
-    {
-      '@type': 'VideoObject',
-      name: 'Ruang Bicara: Aspirasi Ekonomi — BERNAMA TV (3 Julai 2026)',
-      description:
-        'Panel discussion on the direction of the Malaysian pharmaceutical and medical device industry, with Datuk Lau Tiam Kwee (ACCCIM) and Evin Lim, founder of AA Alive Sdn Bhd, as industry consultant.',
-      thumbnailUrl: 'https://i.ytimg.com/vi/p0rcj7kaqpQ/hq720.jpg',
-      uploadDate: '2026-07-03',
-      url: 'https://www.youtube.com/watch?v=p0rcj7kaqpQ',
-      embedUrl: 'https://www.youtube.com/embed/p0rcj7kaqpQ',
-      publisher: { '@type': 'Organization', name: 'BERNAMA TV' },
-    },
+    videoRef(bernama),
     {
       '@type': 'NewsArticle',
       headline: 'Krisis tenaga global, peraturan ketat beri kesan kos perubatan',
@@ -54,17 +51,7 @@ const personSchema = {
       url: 'https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/krisis-tenaga-global-peraturan-ketat-beri-kesan-kos-perubatan/',
       publisher: { '@type': 'Organization', name: 'Portal Berita RTM' },
     },
-    {
-      '@type': 'VideoObject',
-      name: 'Superbrands Malaysia CEO Interviews 2025 — Evin Lim',
-      description:
-        'Superbrands Malaysia CEO Interviews 2025 with Evin Lim on the official Superbrands Limited channel. AA Alive Sdn Bhd is a Superbrands Malaysia 2025 (Malaysia’s Choice) award recipient.',
-      thumbnailUrl: 'https://i.ytimg.com/vi/4Y7hNFsM3Jk/hqdefault.jpg',
-      uploadDate: '2025-12-09',
-      url: 'https://www.youtube.com/watch?v=4Y7hNFsM3Jk',
-      embedUrl: 'https://www.youtube.com/embed/4Y7hNFsM3Jk',
-      publisher: { '@type': 'Organization', name: 'Superbrands Limited' },
-    },
+    videoRef(superbrands),
   ],
 }
 
@@ -100,7 +87,9 @@ export default function MediaPage() {
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-              BERNAMA TV — Ruang Bicara: Aspirasi Ekonomi (3 July 2026)
+              <Link href={watchPath(bernama)} className="hover:text-primary-700">
+                BERNAMA TV — Ruang Bicara: Aspirasi Ekonomi (3 July 2026)
+              </Link>
             </h2>
             <p className="text-gray-600 mb-6">
               Panel discussion on the direction of Malaysia&apos;s pharmaceutical and medical
@@ -108,16 +97,7 @@ export default function MediaPage() {
               industry consultant alongside Datuk Lau Tiam Kwee, representing ACCCIM (the
               Associated Chinese Chambers of Commerce and Industry of Malaysia).
             </p>
-            <div className="relative w-full aspect-video rounded-xl overflow-hidden border border-gray-200 mb-12">
-              <iframe
-                className="absolute inset-0 w-full h-full"
-                src="https://www.youtube-nocookie.com/embed/p0rcj7kaqpQ"
-                title="Ruang Bicara Aspirasi Ekonomi — BERNAMA TV (3 Julai 2026)"
-                loading="lazy"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
+            <VideoThumbnailLink video={bernama} className="mb-12" />
 
             <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
               RTM — Selamat Pagi Malaysia &amp; Portal Berita RTM (July 2026)
@@ -139,7 +119,9 @@ export default function MediaPage() {
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-              Superbrands Malaysia — CEO Interviews 2025
+              <Link href={watchPath(superbrands)} className="hover:text-primary-700">
+                Superbrands Malaysia — CEO Interviews 2025
+              </Link>
             </h2>
             <p className="text-gray-600 mb-6">
               Evin Lim was interviewed in the <em>Superbrands Malaysia CEO Interviews 2025</em>{' '}
@@ -155,16 +137,7 @@ export default function MediaPage() {
                 Watch the Superbrands reel on Instagram
               </a>
             </p>
-            <div className="relative w-full aspect-video rounded-xl overflow-hidden border border-gray-200 mb-8">
-              <iframe
-                className="absolute inset-0 w-full h-full"
-                src="https://www.youtube-nocookie.com/embed/4Y7hNFsM3Jk"
-                title="Superbrands Malaysia CEO Interviews 2025 — Evin Lim"
-                loading="lazy"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
+            <VideoThumbnailLink video={superbrands} className="mb-8" />
           </div>
         </section>
       </main>

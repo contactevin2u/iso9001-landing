@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
+import RelatedGuides from '@/components/RelatedGuides'
 
 export const metadata: Metadata = {
   title: 'ISO 9001 Certification Process | 30-Day Guide',
@@ -329,6 +330,7 @@ export default function ISO9001CertificationProcess() {
             </div>
           </div>
         </section>
+        <RelatedGuides current="/iso-9001-certification-process" />
       </main>
       <Footer />
       <FloatingWhatsApp />

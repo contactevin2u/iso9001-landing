@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
+import RelatedGuides from '@/components/RelatedGuides'
 import WhatsAppLink from '@/components/WhatsAppLink'
 import { CONTENT_LAST_UPDATED } from '@/lib/constants'
 
@@ -76,7 +77,7 @@ export default function ISO9001CostMalaysia() {
               </h2>
               <p className="text-gray-600 mb-4">
                 Consulting fees cover the expertise and support needed to develop and implement your
-                Quality Management System (QMS). Our packages include:
+                <a href="/quality-management-system-malaysia" className="text-primary-600 hover:underline">Quality Management System (QMS)</a>. Our packages include:
               </p>
 
               <div className="grid gap-6 mb-8">
@@ -369,6 +370,7 @@ export default function ISO9001CostMalaysia() {
             </div>
           </div>
         </section>
+        <RelatedGuides current="/iso-9001-cost-malaysia" />
       </main>
       <Footer />
       <FloatingWhatsApp />

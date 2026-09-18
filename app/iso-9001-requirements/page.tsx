@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
+import RelatedGuides from '@/components/RelatedGuides'
 
 export const metadata: Metadata = {
   title: 'ISO 9001 Requirements | Clause-by-Clause Guide',
@@ -46,7 +47,7 @@ export default function ISO9001Requirements() {
             </h1>
             <p className="text-xl text-gray-600 mb-8">
               A comprehensive guide to the requirements of ISO 9001:2015. Understand what your organization
-              needs to implement for successful Quality Management System certification.
+              needs to implement for successful <a href="/quality-management-system-malaysia" className="text-primary-600 hover:underline">Quality Management System</a> certification.
             </p>
 
             <div className="prose prose-lg max-w-none">
@@ -280,6 +281,7 @@ export default function ISO9001Requirements() {
             </div>
           </div>
         </section>
+        <RelatedGuides current="/iso-9001-requirements" />
       </main>
       <Footer />
       <FloatingWhatsApp />

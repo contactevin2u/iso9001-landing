@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
+import RelatedGuides from '@/components/RelatedGuides'
 
 export const metadata: Metadata = {
   title: 'Benefits of ISO 9001 Certification Malaysia',
@@ -55,7 +56,7 @@ export default function ISO9001Benefits() {
               </h2>
               <p className="text-gray-600 mb-4">
                 The primary focus of ISO 9001 is meeting customer requirements and enhancing satisfaction.
-                Organizations implementing an effective Quality Management System (QMS) typically achieve:
+                Organizations implementing an effective <a href="/quality-management-system-malaysia" className="text-primary-600 hover:underline">Quality Management System (QMS)</a> typically achieve:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
                 <li><strong>Consistent product/service quality</strong> through standardized processes</li>
@@ -217,6 +218,7 @@ export default function ISO9001Benefits() {
             </div>
           </div>
         </section>
+        <RelatedGuides current="/iso-9001-benefits" />
       </main>
       <Footer />
       <FloatingWhatsApp />

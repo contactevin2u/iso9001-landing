@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
+import RelatedGuides from '@/components/RelatedGuides'
 import WhatsAppLink from '@/components/WhatsAppLink'
 
 export const metadata: Metadata = {
@@ -224,6 +225,7 @@ export default function QualityManagementSystemMalaysia() {
             </div>
           </div>
         </section>
+        <RelatedGuides current="/quality-management-system-malaysia" />
       </main>
       <Footer />
       <FloatingWhatsApp />

@@ -1,10 +1,11 @@
 # robots.txt — isoconsultantmalaysia.com
 # Search engines and AI/answer-engine crawlers are explicitly allowed.
+# /_next/ is NOT disallowed: Googlebot needs /_next/static (CSS/JS) and
+# /_next/image to render pages.
 
 User-agent: *
 Allow: /
 Disallow: /api/
-Disallow: /_next/
 Disallow: /admin/
 
 # Search engine crawlers
@@ -39,7 +40,6 @@ User-agent: cohere-ai
 User-agent: YouBot
 Allow: /
 Disallow: /api/
-Disallow: /_next/
 Disallow: /admin/
 
 Sitemap: https://isoconsultantmalaysia.com/sitemap.xml
