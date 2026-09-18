@@ -190,8 +190,8 @@ export default function AboutPage() {
                 +60 10-206 2070
               </a>{' '}
               · Email:{' '}
-              <a href="mailto:contact@evin2u.com" className="text-primary-600 hover:text-primary-700 underline">
-                contact@evin2u.com
+              <a href="mailto:ylim@gdpmd.my" className="text-primary-600 hover:text-primary-700 underline">
+                ylim@gdpmd.my
               </a>
             </p>
 

@@ -85,8 +85,8 @@ export default function Footer() {
             <div className="font-medium text-white mb-4">Contact</div>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="mailto:contact@evin2u.com" className="hover:text-white transition-colors">
-                  contact@evin2u.com
+                <a href="mailto:ylim@gdpmd.my" className="hover:text-white transition-colors">
+                  ylim@gdpmd.my
                 </a>
               </li>
               <li>

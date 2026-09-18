@@ -62,7 +62,7 @@ export default function StructuredData() {
         image: 'https://isoconsultantmalaysia.com/opengraph-image',
         url: 'https://isoconsultantmalaysia.com',
         telephone: '+60102062070',
-        email: 'contact@evin2u.com',
+        email: 'ylim@gdpmd.my',
         founder: {
           '@id': 'https://isoconsultantmalaysia.com/#person',
         },
