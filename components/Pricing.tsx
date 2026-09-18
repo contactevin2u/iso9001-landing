@@ -1,79 +1,31 @@
 import WhatsAppLink from '@/components/WhatsAppLink'
+import Rich from '@/components/Rich'
 import { CONTENT_LAST_UPDATED } from '@/lib/constants'
+import en from '@/lib/i18n/home-en'
+import type { HomeDict } from '@/lib/i18n/home-types'
 
-// Single source of truth for package tiers: also rendered on /iso-9001-cost-malaysia.
-export const packages = [
-  {
-    name: 'SME Package',
-    price: 'RM 13,000',
-    description: 'For small businesses with 5-30 employees',
-    features: [
-      'Complete gap analysis assessment',
-      'Full QMS documentation (Quality Manual, SOPs, Forms)',
-      '2 on-site consultation visits',
-      'Staff quality awareness training',
-      'Internal audit support',
-      'Certification audit preparation',
-      'Audit day support',
-      '3 months post-certification guidance',
-    ],
-    popular: false,
-  },
-  {
-    name: 'Professional Package',
-    price: 'RM 22,000',
-    description: 'For medium businesses with 30-100 employees',
-    features: [
-      'Everything in SME Package, plus:',
-      'Advanced process mapping and optimization',
-      '4 on-site consultation visits',
-      'Departmental-level training workshops',
-      'Risk assessment & mitigation planning',
-      'KPI framework development',
-      'Management review facilitation',
-      '6 months post-certification support',
-      'Surveillance audit preparation (Year 1)',
-    ],
-    popular: true,
-  },
-  {
-    name: 'Enterprise Package',
-    price: 'Custom',
-    description: 'For large organizations with 100+ employees or multi-site',
-    features: [
-      'Everything in Professional Package, plus:',
-      'Multi-site coordination and harmonization',
-      'Unlimited on-site consultation visits',
-      'Executive leadership workshops',
-      'Integrated Management System (ISO 14001, ISO 45001)',
-      'Supplier quality management setup',
-      'Digital QMS platform implementation',
-      '12 months ongoing support',
-      'Full recertification cycle management',
-    ],
-    popular: false,
-  },
-]
+// Single source of truth for package tiers (lib/i18n/home-en.ts); also rendered on /iso-9001-cost-malaysia.
+export const packages = en.pricing.packages
 
-export default function Pricing() {
+export default function Pricing({
+  t = en.pricing,
+  lastUpdated = CONTENT_LAST_UPDATED,
+}: {
+  t?: HomeDict['pricing']
+  lastUpdated?: string
+}) {
   return (
     <section id="pricing" className="py-20 px-4 sm:px-6 bg-gray-50">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl mb-4">
-          ISO 9001 packages and pricing
-        </h2>
-        <p className="text-lg text-gray-600 max-w-3xl mb-4">
-          Transparent consultancy pricing. Certification body audit fees are quoted separately.
-          Every package covers our consultancy support from gap analysis to the certification audit.
+        <h2 className="text-3xl sm:text-4xl mb-4">{t.title}</h2>
+        <p className="text-lg text-gray-600 max-w-3xl mb-4">{t.intro}</p>
+        <p className="text-sm text-gray-500 max-w-3xl mb-4">{t.cbNote}</p>
+        <p className="text-sm text-gray-500 mb-12">
+          {t.lastUpdated} {lastUpdated}
         </p>
-        <p className="text-sm text-gray-500 max-w-3xl mb-4">
-          Certification body (CB) audit fees are separate and typically range from RM 3,000 - RM 8,000
-          depending on organization size. We help you compare quotes from accredited CBs.
-        </p>
-        <p className="text-sm text-gray-500 mb-12">Last updated: {CONTENT_LAST_UPDATED}</p>
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
-          {packages.map((pkg, index) => (
+          {t.packages.map((pkg, index) => (
             <div
               key={index}
               className={`bg-white rounded-lg p-6 sm:p-8 border-2 ${
@@ -83,7 +35,7 @@ export default function Pricing() {
               {pkg.popular && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2">
                   <span className="bg-primary-600 text-white text-sm font-medium px-4 py-1 rounded-full">
-                    Most Popular
+                    {t.mostPopular}
                   </span>
                 </div>
               )}
@@ -112,14 +64,14 @@ export default function Pricing() {
 
               {pkg.popular ? (
                 <WhatsAppLink className="block w-full text-center py-3.5 px-6 bg-primary-600 text-white font-semibold rounded-md hover:bg-primary-700 transition-colors">
-                  Get Started
+                  {t.getStarted}
                 </WhatsAppLink>
               ) : (
                 <a
                   href="/#contact"
                   className="block w-full text-center py-3.5 px-6 border-2 border-primary-600 text-primary-600 font-semibold rounded-lg hover:bg-primary-50 transition-colors"
                 >
-                  {pkg.price === 'Custom' ? 'Contact Us' : 'Get Started'}
+                  {pkg.custom ? t.contactUs : t.getStarted}
                 </a>
               )}
             </div>
@@ -127,11 +79,7 @@ export default function Pricing() {
         </div>
 
         <p className="text-gray-600">
-          Flexible payment plans are available.{' '}
-          <a href="/#contact" className="font-medium text-primary-700 underline underline-offset-4 hover:text-primary-800">
-            Ask us about a plan that works for your budget
-          </a>
-          .
+          <Rich text={t.payment} linkClassName="font-medium text-primary-700 underline underline-offset-4 hover:text-primary-800" />
         </p>
       </div>
     </section>

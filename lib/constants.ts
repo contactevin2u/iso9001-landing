@@ -7,6 +7,8 @@
  * change — never hard-code the date in page files.
  */
 export const CONTENT_LAST_UPDATED = '18 September 2026'
+/** Same date as CONTENT_LAST_UPDATED, for the translated homepages. Keep in sync. */
+export const CONTENT_LAST_UPDATED_ISO = '2026-09-18'
 
 /**
  * Site-wide "last modified" date: shown in the footer and emitted as

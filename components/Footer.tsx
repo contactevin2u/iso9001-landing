@@ -1,8 +1,11 @@
 import Link from 'next/link'
 import WhatsAppLink from '@/components/WhatsAppLink'
 import { SITE_LAST_UPDATED, SITE_LAST_UPDATED_ISO } from '@/lib/constants'
+import { anchor, formatDate, type Locale } from '@/lib/i18n/config'
+import { chrome } from '@/lib/i18n/chrome'
 
-export default function Footer() {
+export default function Footer({ locale = 'en' }: { locale?: Locale }) {
+  const t = chrome[locale].footer
   return (
     <footer className="bg-ink text-gray-400 py-12 px-4 sm:px-6">
       <div className="max-w-6xl mx-auto">
@@ -10,44 +13,39 @@ export default function Footer() {
           <div>
             <div className="mb-4">
               <div className="font-serif text-2xl font-semibold text-white leading-none">AA Alive</div>
-              <div className="text-xs text-gray-500 mt-1">ISO certification consultants, Malaysia</div>
+              <div className="text-xs text-gray-500 mt-1">{t.tagline}</div>
             </div>
-            <p className="text-sm mb-3">
-              ISO 9001 consulting for Malaysian companies: gap analysis, documentation,
-              training and certification audit preparation.
-            </p>
+            <p className="text-sm mb-3">{t.description}</p>
             <p className="text-xs text-gray-500">
-              A service by <strong className="text-gray-400">AA Alive Sdn Bhd</strong> (1204108-D)
+              {t.serviceBy} <strong className="text-gray-400">AA Alive Sdn Bhd</strong> (1204108-D)
             </p>
-            <p className="text-xs text-gray-500">
-              Founded by Evin Lim
-            </p>
+            <p className="text-xs text-gray-500">{t.foundedBy}</p>
           </div>
 
           <div>
-            <div className="font-medium text-white mb-4">Quick Links</div>
+            <div className="font-medium text-white mb-4">{t.quickLinks}</div>
             <ul className="space-y-2 text-sm">
-              <li><a href="/#what-is-iso" className="hover:text-white transition-colors">What is ISO 9001</a></li>
-              <li><a href="/#benefits" className="hover:text-white transition-colors">Benefits</a></li>
-              <li><a href="/#process" className="hover:text-white transition-colors">Certification Process</a></li>
-              <li><a href="/#pricing" className="hover:text-white transition-colors">Pricing</a></li>
-              <li><a href="/#faq" className="hover:text-white transition-colors">FAQ</a></li>
-              <li><a href="/#contact" className="hover:text-white transition-colors">Contact Us</a></li>
+              <li><a href={anchor(locale, 'what-is-iso')} className="hover:text-white transition-colors">{t.whatIs}</a></li>
+              <li><a href={anchor(locale, 'benefits')} className="hover:text-white transition-colors">{t.benefits}</a></li>
+              <li><a href={anchor(locale, 'process')} className="hover:text-white transition-colors">{t.process}</a></li>
+              <li><a href={anchor(locale, 'pricing')} className="hover:text-white transition-colors">{t.pricing}</a></li>
+              <li><a href={anchor(locale, 'faq')} className="hover:text-white transition-colors">{t.faq}</a></li>
+              <li><a href={anchor(locale, 'contact')} className="hover:text-white transition-colors">{t.contactUs}</a></li>
               <li>
                 <Link href="/about" className="hover:text-white transition-colors">
-                  About Us
+                  {t.about}
                 </Link>
               </li>
               <li>
                 <Link href="/media" className="hover:text-white transition-colors">
-                  Media Coverage
+                  {t.media}
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <div className="font-medium text-white mb-4">Resources</div>
+            <div className="font-medium text-white mb-4">{t.guides}</div>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/iso-9001-certification-malaysia" className="hover:text-white transition-colors">
@@ -83,7 +81,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <div className="font-medium text-white mb-4">Contact</div>
+            <div className="font-medium text-white mb-4">{t.contact}</div>
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="mailto:ylim@gdpmd.my" className="hover:text-white transition-colors">
@@ -97,7 +95,7 @@ export default function Footer() {
               </li>
               <li>
                 <WhatsAppLink className="hover:text-white transition-colors">
-                  WhatsApp Us
+                  {t.whatsapp}
                 </WhatsAppLink>
               </li>
               <li className="pt-2 text-xs text-gray-500">
@@ -111,13 +109,13 @@ export default function Footer() {
         </div>
 
         <div className="mb-8 text-sm">
-          <span className="font-medium text-white">Our other services: </span>
+          <span className="font-medium text-white">{t.otherServices} </span>
           <a
             href="https://esgiso.com"
             rel="noopener"
             className="hover:text-white transition-colors underline decoration-gray-700"
           >
-            ISO 14001 &amp; ESG certification Malaysia (esgiso.com)
+            {t.esgService}
           </a>
           <span className="mx-2 text-gray-600">&middot;</span>
           <a
@@ -125,14 +123,14 @@ export default function Footer() {
             rel="noopener"
             className="hover:text-white transition-colors underline decoration-gray-700"
           >
-            ISO 13485 &amp; medical device consulting (iso13485.my)
+            {t.mdcService}
           </a>
         </div>
 
         <div className="pt-8 border-t border-gray-800 text-sm flex flex-col sm:flex-row sm:justify-between gap-2">
-          <p>&copy; {new Date().getFullYear()} AA Alive Sdn Bhd (1204108-D). All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} AA Alive Sdn Bhd (1204108-D). {t.rights}</p>
           <p className="text-gray-500">
-            Last updated <time dateTime={SITE_LAST_UPDATED_ISO}>{SITE_LAST_UPDATED}</time>
+            {t.lastUpdated} <time dateTime={SITE_LAST_UPDATED_ISO}>{locale === 'en' ? SITE_LAST_UPDATED : formatDate(locale, SITE_LAST_UPDATED_ISO)}</time>
           </p>
         </div>
       </div>

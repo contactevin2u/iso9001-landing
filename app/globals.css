@@ -95,3 +95,16 @@ h2 {
     animation: none;
   }
 }
+
+/* Chinese pages: Latin text keeps the site fonts; Chinese characters fall back
+   to the platform's sans CJK face (the default serif CJK fallbacks read as dated). */
+[lang|='zh'] {
+  font-family: var(--font-sans), 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+}
+
+[lang|='zh'] h1,
+[lang|='zh'] h2,
+[lang|='zh'] .font-serif {
+  font-family: var(--font-serif), 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+  letter-spacing: 0;
+}

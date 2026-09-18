@@ -3,6 +3,7 @@
 import { getWhatsAppUrlWithBeacon } from '@/lib/beacon'
 
 import { useState } from 'react'
+import type { HomeDict } from '@/lib/i18n/home-types'
 
 declare global {
   interface Window {
@@ -12,7 +13,7 @@ declare global {
 
 const WHATSAPP_NUMBER = '+60102062070'
 
-export default function Contact() {
+export default function Contact({ t }: { t: HomeDict['contact'] }) {
   const [formData, setFormData] = useState({
     name: '',
     company: '',
@@ -56,17 +57,9 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
           <div className="text-white">
-            <h2 className="text-3xl sm:text-4xl text-white mb-4">
-              Let&apos;s discuss your certification
-            </h2>
-            <p className="text-gray-300 text-lg mb-4 leading-relaxed">
-              Share your details and one of our consultants will get back to you
-              to understand your needs and answer any questions.
-            </p>
-            <p className="text-white font-medium mb-8 leading-relaxed">
-              Your first consultation is free and without obligation (WhatsApp, phone or video).
-              Paid work starts only after you accept a written proposal.
-            </p>
+            <h2 className="text-3xl sm:text-4xl text-white mb-4">{t.title}</h2>
+            <p className="text-gray-300 text-lg mb-4 leading-relaxed">{t.intro}</p>
+            <p className="text-white font-medium mb-8 leading-relaxed">{t.note}</p>
 
             <div className="space-y-6">
               <div className="flex items-start gap-4">
@@ -76,7 +69,7 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <div className="font-medium text-gray-200">Email</div>
+                  <div className="font-medium text-gray-200">{t.email}</div>
                   <a href="mailto:ylim@gdpmd.my" className="text-gray-400 hover:text-white transition-colors">
                     ylim@gdpmd.my
                   </a>
@@ -90,7 +83,7 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <div className="font-medium text-gray-200">Phone</div>
+                  <div className="font-medium text-gray-200">{t.phone}</div>
                   <a href="tel:+60102062070" className="text-gray-400 hover:text-white transition-colors">
                     +60 10-206 2070
                   </a>
@@ -104,7 +97,7 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <div className="font-medium text-gray-200">WhatsApp</div>
+                  <div className="font-medium text-gray-200">{t.whatsapp}</div>
                   <a
                     href="https://wa.me/60102062070"
                     onClick={handleWhatsAppClick}
@@ -112,7 +105,7 @@ export default function Contact() {
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
-                    Chat with us
+                    {t.chatWithUs}
                   </a>
                 </div>
               </div>
@@ -123,7 +116,7 @@ export default function Contact() {
             <form onSubmit={handleSubmit} className="space-y-5">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                  Full Name
+                  {t.form.name}
                 </label>
                 <input
                   type="text"
@@ -134,13 +127,13 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
-                  placeholder="Your name"
+                  placeholder={t.form.namePlaceholder}
                 />
               </div>
 
               <div>
                 <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-1">
-                  Company Name
+                  {t.form.company}
                 </label>
                 <input
                   type="text"
@@ -151,14 +144,14 @@ export default function Contact() {
                   value={formData.company}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors"
-                  placeholder="Your company"
+                  placeholder={t.form.companyPlaceholder}
                 />
               </div>
 
               <div className="grid sm:grid-cols-2 gap-5">
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                    Email
+                    {t.form.email}
                   </label>
                   <input
                     type="email"
@@ -174,7 +167,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
-                    Phone
+                    {t.form.phone}
                   </label>
                   <input
                     type="tel"
@@ -191,7 +184,7 @@ export default function Contact() {
 
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                  Message
+                  {t.form.message}
                 </label>
                 <textarea
                   id="message"
@@ -200,7 +193,7 @@ export default function Contact() {
                   value={formData.message}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors resize-none"
-                  placeholder="Tell us about your certification needs..."
+                  placeholder={t.form.messagePlaceholder}
                 />
               </div>
 
@@ -208,7 +201,7 @@ export default function Contact() {
                 type="submit"
                 className="w-full px-8 py-4 bg-primary-600 text-white font-medium rounded-md hover:bg-primary-700 transition-colors"
               >
-                Send via WhatsApp
+                {t.form.submit}
               </button>
             </form>
           </div>
