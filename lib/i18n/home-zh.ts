@@ -542,6 +542,19 @@ const zh: HomeDict = {
       },
     ],
   },
+  iso2026: {
+    eyebrow: '最新：ISO 9001:2026',
+    heading: 'ISO 9001:2026 已正式发布，这对您的企业意味着什么？',
+    facts: [
+      { label: '发布时间', value: '2026 年 9 月', note: 'ISO 9001 第六版' },
+      { label: '过渡期', value: '约三年', note: '预计于 2029 年 9 月左右结束' },
+      { label: '您的 ISO 9001:2015 证书', value: '继续有效', note: '直至过渡期结束' },
+      { label: '首批 ISO 9001:2026 审核', value: '约 2027 年中起', note: '待认证机构获得认可后' },
+    ],
+    body: '现在准备认证？我们按照认证机构目前审核的 ISO 9001:2015 建立您的 QMS，并从一开始就为 2026 版的变化做好规划。',
+    cta: '阅读 ISO 9001:2026 过渡指南（英文）',
+    updated: '更新于',
+  },
   guidesHeading: 'ISO 9001 指南（英文）',
   contact: {
     title: '与我们讨论您的认证需求',

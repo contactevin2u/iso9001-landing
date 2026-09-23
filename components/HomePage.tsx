@@ -15,7 +15,8 @@ import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 import RelatedGuides from '@/components/RelatedGuides'
-import { CONTENT_LAST_UPDATED, CONTENT_LAST_UPDATED_ISO } from '@/lib/constants'
+import Iso2026Notice from '@/components/Iso2026Notice'
+import { CONTENT_LAST_UPDATED, CONTENT_LAST_UPDATED_ISO, SITE_LAST_UPDATED, SITE_LAST_UPDATED_ISO } from '@/lib/constants'
 import { chrome } from '@/lib/i18n/chrome'
 import { formatDate, langTag, type Locale } from '@/lib/i18n/config'
 import type { HomeDict } from '@/lib/i18n/home-types'
@@ -23,6 +24,7 @@ import type { HomeDict } from '@/lib/i18n/home-types'
 /** The homepage in one language: `/` (en), `/ms` and `/zh`. */
 export default function HomePage({ locale, t }: { locale: Locale; t: HomeDict }) {
   const pricingDate = locale === 'en' ? CONTENT_LAST_UPDATED : formatDate(locale, CONTENT_LAST_UPDATED_ISO)
+  const siteDate = locale === 'en' ? SITE_LAST_UPDATED : formatDate(locale, SITE_LAST_UPDATED_ISO)
 
   return (
     // The root layout sets <html lang="en-MY">; translated homepages mark their content here.
@@ -33,6 +35,7 @@ export default function HomePage({ locale, t }: { locale: Locale; t: HomeDict })
       <Header locale={locale} />
       <main id="main-content">
         <Hero t={t.hero} waText={t.whatsappText.hero} />
+        <Iso2026Notice t={t.iso2026} updated={siteDate} updatedIso={SITE_LAST_UPDATED_ISO} />
         <TrustBadges intro={t.trust.intro} />
         <PainPoints t={t.pain} />
         <WhyChooseUs t={t.why} />

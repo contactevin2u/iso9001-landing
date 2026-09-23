@@ -15,5 +15,5 @@ export const CONTENT_LAST_UPDATED_ISO = '2026-09-18'
  * WebSite.dateModified. Update both values together whenever the site
  * changes materially (and bump <lastmod> in public/sitemap.xml to match).
  */
-export const SITE_LAST_UPDATED = '18 September 2026'
-export const SITE_LAST_UPDATED_ISO = '2026-09-18'
+export const SITE_LAST_UPDATED = '23 September 2026'
+export const SITE_LAST_UPDATED_ISO = '2026-09-23'

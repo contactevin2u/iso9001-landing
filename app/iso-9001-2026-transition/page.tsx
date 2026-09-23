@@ -5,13 +5,15 @@ import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 import RelatedGuides from '@/components/RelatedGuides'
 import WhatsAppLink from '@/components/WhatsAppLink'
-import { SITE_LAST_UPDATED } from '@/lib/constants'
 
 const PATH = '/iso-9001-2026-transition'
 const URL = `https://isoconsultantmalaysia.com${PATH}`
 const TITLE = 'ISO 9001:2026 Transition Malaysia | Consultant Support'
 const DESCRIPTION =
   'ISO 9001:2026 was published in September 2026. What changes, the expected transition period to around September 2029, and how we prepare your QMS for the transition audit.'
+// This page's own content date (the site-wide SITE_LAST_UPDATED moves with other pages).
+const PAGE_UPDATED = '18 September 2026'
+const PAGE_UPDATED_ISO = '2026-09-18'
 const WA_TEXT = 'Hi, I would like to discuss the ISO 9001:2026 transition for my company.'
 
 export const metadata: Metadata = {
@@ -104,6 +106,19 @@ const faqs = [
   },
 ]
 
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: TITLE,
+  description: DESCRIPTION,
+  url: URL,
+  mainEntityOfPage: URL,
+  datePublished: '2026-09-18',
+  dateModified: PAGE_UPDATED_ISO,
+  author: { '@id': 'https://isoconsultantmalaysia.com/#organization' },
+  publisher: { '@id': 'https://isoconsultantmalaysia.com/#organization' },
+}
+
 const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
@@ -126,6 +141,7 @@ export default function ISO9001TransitionPage() {
       <Header />
       <main id="main-content" className="pt-20">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
         <Breadcrumb
           items={[
             { name: 'Home', href: '/' },
@@ -157,7 +173,7 @@ export default function ISO9001TransitionPage() {
                 </a>
               </div>
               <p className="text-sm text-gray-500">
-                Free initial consultation by WhatsApp, phone or video. Last updated {SITE_LAST_UPDATED}.
+                Free initial consultation by WhatsApp, phone or video. Last updated <time dateTime={PAGE_UPDATED_ISO}>{PAGE_UPDATED}</time>.
               </p>
             </div>
 

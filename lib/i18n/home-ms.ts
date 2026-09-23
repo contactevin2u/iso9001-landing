@@ -580,6 +580,19 @@ const ms: HomeDict = {
       },
     ],
   },
+  iso2026: {
+    eyebrow: 'Baharu: ISO 9001:2026',
+    heading: 'ISO 9001:2026 telah diterbitkan. Ini maksudnya untuk syarikat anda.',
+    facts: [
+      { label: 'Diterbitkan', value: 'September 2026', note: 'Edisi keenam ISO 9001' },
+      { label: 'Tempoh peralihan', value: 'Kira-kira tiga tahun', note: 'Dijangka tamat sekitar September 2029' },
+      { label: 'Sijil ISO 9001:2015 anda', value: 'Kekal sah', note: 'Sehingga tempoh peralihan tamat' },
+      { label: 'Audit ISO 9001:2026 pertama', value: 'Sekitar pertengahan 2027', note: 'Selepas badan pensijilan diakreditasi' },
+    ],
+    body: 'Mahu dapatkan pensijilan sekarang? Kami bina QMS anda mengikut ISO 9001:2015, versi yang diaudit oleh badan pensijilan hari ini, dan merancang perubahan 2026 dari awal.',
+    cta: 'Baca panduan peralihan ISO 9001:2026 (dalam Bahasa Inggeris)',
+    updated: 'Dikemas kini',
+  },
   guidesHeading: 'Panduan ISO 9001 (dalam Bahasa Inggeris)',
   contact: {
     title: 'Mari bincangkan pensijilan anda',

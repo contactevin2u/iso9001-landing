@@ -155,6 +155,15 @@ export interface HomeDict {
     /** Extra block in another language (the English page carries a BM FAQ). */
     extra?: { heading: string; lang: string; items: QA[] }
   }
+  /** Homepage notice for the ISO 9001:2026 publication (facts mirror /iso-9001-2026-transition). */
+  iso2026: {
+    eyebrow: string
+    heading: string
+    facts: { label: string; value: string; note: string }[]
+    body: string
+    cta: string
+    updated: string
+  }
   guidesHeading: string
   contact: {
     title: string

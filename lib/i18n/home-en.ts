@@ -595,6 +595,19 @@ const en: HomeDict = {
       ],
     },
   },
+  iso2026: {
+    eyebrow: 'New: ISO 9001:2026',
+    heading: 'ISO 9001:2026 has been published. Here is what it means for your company.',
+    facts: [
+      { label: 'Published', value: 'September 2026', note: 'Sixth edition of ISO 9001' },
+      { label: 'Transition period', value: 'About three years', note: 'Expected to end around September 2029' },
+      { label: 'Your ISO 9001:2015 certificate', value: 'Stays valid', note: 'Until the transition period ends' },
+      { label: 'First ISO 9001:2026 audits', value: 'From around mid-2027', note: 'Once certification bodies are accredited' },
+    ],
+    body: 'Getting certified now? We build your QMS to ISO 9001:2015, the version certification bodies audit today, and plan for the 2026 changes from the start.',
+    cta: 'Read the ISO 9001:2026 transition guide',
+    updated: 'Updated',
+  },
   guidesHeading: 'ISO 9001 guides',
   contact: {
     title: "Let's discuss your certification",
