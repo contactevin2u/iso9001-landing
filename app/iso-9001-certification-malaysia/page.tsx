@@ -7,7 +7,7 @@ import RelatedGuides from '@/components/RelatedGuides'
 import WhatsAppLink from '@/components/WhatsAppLink'
 
 export const metadata: Metadata = {
-  title: 'ISO 9001 Certification Malaysia | Consultant Guide',
+  title: { absolute: 'ISO 9001 Certification in Malaysia: Complete Guide' },
   description: 'ISO 9001 certification in Malaysia explained. Our QMS consultants help Malaysian companies prepare for certification by an accredited certification body.',
   keywords: ['ISO 9001 certification Malaysia', 'QMS certification Malaysia', 'quality management system Malaysia', 'ISO 9001 consultant Malaysia'],
   openGraph: {

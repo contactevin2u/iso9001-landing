@@ -6,7 +6,7 @@ import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 import RelatedGuides from '@/components/RelatedGuides'
 
 export const metadata: Metadata = {
-  title: 'ISO 9001 Requirements | Clause-by-Clause Guide',
+  title: { absolute: 'ISO 9001 Requirements: Clauses 4 to 10 Explained' },
   description: 'Complete guide to ISO 9001:2015 requirements. Understand every clause from context and leadership to operations and continuous improvement.',
   keywords: ['ISO 9001 requirements', 'ISO 9001 checklist', 'ISO 9001:2015 clauses', 'QMS requirements Malaysia'],
   openGraph: {

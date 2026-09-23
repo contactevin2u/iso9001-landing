@@ -6,7 +6,7 @@ const ms: HomeDict = {
   meta: {
     title: 'Pensijilan ISO 9001 Malaysia | Perunding Sistem Pengurusan Kualiti',
     description:
-      'Perundingan ISO 9001 di Malaysia dari RM 13,000. Perunding QMS kami menyediakan syarikat anda untuk pensijilan oleh badan pensijilan yang diakreditasi. Konsultasi pertama percuma.',
+      'Perundingan ISO 9001 di Malaysia dari RM 13,000. Kami sediakan syarikat anda untuk pensijilan oleh badan pensijilan diakreditasi. Konsultasi pertama percuma.',
   },
   whatsappText: {
     hero: 'Hai, saya ingin bertanya tentang pensijilan ISO 9001.',

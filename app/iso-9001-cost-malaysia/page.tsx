@@ -9,7 +9,7 @@ import { packages } from '@/components/Pricing'
 import { CONTENT_LAST_UPDATED } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'ISO 9001 Cost Malaysia 2026 | From RM 13,000',
+  title: { absolute: 'ISO 9001 Cost Malaysia 2026 | From RM 13,000' },
   description: 'ISO 9001 certification cost in Malaysia from RM 13,000. Transparent pricing breakdown including consulting fees, certification body costs, and ongoing maintenance.',
   keywords: ['ISO 9001 cost Malaysia', 'ISO 9001 price 2026', 'ISO 9001 certification cost', 'QMS certification price Malaysia'],
   openGraph: {

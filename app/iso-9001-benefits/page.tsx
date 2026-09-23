@@ -6,7 +6,7 @@ import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 import RelatedGuides from '@/components/RelatedGuides'
 
 export const metadata: Metadata = {
-  title: 'Benefits of ISO 9001 Certification Malaysia',
+  title: { absolute: 'Benefits of ISO 9001 Certification in Malaysia' },
   description: 'Discover the benefits of ISO 9001 certification: improved quality, customer satisfaction, competitive advantage, and operational efficiency for Malaysian businesses.',
   keywords: ['ISO 9001 benefits', 'advantages of ISO 9001', 'quality certification benefits Malaysia', 'QMS benefits'],
   openGraph: {

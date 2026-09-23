@@ -6,7 +6,7 @@ import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 import RelatedGuides from '@/components/RelatedGuides'
 
 export const metadata: Metadata = {
-  title: 'ISO 9001 Certification Process | Step-by-Step Guide',
+  title: { absolute: 'ISO 9001 Certification Process: Step-by-Step Guide' },
   description: 'Complete guide to the ISO 9001 certification process in Malaysia. Learn each step from gap analysis through to the certification audit.',
   keywords: ['ISO 9001 certification process', 'how to get ISO 9001 Malaysia', 'ISO 9001 steps', 'QMS implementation'],
   openGraph: {

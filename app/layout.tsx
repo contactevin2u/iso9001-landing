@@ -32,7 +32,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://isoconsultantmalaysia.com'),
   title: {
-    default: 'ISO 9001 Certification Malaysia | Quality Management System',
+    default: 'ISO 9001 Consultant Malaysia | Certification from RM 13,000',
     template: '%s | ISO 9001 Malaysia'
   },
   description: 'ISO 9001 consultancy in Malaysia from RM 13,000. Our QMS consultants prepare you for certification by an accredited certification body. Free first consultation.',
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     locale: 'en_MY',
     url: 'https://isoconsultantmalaysia.com',
     siteName: 'ISO 9001 Malaysia',
-    title: 'ISO 9001 Certification Malaysia | Quality Management System',
+    title: 'ISO 9001 Consultant Malaysia | Certification from RM 13,000',
     description: 'ISO 9001 consultancy in Malaysia from RM 13,000. Our QMS consultants prepare you for certification by an accredited certification body. Free first consultation.',
     images: [
       {
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ISO 9001 Certification Malaysia | Quality Management System',
+    title: 'ISO 9001 Consultant Malaysia | Certification from RM 13,000',
     description: 'ISO 9001 consultancy in Malaysia from RM 13,000. Our QMS consultants prepare you for certification by an accredited certification body. Free first consultation.',
     images: ['/og-image.png'],
   },

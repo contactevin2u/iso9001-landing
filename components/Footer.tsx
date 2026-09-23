@@ -68,6 +68,11 @@ export default function Footer({ locale = 'en' }: { locale?: Locale }) {
                 </Link>
               </li>
               <li>
+                <Link href="/iso-9001-certification-body-malaysia" className="hover:text-white transition-colors">
+                  Certification Bodies
+                </Link>
+              </li>
+              <li>
                 <Link href="/iso-9001-certification-process" className="hover:text-white transition-colors">
                   Certification Process
                 </Link>

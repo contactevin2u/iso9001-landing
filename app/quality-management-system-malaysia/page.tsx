@@ -7,8 +7,8 @@ import RelatedGuides from '@/components/RelatedGuides'
 import WhatsAppLink from '@/components/WhatsAppLink'
 
 export const metadata: Metadata = {
-  title: 'Quality Management System Malaysia | QMS Consultancy',
-  description: 'Implement a quality management system (QMS) in Malaysia with consultant guidance. From quality control systems to internal QMS audits, we help Malaysian businesses build a QMS and prepare for certification by an accredited certification body.',
+  title: { absolute: 'QMS Malaysia | Quality Management System Consultancy' },
+  description: 'Build a quality management system (QMS) in Malaysia with consultant guidance, from process mapping to internal audits, ready for ISO 9001 certification.',
   keywords: ['quality management system Malaysia', 'quality management certification', 'quality control system', 'qms audit', 'QMS certification Malaysia', 'quality management system certification'],
   openGraph: {
     title: 'Quality Management System Malaysia | QMS Consultancy',
