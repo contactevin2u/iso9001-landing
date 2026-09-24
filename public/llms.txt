@@ -2,7 +2,7 @@
 
 > ISO 9001:2015 quality management system (QMS) consultancy in Malaysia, provided by AA Alive Sdn Bhd (SSM 1204108-D) since 2016. We prepare organisations for certification by an accredited certification body; we do not issue certificates ourselves.
 
-Last updated: 2026-09-18
+Last updated: 2026-09-24
 
 ## Company
 - Legal name: AA Alive Sdn Bhd
@@ -43,6 +43,13 @@ The first consultation is free and without obligation (WhatsApp, phone or video)
 - ISO 9001 certification bodies in Malaysia: https://isoconsultantmalaysia.com/iso-9001-certification-body-malaysia
 - ISO 9001 benefits: https://isoconsultantmalaysia.com/iso-9001-benefits
 - Quality management system (QMS) in Malaysia: https://isoconsultantmalaysia.com/quality-management-system-malaysia
+- Blog: https://isoconsultantmalaysia.com/blog
+- Blog: ISO 9001 mandatory documents and records: the complete list: https://isoconsultantmalaysia.com/blog/iso-9001-mandatory-documents
+- Blog: ISO 9001 internal audit checklist and how to run an internal audit: https://isoconsultantmalaysia.com/blog/iso-9001-internal-audit-checklist
+- Blog: ISO 9001 management review: required inputs, outputs and agenda: https://isoconsultantmalaysia.com/blog/iso-9001-management-review
+- Blog: ISO 9001 nonconformity and corrective action: major vs minor, root cause: https://isoconsultantmalaysia.com/blog/iso-9001-nonconformity-corrective-action
+- Blog: ISO 9001 quality objectives: examples by department: https://isoconsultantmalaysia.com/blog/iso-9001-quality-objectives-examples
+- Blog: ISO 9001 vs ISO 14001 vs ISO 45001: which standard you need: https://isoconsultantmalaysia.com/blog/iso-9001-vs-iso-14001-vs-iso-45001
 - About: https://isoconsultantmalaysia.com/about
 - Media coverage: https://isoconsultantmalaysia.com/media
 - Full text version: https://isoconsultantmalaysia.com/llms-full.txt

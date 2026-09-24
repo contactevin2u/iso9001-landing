@@ -1,6 +1,6 @@
 # ISO 9001 Malaysia (isoconsultantmalaysia.com) — full text
 
-Last updated: 2026-09-18
+Last updated: 2026-09-24
 
 ## Who we are
 ISO 9001 Malaysia is the ISO consulting service of AA Alive Sdn Bhd (SSM 1204108-D), a Malaysian company founded in 2016 by Evin Lim, who is its Managing Director. We help organisations implement an ISO 9001:2015 quality management system (QMS) and prepare for certification. Certification itself is carried out by an accredited certification body (CB) after its own audit; we do not issue certificates.
@@ -80,6 +80,14 @@ Timeline: there is no fixed duration. It depends on the organisation's readiness
 - RTM: quoted in the Portal Berita RTM article "Krisis tenaga global, peraturan ketat beri kesan kos perubatan" (4 July 2026)
 - Superbrands: interviewed in the Superbrands Malaysia CEO Interviews 2025 series (December 2025). Superbrands Malaysia 2025 (Malaysia's Choice) was awarded to AA Alive's medical-support brand, Evin Limb Specialist.
 
+## ISO 9001 facts from our blog
+- ISO 9001:2015 does not require a quality manual or named procedures. It requires documented information: the QMS scope (4.3), quality policy (5.2) and quality objectives (6.2) must be maintained, and records such as competence (7.2), calibration (7.1.5), supplier evaluation (8.4.1), internal audit (9.2.2), management review (9.3.3) and corrective action (10.2.2) must be retained. Source: https://isoconsultantmalaysia.com/blog/iso-9001-mandatory-documents
+- Internal audits (clause 9.2) must follow a planned audit programme, use objective and impartial auditors, and be recorded. Certification bodies expect a complete internal audit cycle and a management review before the Stage 2 audit. Source: https://isoconsultantmalaysia.com/blog/iso-9001-internal-audit-checklist
+- Management review (clause 9.3) must cover required inputs (previous actions, context changes, customer satisfaction, objectives, process performance, nonconformities, audit results, supplier performance, resources, risks and opportunities, improvement) and record decisions on improvement, QMS changes and resource needs. Source: https://isoconsultantmalaysia.com/blog/iso-9001-management-review
+- ISO 9001 does not grade nonconformities; certification bodies classify them as major or minor under ISO/IEC 17021-1. A major nonconformity must be closed and verified before a certification decision; a minor one needs an accepted corrective action plan. A correction fixes the instance, a corrective action removes the cause. Source: https://isoconsultantmalaysia.com/blog/iso-9001-nonconformity-corrective-action
+- Quality objectives (clause 6.2) must be measurable, consistent with the quality policy, monitored, communicated and updated, each with a plan stating what, resources, who, when and how results are evaluated. Source: https://isoconsultantmalaysia.com/blog/iso-9001-quality-objectives-examples
+- ISO 9001 (quality), ISO 14001 (environment) and ISO 45001 (occupational health and safety) share the ISO Harmonized Structure, so they can run as one integrated management system. ISO 45001 replaced OHSAS 18001. Source: https://isoconsultantmalaysia.com/blog/iso-9001-vs-iso-14001-vs-iso-45001
+
 ## Contact
 - Phone / WhatsApp: +60 10-206 2070
 - WhatsApp: https://wa.me/60102062070
@@ -93,6 +101,13 @@ Timeline: there is no fixed duration. It depends on the organisation's readiness
 - /iso-9001-requirements — ISO 9001:2015 requirements, clause by clause
 - /iso-9001-benefits — benefits of ISO 9001
 - /quality-management-system-malaysia — quality management systems in Malaysia
+- /blog — practical ISO 9001 articles (listed below)
+- /blog/iso-9001-mandatory-documents — ISO 9001 mandatory documents and records: the complete list
+- /blog/iso-9001-internal-audit-checklist — ISO 9001 internal audit checklist and how to run an internal audit
+- /blog/iso-9001-management-review — ISO 9001 management review: required inputs, outputs and agenda
+- /blog/iso-9001-nonconformity-corrective-action — ISO 9001 nonconformity and corrective action: major vs minor, root cause
+- /blog/iso-9001-quality-objectives-examples — ISO 9001 quality objectives: examples by department
+- /blog/iso-9001-vs-iso-14001-vs-iso-45001 — ISO 9001 vs ISO 14001 vs ISO 45001: which standard you need
 - /about — company and founder
 - /media — media appearances
 

@@ -14,6 +14,7 @@ const GUIDES = [
   { href: '/iso-9001-cost-malaysia', title: 'ISO 9001 Certification Cost in Malaysia' },
   { href: '/iso-9001-certification-body-malaysia', title: 'ISO 9001 Certification Bodies in Malaysia' },
   { href: '/iso-9001-benefits', title: 'Benefits of ISO 9001' },
+  { href: '/blog', title: 'ISO 9001 Blog' },
   { href: '/about', title: 'About AA Alive Sdn Bhd' },
 ]
 

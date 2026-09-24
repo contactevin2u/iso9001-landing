@@ -87,6 +87,11 @@ export default function Footer({ locale = 'en' }: { locale?: Locale }) {
                   Quality Management System
                 </Link>
               </li>
+              <li>
+                <Link href="/blog" className="hover:text-white transition-colors">
+                  ISO 9001 Blog
+                </Link>
+              </li>
             </ul>
           </div>
 
